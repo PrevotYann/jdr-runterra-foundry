@@ -1,0 +1,125 @@
+import {chromium} from "playwright";
+import fs from "node:fs";
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1600,height:1100}});
+const errors=[];page.on("pageerror",e=>errors.push(e.message));
+page.on("console",m=>{if(m.type()==="error")console.log("BROWSER",m.text().slice(0,1000));});
+await page.goto("http://localhost:30014",{waitUntil:"networkidle"});
+await page.locator('[name="username"]').fill("Gamemaster");
+await page.locator('button[name="join"]').click();
+await page.waitForFunction(()=>globalThis.game?.ready&&game.runeterra?.tickActor,{timeout:60000});
+await page.evaluate(()=>game.runeterra.assetMigration);
+console.log("READY",await page.evaluate(()=>({version:game.version,system:game.system.id,lang:game.i18n.lang,packs:[...game.packs.keys()]})));
+console.log("ERRORS",errors);
+const results=await page.evaluate(async()=>{
+  const packs=[];
+  for(const p of game.packs.filter(p=>p.metadata.packageName==="jdr-runeterra")){
+    const docs=await p.getDocuments();packs.push({id:p.collection,count:docs.length,invalid:docs.filter(d=>d.invalid).map(d=>d.name),embedded:docs[0]?.items?.size??docs[0]?.pages?.size??0});
+  }
+  return packs;
+});
+console.log("PACKS",JSON.stringify(results));
+await page.evaluate(async()=>{await game.settings.set("core","language","fr");});
+await page.reload({waitUntil:"networkidle"});await page.waitForFunction(()=>game.ready,{timeout:60000});
+await page.evaluate(async()=>{
+  let a=game.actors.getName("Hector — Validation");if(!a)a=await Actor.create({name:"Hector — Validation",type:"character",img:"systems/jdr-runeterra/assets/drive/1ZXZGkbBL1PDu3DvzHeYTltDk6-5i1_b3.webp"});
+  globalThis.rtTestActor=a;await a.sheet.render({force:true});
+});
+await page.waitForSelector(".rt-actor",{timeout:15000});
+await page.screenshot({path:"test-results/character.png",fullPage:true});
+console.log("ACTOR",await page.evaluate(()=>({hp:rtTestActor.system.health,items:rtTestActor.items.size,sheet:rtTestActor.sheet.constructor.name})));
+const checks=await page.evaluate(async()=>{
+  const results=[];const assert=(label,condition)=>{if(!condition)throw new Error(label);results.push(label);};
+  const a=await Actor.create({name:"Contrôle mécanique "+Date.now(),type:"character"});
+  const baseline=a.system.hp.base;
+  assert("création à 600 points",game.runeterra.rules.creationIssues(a.system).length===0);
+  assert("six compétences et métier",a.items.size===6&&a.items.find(i=>i.type==="profession").system.level===3);
+  const [extra]=await a.createEmbeddedDocuments("Item",[{name:"Prière supplémentaire",type:"special",system:{value:20,damageFormula:"0"}}]);assert("attribut spécial supplémentaire",a.attributeValue("special:"+extra.id)===20);await extra.delete();
+  await a.update({"system.species":"golem"});assert("bonus PV mécanique sans coût de création",a.system.hp.baseMax===110&&game.runeterra.rules.creationBudget(a.system)===600);
+  await a.update({"system.species":"human"});assert("changement racial réversible",a.system.hp.baseMax===90);
+  await a.update({"system.attributes.mental.bonus":50});assert("malus permanent verrouillé",a.attributeValue("mental")===10);
+  const [gear]=await a.createEmbeddedDocuments("Item",[{name:"Protection de test",type:"equipment",system:{hp:20,armor:0,rarity:"blue",slot:"torso",integrity:{value:100,max:100}}}]);
+  await a.equip(gear);await new Promise(r=>setTimeout(r,300));assert("équiper ajoute PV",a.system.equipmentMax===20&&a.system.hp.equipment===20);
+  await a.update({"system.hp.bonus":10});
+  await a.applyDamage(15,{type:"neutral",zone:"area"});assert("priorité bonus puis équipement",a.system.hp.bonus===0&&a.system.hp.equipment===15&&a.system.hp.base===baseline);
+  await a.applyDamage(5,{type:"brut",zone:"torso"});assert("brut traverse PV équipement",a.system.hp.base===baseline-5&&a.system.hp.equipment===15);
+  await a.heal(8);assert("soin base avant équipement",a.system.hp.base===baseline&&a.system.hp.equipment===18);
+  await a.equip(gear);await new Promise(r=>setTimeout(r,300));assert("déséquiper retire réserve",a.system.equipmentMax===0&&a.system.hp.equipment===0);
+  await a.equip(gear);await new Promise(r=>setTimeout(r,300));
+  const damage=await a.applyDamage(12,{type:"physical",zone:"torso",penetrating:true});assert("IPV ciblés",gear.system.integrity.value===83&&damage.applied===12);
+  await a.addCondition("bleeding",{level:2});await game.runeterra.tickActor(a,0,{combat:true});assert("saignement par tour",a.system.hp.equipment===3);
+  for(const e of [...a.effects])await e.delete();
+  const [food]=await a.createEmbeddedDocuments("Item",[{name:"Repas de test",type:"consumable",system:{healFormula:"5",quantity:2}}]);
+  await food.use();assert("consommable quantité et soin",food.system.quantity===1&&a.system.hp.equipment===8);
+  const [potion]=await a.createEmbeddedDocuments("Item",[{name:"Rouge Vision",type:"consumable",system:{automation:"rougeVision"}}]);
+  await potion.use();assert("potion bonus et substitution",a.system.hp.bonus===20&&a.attributeValue("mental")===0);
+  await a.applyDamage(5,{type:"neutral"});const effect=a.effects.find(e=>e.getFlag("jdr-runeterra","bonusHP")!==undefined);assert("bonus potion consommé",effect.getFlag("jdr-runeterra","bonusHP")===15);
+  await effect.delete();await new Promise(r=>setTimeout(r,300));assert("expiration potion sans retirer PV normaux",a.system.hp.bonus===0&&a.attributeValue("mental")===10);
+  await a.update({"system.currency.gold":1,"system.currency.silver":5});
+  const [sale]=await Item.createDocuments([{name:"Marchandise test",type:"resource",system:{price:0.8}}]);
+  await game.runeterra.purchase(a,sale,1);assert("achat conversion Or Argent",a.system.currency.gold===0&&a.system.currency.silver===7);await sale.delete();
+  const pack=game.packs.get("jdr-runeterra.equipment"),source=(await pack.getDocuments())[0];
+  const before=a.items.size;await a.sheet._onDropItem({},source);assert("glisser depuis compendium",a.items.size===before+1);
+  const random=CONFIG.Dice.randomUniform;CONFIG.Dice.randomUniform=()=>0.5;
+  try{
+    const [weapon]=await a.createEmbeddedDocuments("Item",[{name:"Arme empoisonnée de test",type:"weapon",system:{attribute:"force",damageFormula:"10",dot:{kind:"poison",level:2}}}]);
+    await weapon.use();const card=game.messages.contents.at(-1);assert("attaque et effet ciblé sur carte",card.getFlag("jdr-runeterra","damage")===15&&card.getFlag("jdr-runeterra","dot").level===2);
+    const skill=a.items.find(i=>i.type==="ability"&&i.system.abilityKind==="skill");await skill.update({"system.xp":14});await skill.use();assert("progression compétence réelle",skill.system.level===2&&skill.system.xp===0);
+    const profession=a.items.find(i=>i.type==="profession");await profession.use();assert("progression métier réelle",profession.system.xp===1);
+    await a.setFlag("jdr-runeterra","addiction",[50]);let current=a.system.health.value;await a.rollAttribute("force");assert("dépendance sur un jet ultérieur",a.system.health.value===current-5);
+    await a.update({"system.cold.ambient":3,"system.region":""});const health=a.system.health.value;await game.runeterra.tickActor(a,300);assert("froid et temps RP",a.system.health.value===health-1);
+  }finally{CONFIG.Dice.randomUniform=random;}
+  const b=await Actor.create({name:"Contrôle régénération",type:"character",system:{hp:{base:60,baseMax:90}}});
+  const makeBlood=async()=>{const [e]=await b.createEmbeddedDocuments("ActiveEffect",[{name:"Sang de l’immortel",flags:{"jdr-runeterra":{invulnerable:true,healPerRound:90,remainingRounds:2}}}]);return e;};
+  let blood=await makeBlood();await b.applyDamage(100,{type:"brut"});assert("invulnérabilité",b.system.hp.base===60);
+  await blood.delete();await new Promise(r=>setTimeout(r,300));assert("blessure différée si arrêt prématuré",b.system.hp.base===0);
+  await b.update({"system.hp.base":60});blood=await makeBlood();await b.applyDamage(100,{type:"brut"});await game.runeterra.tickActor(b,0,{combat:true});await blood.delete();await new Promise(r=>setTimeout(r,300));assert("régénération achevée sans blessure différée",b.system.hp.base===90);await b.delete();
+  await a.applyDamage(10000,{type:"brut"});assert("coma de sécurité PJ",a.system.hp.base===1&&a.effects.some(e=>e.statuses.has("coma")));
+  await a.delete();return results;
+});
+console.log("CHECKS",JSON.stringify(checks));
+await page.locator('[data-action="rtTab"][data-tab="inventory"]').click();
+await page.waitForTimeout(300);await page.screenshot({path:"test-results/inventory.png"});
+await page.evaluate(async()=>{const pack=game.packs.get("jdr-runeterra.bestiary");globalThis.rtCreature=(await pack.getDocuments())[0];await rtCreature.sheet.render({force:true});});
+await page.waitForTimeout(500);await page.screenshot({path:"test-results/bestiary.png"});
+const uiChecks=[];
+await page.evaluate(async()=>{await rtCreature.sheet.close();await rtTestActor.sheet.render({force:true});});
+await page.locator('.rt-actor [data-action="rtTab"][data-tab="attributes"]').click();
+await page.locator('.rt-actor [data-action="roll"][data-attribute="force"]').click();
+await page.waitForSelector('.rt-dialog input[name="modifier"]');
+await page.locator('.rt-dialog input[name="modifier"]').fill("5");
+await page.locator('.dialog [data-action="ok"]').click();await page.waitForTimeout(300);uiChecks.push("jet via dialogue de fiche");
+await page.evaluate(async()=>{
+  const index=await game.packs.get("jdr-runeterra.consumables").getDocuments();const item=index.find(i=>i.system.automation==="curasom");
+  const [owned]=await rtTestActor.createEmbeddedDocuments("Item",[game.items.fromCompendium(item,{clearFolder:true})]);globalThis.rtPotion=owned;globalThis.rtPotionPromise=owned.use();
+});
+await page.waitForSelector('.rt-dialog select[name="tier"]');
+await page.locator('.rt-dialog select[name="tier"]').selectOption("2");
+await page.locator('.rt-dialog input[name="asleep"]').check();
+await page.locator('.dialog [data-action="ok"]').click();
+await page.evaluate(async()=>{await rtPotionPromise;if(!rtTestActor.effects.some(e=>e.getFlag("jdr-runeterra","healTotal")===35))throw new Error("Curasom via dialogue");for(const e of rtTestActor.effects.filter(e=>e.getFlag("jdr-runeterra","source")===rtPotion.uuid))await e.delete();await rtPotion.delete();});uiChecks.push("Curasom puissance et sommeil");
+await page.evaluate(async()=>{
+  const a=await Actor.create({name:"Annulation via chat",type:"character"});globalThis.rtUndoActor=a;
+  const result=await a.applyDamage(8,{type:"neutral"});globalThis.rtUndoMessage=result.message;
+});
+const messageId=await page.evaluate(()=>rtUndoMessage.id);
+await page.locator(`[data-message-id="${messageId}"] [data-rt-action="undo"]`).first().click();
+await page.waitForFunction(()=>rtUndoActor.system.hp.base===90);uiChecks.push("annulation via carte de chat");await page.evaluate(()=>rtUndoActor.delete());
+await page.evaluate(async()=>{
+  let user=game.users.getName("Validation joueur");if(!user)user=await User.create({name:"Validation joueur",role:1});
+  globalThis.rtPermissionActor=await Actor.create({name:"Lecture sans permission",type:"character",ownership:{default:2}});
+});
+await page.goto("http://localhost:30014/join",{waitUntil:"networkidle"});
+await page.locator('[name="username"]').fill("Validation joueur");await page.locator('button[name="join"]').click();await page.waitForFunction(()=>game.ready);
+await page.evaluate(async()=>{globalThis.rtReadOnly=game.actors.getName("Lecture sans permission");await rtReadOnly.sheet.render({force:true});});
+await page.waitForSelector(".rt-actor");
+if(await page.locator('.rt-actor input[name="system.hp.base"]').isEnabled())throw new Error("Fiche non propriétaire modifiable");
+await page.evaluate(async()=>{let denied=false;try{await rtReadOnly.applyDamage(1);}catch{denied=true;}if(!denied)throw new Error("Modification sans permission");});uiChecks.push("lecture et permissions joueur");
+await page.goto("http://localhost:30014/join",{waitUntil:"networkidle"});
+await page.locator('[name="username"]').fill("Gamemaster");await page.locator('button[name="join"]').click();await page.waitForFunction(()=>game.ready);
+await page.evaluate(async()=>{await game.actors.getName("Lecture sans permission")?.delete();});
+if(errors.length)throw new Error("Erreurs navigateur: "+errors.join("; "));
+fs.writeFileSync("test-results/validation.json",JSON.stringify({version:"14.368",packs:results,checks,uiChecks,errors},null,2));
+fs.writeFileSync("test-results/browser-errors.json",JSON.stringify(errors,null,2));
+await browser.close();
+

@@ -1,0 +1,12 @@
+import fs from "node:fs";
+import path from "node:path";
+const root=process.cwd(),data=path.join(root,".foundry-test"),manifest=JSON.parse(fs.readFileSync("system.json","utf8"));
+fs.mkdirSync(path.join(data,"Config"),{recursive:true});
+fs.copyFileSync("C:/Users/yannp/AppData/Local/FoundryVTT/Config/license.json",path.join(data,"Config/license.json"));
+fs.writeFileSync(path.join(data,"Config/options.json"),JSON.stringify({dataPath:data,port:30014,upnp:false,telemetry:false,language:"fr",world:"runeterra-test"}));
+fs.mkdirSync(path.join(data,"Data/systems"),{recursive:true});
+const system=path.join(data,"Data/systems/jdr-runeterra");
+if(!fs.existsSync(system))fs.symlinkSync(root,system,"junction");
+fs.mkdirSync(path.join(data,"Data/worlds/runeterra-test"),{recursive:true});
+fs.writeFileSync(path.join(data,"Data/worlds/runeterra-test/world.json"),JSON.stringify({id:"runeterra-test",title:"Validation JDR Runeterra",system:manifest.id,coreVersion:"14.368",systemVersion:manifest.version,background:manifest.background,compatibility:{minimum:"14",verified:"14.368"},description:"Monde de test isolé"}));
+console.log(data);

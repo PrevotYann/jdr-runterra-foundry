@@ -1,0 +1,8 @@
+node_modules/
+.foundry-test/
+dist/
+sources/
+test-results/
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old

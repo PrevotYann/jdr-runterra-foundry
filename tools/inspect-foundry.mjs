@@ -1,0 +1,11 @@
+import {chromium} from "playwright";
+import fs from "node:fs";
+fs.mkdirSync("test-results",{recursive:true});
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+page.on("pageerror",e=>console.log("PAGEERROR",e.message));
+page.on("console",m=>{if(m.type()==="error")console.log("CONSOLE",m.text().slice(0,1000));});
+await page.goto("http://localhost:30014",{waitUntil:"networkidle",timeout:60000});
+console.log("URL",page.url());console.log((await page.locator("body").innerHTML()).slice(0,15000));
+await page.screenshot({path:"test-results/startup.png",fullPage:true});
+await browser.close();

@@ -1,0 +1,27 @@
+name: Release Foundry system
+on:
+  push:
+    tags:
+      - 'v*'
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Check tag and manifest
+        run: |
+          node --input-type=module -e 'import fs from "node:fs"; const m=JSON.parse(fs.readFileSync("system.json")); const p=JSON.parse(fs.readFileSync("package.json")); if(process.env.GITHUB_REF_NAME!==`v${m.version}` || p.version!==m.version || !m.download.includes(`/v${m.version}/`)) throw new Error("Release version mismatch");'
+      - run: npm test
+      - run: npm run release
+      - name: Publish installation files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/*.zip dist/*.sha256 system.json --verify-tag --title "$GITHUB_REF_NAME" --generate-notes

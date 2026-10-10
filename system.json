@@ -1,0 +1,123 @@
+{
+  "id": "jdr-runeterra",
+  "title": "JDR Runeterra",
+  "description": "Le jeu de rôle de Runeterra — règles françaises, fiches et atlas du Freljord.",
+  "version": "0.7.0",
+  "authors": [
+    {
+      "name": "JDR Runeterra"
+    }
+  ],
+  "background": "systems/jdr-runeterra/assets/branding/background.webp",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/jdr-runeterra/assets/branding/banner.webp",
+      "thumbnail": "systems/jdr-runeterra/assets/branding/thumbnail.webp",
+      "caption": "JDR Runeterra — Freljord"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/runeterra.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {},
+      "creature": {},
+      "vehicle": {}
+    },
+    "Item": {
+      "weapon": {},
+      "equipment": {},
+      "ability": {},
+      "special": {},
+      "profession": {},
+      "consumable": {},
+      "rune": {},
+      "relic": {},
+      "resource": {},
+      "book": {},
+      "enchantment": {},
+      "affiliation": {}
+    }
+  },
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "integrity",
+  "grid": {
+    "distance": 1,
+    "units": "m",
+    "type": 1
+  },
+  "packs": [
+    {
+      "name": "equipment",
+      "label": "RUNETERRA.Packs.equipment",
+      "path": "packs/equipment",
+      "type": "Item"
+    },
+    {
+      "name": "consumables",
+      "label": "RUNETERRA.Packs.consumables",
+      "path": "packs/consumables",
+      "type": "Item"
+    },
+    {
+      "name": "magic",
+      "label": "RUNETERRA.Packs.magic",
+      "path": "packs/magic",
+      "type": "Item"
+    },
+    {
+      "name": "bestiary",
+      "label": "RUNETERRA.Packs.bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor"
+    },
+    {
+      "name": "atlas",
+      "label": "RUNETERRA.Packs.atlas",
+      "path": "packs/atlas",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "rules",
+      "label": "RUNETERRA.Packs.rules",
+      "path": "packs/rules",
+      "type": "JournalEntry"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "JDR Runeterra",
+      "packs": [
+        "rules",
+        "equipment",
+        "consumables",
+        "magic",
+        "bestiary",
+        "atlas"
+      ],
+      "color": "#bba36c"
+    }
+  ],
+  "url": "https://github.com/PrevotYann/jdr-runterra-foundry",
+  "manifest": "https://github.com/PrevotYann/jdr-runterra-foundry/releases/latest/download/system.json",
+  "download": "https://github.com/PrevotYann/jdr-runterra-foundry/releases/download/v0.7.0/jdr-runeterra-0.7.0.zip",
+  "bugs": "https://github.com/PrevotYann/jdr-runterra-foundry/issues"
+}

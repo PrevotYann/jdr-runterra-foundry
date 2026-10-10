@@ -1,0 +1,2834 @@
+{
+  "documents": [
+    {
+      "_id": "d8fcbd4b57c0fa6d",
+      "name": "Amulette d’Anivia | 1-2. Amulette d’Anivia Chargée",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1S-jg4MSb80qJCM_u6GJiRc91bbwpxD0q.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1S-jg4MSb80qJCM_u6GJiRc91bbwpxD0q.webp\" alt=\"Amulette d’Anivia | 1-2. Amulette d’Anivia Chargée\"><h1>Amulette d’Anivia | 1-2. Amulette d’Anivia Chargée</h1></div><p>Amulette d’Anivia | 1-2. Amulette d’Anivia Chargée (Relique) [1 Or | 70 Or]</p><p>Ajoutez nouveau Attribut Spécial : Prière Anivia à 20/30.<br>L’esprit d’Anivia soutient votre cause. 20 % de faire +05 | si Chargée passe à 30 % de faire +15 (si échec critique : Brise la perle / Décharge la perle si Chargée) Peut s’utiliser avant un combat (1 tour) ou en anticipation d&#39;une action à venir. <br>(Pour charger l’amulette :  réussite critique donne bonne grâce d’Anivia / Rencontrer le Maître des Secrets.)</p><p>A Noter : Ne peut pas dépasser 90 avec le bonus dans un Attribut.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:1-1:Amulette d’Anivia | 1-2. Amulette d’Anivia Chargée",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 1,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "ddbc1e8172ce8581",
+      "name": "Pierres d’énergie Runique",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Pierres d’énergie Runique\"><h1>Pierres d’énergie Runique</h1></div><p>Pierres d’énergie Runique (Consommable) voir Pierres Runiques</p><p>Ce sont des pierres contenant de la Magie Runique pouvant être utilisées comme des sorts consommables à puissance variable selon leur nature et leur rareté.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.7bce065fd88ba0b5]{CONSOMMABLES}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:2:Pierres d’énergie Runique",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "d49ee9da1395a18c",
+      "name": "Cartes Bonne-Main",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1RrfEveoaX8dtW-BBDpmeiyduOpWDZ4by.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1RrfEveoaX8dtW-BBDpmeiyduOpWDZ4by.webp\" alt=\"Cartes Bonne-Main\"><h1>Cartes Bonne-Main</h1></div><p>Cartes Bonne-Main (Relique) - créé à Bilgewater [40 Or]</p><p>Cartes enchantées qui permet à celui qui sert de choisir le rythme de la partie et la possession de chaque joueur.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:3:Cartes Bonne-Main",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 40,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "41a42ed8f418aefd",
+      "name": "Collier de Marchandage",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1IxonMRrJoV9yHhH_dRTPtS6mSHcJk1h5.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1IxonMRrJoV9yHhH_dRTPtS6mSHcJk1h5.webp\" alt=\"Collier de Marchandage\"><h1>Collier de Marchandage</h1></div><p>Collier de Marchandage (Relique) - Guilde des Marchands [140 Or]</p><p>Donne +10 en Persuasion pour marchander. Négocie automatiquement les prix à -20% avec tous les marchands de la Guilde des Marchands.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:4:Collier de Marchandage",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 140,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "726a7e729a33c22b",
+      "name": "Grimaques",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Grimaques\"><h1>Grimaques</h1></div><p>Grimaques (Relique) - créé à Demacia [60 Or]</p><p>La Grimarque est une insigne pour se distinguer et être appréciée des Demaciens qui n’aiment pas la magie. Donne +20 de Social avec les Demaciens anti mages et permet de détecter de la magie chez un individu.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:5:Grimaques",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 60,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "efa5f9bee16cd5fe",
+      "name": "Lumivision Hextech (Lumifix)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/10aro9-K9rBm-sB3rppkxsvTgGUOu_bnT.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/10aro9-K9rBm-sB3rppkxsvTgGUOu_bnT.webp\" alt=\"Lumivision Hextech (Lumifix)\"><h1>Lumivision Hextech (Lumifix)</h1></div><p>Lumivision Hextech (Lumifix) (Item - 1 places) - créé à Piltover par Charles Marigniot [40 Or]</p><p>Machine qui capture la lumière pour fixer une image sur un morceau de papier épais (appareil photo).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:6:Lumivision Hextech (Lumifix)",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 40,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "f5d16774ac9e3df1",
+      "name": "Menottes Pétricite",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/10pAloGnh-Le8oD7Yr1_UQsDAbWosRjMU.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/10pAloGnh-Le8oD7Yr1_UQsDAbWosRjMU.webp\" alt=\"Menottes Pétricite\"><h1>Menottes Pétricite</h1></div><p>Menottes Pétricite (Item - 1 place) - créé à Demacia [30 Or]</p><p>Menottes qui permettent d’annuler la magie du porteur (sauf Pierres de Sort).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:7:Menottes Pétricite",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 30,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "15b5ff87a6624523",
+      "name": "Ticket Hexgate",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Ticket Hexgate\"><h1>Ticket Hexgate</h1></div><p>Ticket Hexgate (Consommable) - créé à Piltover [200 Or]</p><p>Donne accès à une Hexgate de Piltover pour une des destinations suivantes au choix : Rakelstake (Freljord) - Bastion de l’Immortel (Noxus) - Grande Place de Demacia (Demacia) - Le Placidium de Navori (Ionia) - Place de l’Oasis (Shurima).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:8:Ticket Hexgate",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "9c6e319a18cec9ee",
+      "name": "Boussole Ixtali",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-gzRwl5psY1ixc7SG-33KGBo44TFtuhh.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-gzRwl5psY1ixc7SG-33KGBo44TFtuhh.webp\" alt=\"Boussole Ixtali\"><h1>Boussole Ixtali</h1></div><p>Boussole Ixtali (Relique) - créé à Ixtal [100 Or]</p><p>Mettre un élément dedans permet de savoir dans quelle direction la plus proche trouver de ce même élément. Si l’enchantement ou la source de magie est Élevée, alors la direction mène vers une source du même type. Si elle est Légendaire, alors la direction pointe sur la même source que l’élément utilisé. Le réservoir est limité (3 pierres de sorts max)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.b2a9a7949387c2ec]{Boussole}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:9:Boussole Ixtali",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 100,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "8735af9565db40a9",
+      "name": "Corr d’Olyfaärg",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1aCOEPp644BW6XR9mKcs3PK9q3SmT9FL9.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1aCOEPp644BW6XR9mKcs3PK9q3SmT9FL9.webp\" alt=\"Corr d’Olyfaärg\"><h1>Corr d’Olyfaärg</h1></div><p>Corr d’Olyfaärg (Item - 1 place) - possédé par Odvïr [250 Or]</p><p>Émet un son qui provoque une vibration si puissante et magique qu’elle rend tangible et vulnérable aux attaques physiques (DP) tout type d&#39;ethération pendant 30sec (1 tour) toutes les 3min (4 tours).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:10:Corr d’Olyfaärg",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 250,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "d4174df55b86ceb7",
+      "name": "Écharpe en Fourrure de Björld",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1Jm2oxMnjZZoBjlKUA5_UOyR622_7RlpL.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1Jm2oxMnjZZoBjlKUA5_UOyR622_7RlpL.webp\" alt=\"Écharpe en Fourrure de Björld\"><h1>Écharpe en Fourrure de Björld</h1></div><p>Écharpe en Fourrure de Björld (Relique) [75 Or]</p><p>Couvre les odeurs des prédateurs et révèle les bêtes inoffensives environnantes (+30 Charisme bestiaire Commun et Rare / +20 Charisme Rare++ / +10 Charisme Rare+++ )</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:11:Écharpe en Fourrure de Björld",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 75,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "1176c1db22ef7876",
+      "name": "Gréténite “Ulvakjarn” ou Pierre de Grétneil",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Gréténite “Ulvakjarn” ou Pierre de Grétneil\"><h1>Gréténite “Ulvakjarn” ou Pierre de Grétneil</h1></div><p>Gréténite “Ulvakjarn” ou Pierre de Grétneil (Relique/Matériaux) 20g [40 Or]</p><p>Pierre divisible connecté qui s&#39;attire mutuellement pour se recoller. Briser la pierre en plusieurs morceaux pour créer l’attraction. Divisible de 5g au minimum. 5g : Perception -10 / 10g : Perception -05 / &gt;20g  : Endurance +5 /5g dans la direction d’attraction (Si entière, pointe toujours vers sa source mère d’extraction naturelle) <br>Est également considéré comme un Matériaux (10.?)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:12:Gréténite “Ulvakjarn” ou Pierre de Grétneil",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 40,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "82a7acb69d1d8883",
+      "name": "Indivellium",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1wZgy5rEYhQeLX_zQx6gVIpnMVfGxTlpA.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1wZgy5rEYhQeLX_zQx6gVIpnMVfGxTlpA.webp\" alt=\"Indivellium\"><h1>Indivellium</h1></div><p>Indivellium (Item Usage Unique - 1 place) Plusieurs Tomes Possibles [125 Or] voir Note Livres</p><p>Ce livre vous connaît mieux que vous même. Une fois lu, il se détruit. Le lire ajoute +05 dans un Attributs Spécial au choix.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:13:Indivellium",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 125,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "8703bba0400f9837",
+      "name": "Lettres des Conjoints Éternels",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Lettres des Conjoints Éternels\"><h1>Lettres des Conjoints Éternels</h1></div><p>Lettres des Conjoints Éternels (Relique) [50 Or]</p><p>Peut communiquer avec quelqu’un qui à sa lettre jumelle. Les messages finissent par s’effacer une fois lu. Possible de jumeler plusieurs lettres entre elles avec un enchantement.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:14:Lettres des Conjoints Éternels",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 50,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "2906329ecaef5869",
+      "name": "Luth du Barde Charlatan",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-vK473p9U0H4siNOZ7YShPiZatMdUZIT.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-vK473p9U0H4siNOZ7YShPiZatMdUZIT.webp\" alt=\"Luth du Barde Charlatan\"><h1>Luth du Barde Charlatan</h1></div><p>Luth du Barde Charlatan (Relique) - crée par Odir Eimüsveg [100 Or] SHORT - STYLÉ - CHARME</p><p>Jouer de la musique avec ce luth permet d’utiliser le Charisme du joueur pour les jets de Dextérité et Intelligence.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:15:Luth du Barde Charlatan",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 100,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "4c04b68f4ac7ad3b",
+      "name": "Memovision Hextech",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1I2r3DukqrqYucnfT98KPFswecqRNq_ze.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1I2r3DukqrqYucnfT98KPFswecqRNq_ze.webp\" alt=\"Memovision Hextech\"><h1>Memovision Hextech</h1></div><p>Memovision Hextech (Item - 2 places) - créé à Piltover par Charles Marigniot [115 Or]</p><p>Permet de voir en images les pensées du porteur. Peut être utilisé avec un composé pour orienter les pensées du porteur.  Si non consenti, Jet de Mental pour y résister.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:16:Memovision Hextech",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 115,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "6ca8a3e3a58f522a",
+      "name": "Mobile-Oeil Hextech",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1nUIT0UKJIDE2_80e5Nnvb-I_eBOinXSi.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1nUIT0UKJIDE2_80e5Nnvb-I_eBOinXSi.webp\" alt=\"Mobile-Oeil Hextech\"><h1>Mobile-Oeil Hextech</h1></div><p>Mobile-Oeil Hextech (Relique) [40 Or]</p><p>Permet de mieux voir dans les endroits sombres et détecte les sources de Magies Hextech et certains flux de magies à travers la matière. Doit se séparer d’un de ses yeux pour être installé à la place. Donne +10 Perception et retire -05 PV de Base pour l’installer.<br>! Attention à ne pas le perdre ! (-10 Perception) !</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:17:Mobile-Oeil Hextech",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 40,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "3faf4f1d4323796b",
+      "name": "Transluiverre",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Transluiverre\"><h1>Transluiverre</h1></div><p>Transluiverre (Relique) [85 Or]</p><p>Une fois versée dans le verre, toutes les substances liquides sont transformées en eau et rend leurs propriétés inefficaces si elles en possédaient.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:18:Transluiverre",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 85,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "01afd72df49a1f7f",
+      "name": "Bague du Roi Déchu",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1qBkHQ3texu37DUINVqomAuwpCx6Gp2b3.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1qBkHQ3texu37DUINVqomAuwpCx6Gp2b3.webp\" alt=\"Bague du Roi Déchu\"><h1>Bague du Roi Déchu</h1></div><p>Bague du Roi Déchu (Relique) - créé par Viego [2000 Or]</p><p>Mourir avec cette bague au doigt permet de revenir en spectre. Un puissant enchantement permet de posséder un corps récemment sans vie. Permet de visiter temporairement le monde Spirituel. Faire 1D100 pour déterminer le nombre de minutes. Si &lt; 85, l’esprit s’y perd et le corps n’est plus récupérable (Perte du personnage).</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-1:Bague du Roi Déchu",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 2000,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "9931387b28e30d45",
+      "name": "Cloche d'Arengarr",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/10dgkDQZv5VHn_FQ4w0B74BCgPJZUuEzg.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/10dgkDQZv5VHn_FQ4w0B74BCgPJZUuEzg.webp\" alt=\"Cloche d&#39;Arengarr\"><h1>Cloche d&#39;Arengarr</h1></div><p>Cloche d&#39;Arengarr (Item Unique - 2 places) 10 Usages [400 Or]</p><p>Faire sonner la cloche fait apparaître l’esprit d’Arengarr et arrête la météo environnante. Il permet au joueur de parler dans le vent pour communiquer un message à quiconque dans tout le Freljord, et peut changer la météo de la zone temporairement.<br>- Divulgation au choix du MJ : Au bout de 10 Usages, l’esprit d’Arengarr disparaît et la cloche se met à rouiller de jour en jour.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-3:Cloche d'Arengarr",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 400,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "eefe20a35de7986a",
+      "name": "Collier du Crescendo",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Collier du Crescendo\"><h1>Collier du Crescendo</h1></div><p>Collier du Crescendo (Relique Unique) [300 Or]</p><p>Décuple l’acharnement. Répéter un jet augmente ses chances de réussite de +2/+5/+10/+15/+20  sauf les Attributs Spéciaux. S’il fait une réussite critique, le prochain jet du même Attribut est automatiquement une réussite.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.4ec3581dca1a16d5]{LES ATTRIBUTS}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-4:Collier du Crescendo",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 300,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "00849b028642ae2e",
+      "name": "Fiole de l'Éternel",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/16e3cnIiVMRjQpmpIrbjs3wZl4b7-2jYI.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/16e3cnIiVMRjQpmpIrbjs3wZl4b7-2jYI.webp\" alt=\"Fiole de l&#39;Éternel\"><h1>Fiole de l&#39;Éternel</h1></div><p>Fiole de l&#39;Éternel - (Item vide / Relique si rempli) [200 Or]</p><p>Permet d&#39;empêcher à toute forme de magies de s’en échapper. Peut conserver une âme si elle est remplie de Chroxure liquide (6.L-2).</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.bb184d73568bf7e2]{CHROXURE LIQUIDE}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-5:Fiole de l'Éternel",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "26734405aedab4f0",
+      "name": "Grimoire Oknuün",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-hxMrPMadGa9iFX9Bne-rRbsSH_YfMMF.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-hxMrPMadGa9iFX9Bne-rRbsSH_YfMMF.webp\" alt=\"Grimoire Oknuün\"><h1>Grimoire Oknuün</h1></div><p>Grimoire Oknuün (Relique) - créé par Ott [5000 Or]</p><p>Ajoute nouveau Attribut Spécial : Nécromancie à 20 (+10 si Attribut Spécial lié aux langues ou aux livres)<br>Ce Grimoire Nécromancien permet de puiser dans les ressources magiques du monde des morts spécifiquement lié au Freljord. [voir Mots Grimoir Ott]</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.8f8e2f50ee2dc061]{GRIMOIRE OKNUÜN}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-6:Grimoire Oknuün",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 5000,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "fa7d72ee893c9e83",
+      "name": "Haro de Ashe",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-tEXpeC_cB2R8TobBWeNGBCV8emTinmw.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-tEXpeC_cB2R8TobBWeNGBCV8emTinmw.webp\" alt=\"Haro de Ashe\"><h1>Haro de Ashe</h1></div><p>Haro de Ashe (Relique Unique) - créé par Ornn [1200 Or]</p><p>Permet d’appeler Braum à travers tout le Freljord pour l’invoquer à vos côtés le temps d’un combat important ou d’une quête. Le bruit peut également réveiller ou révéler les Demi-Dieux environnants.<br>! Ne s’utilise qu’en cas de réelle nécessité, trop l’utiliser peut attirer les foudres des dieux !</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-7:Haro de Ashe",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 1200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "19fd091624d19849",
+      "name": "Havenbaag",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1KmqPksclnQgZxlgFhTA49MEzgPTRSoxX.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1KmqPksclnQgZxlgFhTA49MEzgPTRSoxX.webp\" alt=\"Havenbaag\"><h1>Havenbaag</h1></div><p>Havenbaag (Relique Unique) [250 Or]</p><p>Un sac à très grande capacité et d’un poids idéal qu’importe la quantité qu’il contient. Ne prend pas en compte la taille et la quantité des objets stockés dedans.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-8:Havenbaag",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 250,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "6a7c8f10531ee997",
+      "name": "Ildrunvirr (Chaudron d’Abondance)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1rSO5kLbmjfA0jrNR1elN8-t7L2b7rryv.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1rSO5kLbmjfA0jrNR1elN8-t7L2b7rryv.webp\" alt=\"Ildrunvirr (Chaudron d’Abondance)\"><h1>Ildrunvirr (Chaudron d’Abondance)</h1></div><p>Ildrunvirr (Chaudron d’Abondance) (Item Unique - 10 places) - créé par Ornn [Inestimable]</p><p>Toute nourriture cuisinée dedans permet de combler l’estomac sur toute l’aventure. Ajoute 1D4x5 PV de base.<br>! Ne pas en consommer plusieurs fois, risque de s’étouffer de l’intérieur (50% de chance de mourir) !</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-9:Ildrunvirr (Chaudron d’Abondance)",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "fc81efdd27b8013c",
+      "name": "Jordkljúfr",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/13xcgEwhY0hQ5vEH_Op6rbYfHRODTygp9.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/13xcgEwhY0hQ5vEH_Op6rbYfHRODTygp9.webp\" alt=\"Jordkljúfr\"><h1>Jordkljúfr</h1></div><p>Jordkljúfr (Item Unique - 1 place) - possédé par Dragvirr (Guilde des Voleurs) [230 Or]</p><p>Artefact magique en forme de sceptre en bois qui émet des impulsions sismiques permettant de créer des galeries souterraines en consolidant immédiatement les paroies.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-10:Jordkljúfr",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 230,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "24091820237670f3",
+      "name": "Kit Couture Merisan",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1yEQ7qqdXzKg0vWSjL5Nao7l2jqCrZkK9.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1yEQ7qqdXzKg0vWSjL5Nao7l2jqCrZkK9.webp\" alt=\"Kit Couture Merisan\"><h1>Kit Couture Merisan</h1></div><p>Kit Couture Merisan (Item Unique - 1 place) - créé par Tania Merisan [350 Or]</p><p>Kit d&#39;outil permettant de fabriquer des tenues en tissu et cuir pour enchantement Légendaires.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-11:Kit Couture Merisan",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 350,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "ba6e762e4e715fb1",
+      "name": "Kit d’Outils d’Oavir",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Kit d’Outils d’Oavir\"><h1>Kit d’Outils d’Oavir</h1></div><p>Kit d’Outils d’Oavir (Item Unique - 1 place) - créé par Joana [450 Or]</p><p>Kit d&#39;outil permettant de fabriquer des objets, équipements et armes en Oavir.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-12:Kit d’Outils d’Oavir",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 450,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "a6883760cfa390c8",
+      "name": "Lanterne de la Fournaise",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-ksAJ6A898g9cqpKtsp9EYdQVe1d4oOd.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-ksAJ6A898g9cqpKtsp9EYdQVe1d4oOd.webp\" alt=\"Lanterne de la Fournaise\"><h1>Lanterne de la Fournaise</h1></div><p>Lanterne de la Fournaise (Item Unique - 2 places) - créé par Ornn [420 Or]</p><p>Une lanterne de feu éternel magique qui révèle et guide vers le désir de celui qui la tient. Plus le désir est proche, plus la flamme vire du jaune au rouge. La flemme révèle n’importe quel secret dissimulé.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-13:Lanterne de la Fournaise",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 420,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "c07d9c69ee3a6e15",
+      "name": "Miroir d’Antireflet",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-gVNceAUtTnMgq61-zMEhG5rS_0Ah7hp.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-gVNceAUtTnMgq61-zMEhG5rS_0Ah7hp.webp\" alt=\"Miroir d’Antireflet\"><h1>Miroir d’Antireflet</h1></div><p>Miroir d’Antireflet (Item Unique - 4 places) [320 Or]</p><p>Le miroir projette l’illusion parfaite de l&#39;endroit où il se trouve dans la direction souhaitée. Peut piéger une personne si elle rentre dans l’illusion du miroir. Peut stocker des objets dedans (50 % de chance de le rendre inversé) ! Coince à tout jamais les gens enfermés dedans si le miroir se brise (Échec Critique lorsque manipulé) !</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-14:Miroir d’Antireflet",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 320,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "abe33b5cea6fcccf",
+      "name": "Pelle de Passage",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Pelle de Passage\"><h1>Pelle de Passage</h1></div><p>Pelle de Passage (Relique Unique Consommable) - créé par Ornn [1200 Or]</p><p>Fait téléporter quiconque la touche dans la forge de Ornn.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-15:Pelle de Passage",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 1200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "b1672b005a75ae02",
+      "name": "Pendule Brisé du Lendemain",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-QgjwM-bkr9T0ssOk-6ABTRZjvPbNofG.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-QgjwM-bkr9T0ssOk-6ABTRZjvPbNofG.webp\" alt=\"Pendule Brisé du Lendemain\"><h1>Pendule Brisé du Lendemain</h1></div><p>Pendule Brisé du Lendemain (Relique Unique - Recharge si retrouvé) [800 Or]</p><p>Permet de remonter le temps de 1D12 heure et disparaît une fois utilisée (séquence alternative en accéléré). 1 chance sur 2 d&#39;être cassée si trouvée. Si cassée : lancer 1D100 1x/j pour le réparer. Une fois les résultats des jets =100, la montre est réparée.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-16:Pendule Brisé du Lendemain",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 800,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "966de518b03ea862",
+      "name": "Pièce de Huul",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Pièce de Huul\"><h1>Pièce de Huul</h1></div><p>Pièce de Huul (Relique Unique) - de Bilgewater [300 Or]</p><p>Tirer pile ou face pour avoir une info qui peut être une vérité ou un mensonge. (3x Face)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-17:Pièce de Huul",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 300,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "26b625fb7a7e7898",
+      "name": "Plume d’Onn’Vana",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-GHUqPhA1OzJepaVgcLFRurG_tvMx5Vl.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-GHUqPhA1OzJepaVgcLFRurG_tvMx5Vl.webp\" alt=\"Plume d’Onn’Vana\"><h1>Plume d’Onn’Vana</h1></div><p>Plume d’Onn’Vana (Relique) [170 Or]</p><p>Possède une magie de Révélation d’Intention (voir 4.0). Ne peut écrire que la vérité (subjective à l’utilisateur). (+20 Persuasion/Charisme/Intimidation par écrit).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-18:Plume d’Onn’Vana",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 170,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "693844abb5655e24",
+      "name": "Sphère de Kumbadge",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Sphère de Kumbadge\"><h1>Sphère de Kumbadge</h1></div><p>Sphère de Kumbadge (Relique Unique - Usage unique) [1500 Or]</p><p>Faire un vœu à 50% de chance de marcher, ou de faire son exacte inverse. (1D100)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-19:Sphère de Kumbadge",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 1500,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "80a73bbc8f4480a3",
+      "name": "Veillance du Disgracieux",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-6_3SVj2KBEkQSdTyl6yIu49L7kw_INW.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-6_3SVj2KBEkQSdTyl6yIu49L7kw_INW.webp\" alt=\"Veillance du Disgracieux\"><h1>Veillance du Disgracieux</h1></div><p>Veillance du Disgracieux (Relique Unique) Pendentif [350 Or]</p><p>Peut permuter un échec critique avec une réussite critique et inversement. (1-5 à 96-100)<br>Permute automatiquement une réussite critique s’il est chargé par un échec critique.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-20:Veillance du Disgracieux",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 350,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "d44c0338d8fe5f08",
+      "name": "Vörnskrifa ou Pierre d’Esprit de Rhond",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-MD0qt-2sFnki6R6SZyHlKcQ019d5N2M.webp",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-MD0qt-2sFnki6R6SZyHlKcQ019d5N2M.webp\" alt=\"Vörnskrifa ou Pierre d’Esprit de Rhond\"><h1>Vörnskrifa ou Pierre d’Esprit de Rhond</h1></div><p>Vörnskrifa ou Pierre d’Esprit de Rhond (Relique Unique) 1 Usage /Personne [200 Or]</p><p>Donne +10 dans un Attribut (non Spécial) au choix contre -01 sur tous les prochains jets à vie. Une fois utilisé, un tatouage de serpent de pierre se dessine sur le corps. La pierre permet également de se rapprocher de la Griffe Hivernale (voir Vesnir).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-21:Vörnskrifa ou Pierre d’Esprit de Rhond",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "af6e6762c744e2fc",
+      "name": "Perle Jumelle",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Perle Jumelle\"><h1>Perle Jumelle</h1></div><p>Perle Jumelle (Item Unique) [360 Or]</p><p>Perle jumelle à celle de l’Épée de Garen, prévu pour aller dans Prouesse Demacienne (3.22) et la transforme en Légendaire.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.equipment.Item.edd195f90df96aba]{Prouesse Demacienne} @UUID[Compendium.jdr-runeterra.magic.Item.12c0e6b9867bc151]{Perle Jumelle ()}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-22:Perle Jumelle",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 360,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "ecbdc89d61373513",
+      "name": "Sceau Noir et Pages de Grimoir des Âmes de Mejai",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Sceau Noir et Pages de Grimoir des Âmes de Mejai\"><h1>Sceau Noir et Pages de Grimoir des Âmes de Mejai</h1></div><p>Sceau Noir et Pages de Grimoir des Âmes de Mejai (Reliques) - possédé par Ryze [200 Or]</p><p>Les Pages permettent de poser au sol des runes. Le Sceau Noir permet de créer la porte d’entrée ou de sortie entre la magie et l’âme du porteur. Une fois au centre avec la Pierre de Sort posée à côté, permet de retirer de l’âme du porteur la magie de la pierre pour la remettre dedans.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-23:Sceau Noir et Pages de Grimoir des Âmes de Mejai",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "6eb8f665f9bc1569",
+      "name": "Sifflet d’Orrkumgäal",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "83efad32680060a8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Sifflet d’Orrkumgäal\"><h1>Sifflet d’Orrkumgäal</h1></div><p>Sifflet d’Orrkumgäal (Item Unique) - possédé par Marex [200 Or]</p><p>Créer un ultrason unique qui fait vibrer les paroies de la Grotte d’Orrkumgäal afin d’ouvrir un portail vers la dimension d’Orrkumgaal, l’entité de l’Omniscience. Ajoute un nouvel attribut Omniscience à 20 contre -20 de Mental.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:1:L-24:Sifflet d’Orrkumgäal",
+        "category": "Reliques",
+        "damageFormula": "0",
+        "price": 200,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "c6ff50cbb65a24c2",
+      "name": "Personnalisé",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Personnalisé\"><h1>Personnalisé</h1></div><p>Personnalisé</p><p>Les Enchanteurs peuvent détruire un Item pour en récupérer l’Enchantement et le mettre dans un nouvel Item. Les Enchanteurs Légendaires peuvent extraire l’enchantement sans détruire l’Item.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:0:Personnalisé",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "2d63113e6b2776dc",
+      "name": "Elémentaire (Magie Élémentaire/Enchanteur) voir Magies",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Elémentaire (Magie Élémentaire/Enchanteur) voir Magies\"><h1>Elémentaire (Magie Élémentaire/Enchanteur) voir Magies</h1></div><p>Elémentaire (Magie Élémentaire/Enchanteur) voir Magies</p><p>Permet d’infuser un Item de magie élémentaire propre au porteur permettant de prolonger sa magie par son arme ou son équipement. Magie évolutive selon la rareté et la puissance.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:1:Elémentaire (Magie Élémentaire/Enchanteur) voir Magies",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "045e40935b2b811f",
+      "name": "Runique (Pierres Runiques/Runes/Enchanteur) voir Magies",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Runique (Pierres Runiques/Runes/Enchanteur) voir Magies\"><h1>Runique (Pierres Runiques/Runes/Enchanteur) voir Magies</h1></div><p>Runique (Pierres Runiques/Runes/Enchanteur) voir Magies</p><p>Permet d’infuser un Item de magie enchantée par le biais de Runes spéciales issues de pierres runiques ou de magie pure. Magie évolutive selon la rareté et la puissance.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:2:Runique (Pierres Runiques/Runes/Enchanteur) voir Magies",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "379451215506a939",
+      "name": "Hémomancie (Rituel Hémomancie/Enchanteur Alchimiste/Nécromancie)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Hémomancie (Rituel Hémomancie/Enchanteur Alchimiste/Nécromancie)\"><h1>Hémomancie (Rituel Hémomancie/Enchanteur Alchimiste/Nécromancie)</h1></div><p>Hémomancie (Rituel Hémomancie/Enchanteur Alchimiste/Nécromancie)</p><p>Magie du sang revigorante, régénératrice, de contrôle et de sacrifice. Soin/DM/DB</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:3:Hémomancie (Rituel Hémomancie/Enchanteur Alchimiste/Nécromancie)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "a55604e054336c12",
+      "name": "Lien Animal (Spirituelle/Chamanique)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Lien Animal (Spirituelle/Chamanique)\"><h1>Lien Animal (Spirituelle/Chamanique)</h1></div><p>Lien Animal (Spirituelle/Chamanique)</p><p>Lié aux animaux et à leurs spécificités.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:4:Lien Animal (Spirituelle/Chamanique)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "6f0a3002d2c57f61",
+      "name": "Ursidé (Magie Spirituelle/Chamanique/Rituel Ursidé/Valhir)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/1SGpPsigRAoXWIIFikaBJphQ4cLjnVQUd.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1SGpPsigRAoXWIIFikaBJphQ4cLjnVQUd.webp\" alt=\"Ursidé (Magie Spirituelle/Chamanique/Rituel Ursidé/Valhir)\"><h1>Ursidé (Magie Spirituelle/Chamanique/Rituel Ursidé/Valhir)</h1></div><p>Ursidé (Magie Spirituelle/Chamanique/Rituel Ursidé/Valhir)</p><p>Lien à Valhir. Berserker/DP/DM.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:5:Ursidé (Magie Spirituelle/Chamanique/Rituel Ursidé/Valhir)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "25fbde38de6d8775",
+      "name": "Aquasymbiose (Magie Spirituelle/Chamanique)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Aquasymbiose (Magie Spirituelle/Chamanique)\"><h1>Aquasymbiose (Magie Spirituelle/Chamanique)</h1></div><p>Aquasymbiose (Magie Spirituelle/Chamanique)</p><p>Permet de domestiquer les petits poissons environnants.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:5:Aquasymbiose (Magie Spirituelle/Chamanique)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "0a0343aa70df9af9",
+      "name": "Hextech (Craft Hextech/Module Hextech)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/10aro9-K9rBm-sB3rppkxsvTgGUOu_bnT.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/10aro9-K9rBm-sB3rppkxsvTgGUOu_bnT.webp\" alt=\"Hextech (Craft Hextech/Module Hextech)\"><h1>Hextech (Craft Hextech/Module Hextech)</h1></div><p>Hextech (Craft Hextech/Module Hextech)</p><p>Technologie modulable avec une expertise spécifique de Craft Hextech. DM/RM.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:6:Hextech (Craft Hextech/Module Hextech)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "efd7bc4be3778a8d",
+      "name": "Chemtech (Craft Chemtech/Alchimiste)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Chemtech (Craft Chemtech/Alchimiste)\"><h1>Chemtech (Craft Chemtech/Alchimiste)</h1></div><p>Chemtech (Craft Chemtech/Alchimiste)</p><p>Technologie modulable avec une expertise spécifique de Craft Chemtech. Poison DM/RM.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:7:Chemtech (Craft Chemtech/Alchimiste)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "4f7c5f7182d4d9f2",
+      "name": "Spirituel (",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/14B4S-OOZrbfKOSnQppQnF8ynLAb6YMcW.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/14B4S-OOZrbfKOSnQppQnF8ynLAb6YMcW.webp\" alt=\"Spirituel (\"><h1>Spirituel (</h1></div><p>Spirituel (</p><p>Note…</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:8:Spirituel (",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "c7312892acd508e7",
+      "name": "Céleste (",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Céleste (\"><h1>Céleste (</h1></div><p>Céleste (</p><p>Note…</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:9:Céleste (",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "f859573a1b11defb",
+      "name": "Sang de l’Immortel (Sang Tryndamere)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/194qkuUgCh8Pdd5H8BRutzHNBXdnb9A6e.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/194qkuUgCh8Pdd5H8BRutzHNBXdnb9A6e.webp\" alt=\"Sang de l’Immortel (Sang Tryndamere)\"><h1>Sang de l’Immortel (Sang Tryndamere)</h1></div><p>Sang de l’Immortel (Sang Tryndamere)</p><p>Rentrer dans un état Berserker donne de l’Invulnérabilité temporaire (Max 2 Tours/J). Si Arme Hemomacie : Soigne +1D6 PV /coup avec l’Arme (2D4 si 2 Armes à 1 Main).</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.46cd855c02704472]{SANG DE L’IMMORTEL} @UUID[Compendium.jdr-runeterra.consumables.Item.7f6bd863a3090f05]{Sang  Tryndamere}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-1:Sang de l’Immortel (Sang Tryndamere)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "828dfbd5eb2466d2",
+      "name": "Elixir du Sublimé (Glande Arpeka/Anivia)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Elixir du Sublimé (Glande Arpeka/Anivia)\"><h1>Elixir du Sublimé (Glande Arpeka/Anivia)</h1></div><p>Elixir du Sublimé (Glande Arpeka/Anivia)</p><p>Protège l&#39;équipement et le porteur de la Glace Pure sans être Sublimé. Absorber de la Glace Pure donne +5 RM /absorption (Max +20 RM tout item confondu)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-2:Elixir du Sublimé (Glande Arpeka/Anivia)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "12c0e6b9867bc151",
+      "name": "Perle Jumelle ()",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Perle Jumelle ()\"><h1>Perle Jumelle ()</h1></div><p>Perle Jumelle ()</p><p>Note…</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.af6e6762c744e2fc]{Perle Jumelle}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-3:Perle Jumelle ()",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "54d6d09161203ab2",
+      "name": "Perle de Vargh’Heggen (Magie Spirituelle/Course-Heggen)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/1JKi8ovmZfixTJ5OLxuL242OqO7Pqldw4.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1JKi8ovmZfixTJ5OLxuL242OqO7Pqldw4.webp\" alt=\"Perle de Vargh’Heggen (Magie Spirituelle/Course-Heggen)\"><h1>Perle de Vargh’Heggen (Magie Spirituelle/Course-Heggen)</h1></div><p>Perle de Vargh’Heggen (Magie Spirituelle/Course-Heggen) - par Vargh’Heggen ♂️</p><p>Cette perle est une larme du Vargh’Heggen ♂️ et à 60% de chance de tomber après son accouplement (15% qu’il en tombe une deuxième). Elle peut invoquer magiquement une pluie près de son porteur qui soigne +10 PV en Zone (1D4 Tour Max 1x /j). La magie de la perle s’estompe au cours des années jusqu&#39;à disparaître après ses 100 ans.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (} @UUID[Compendium.jdr-runeterra.bestiary.Actor.da50d917c23a01c7]{VARGH’HEGGEN}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-4:Perle de Vargh’Heggen (Magie Spirituelle/Course-Heggen)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "7486353efbdf4ac0",
+      "name": "Bénédiction d’Ildhaurg (Oracle Tribu Renaissante/Ildhaurg)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Bénédiction d’Ildhaurg (Oracle Tribu Renaissante/Ildhaurg)\"><h1>Bénédiction d’Ildhaurg (Oracle Tribu Renaissante/Ildhaurg)</h1></div><p>Bénédiction d’Ildhaurg (Oracle Tribu Renaissante/Ildhaurg)</p><p>Rester immobile donne une Peau de Fer : +10 ARM/Équipement Peau de Fer.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-5:Bénédiction d’Ildhaurg (Oracle Tribu Renaissante/Ildhaurg)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "e53000f36fabb740",
+      "name": "Bénédiction d’Anivia (Oracle Avarosan/Anivia)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Bénédiction d’Anivia (Oracle Avarosan/Anivia)\"><h1>Bénédiction d’Anivia (Oracle Avarosan/Anivia)</h1></div><p>Bénédiction d’Anivia (Oracle Avarosan/Anivia)</p><p>Résistance au Froid du Freljord. +5 RM Bonus et +1 Niveau Résistance au Froid / Équipement (4 Max).</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-6:Bénédiction d’Anivia (Oracle Avarosan/Anivia)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "72fde3dfdb61b960",
+      "name": "Bénédiction de la Soeur-Phoque (Fourrure Soeur-Phoque/Soeur-Phoque)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Bénédiction de la Soeur-Phoque (Fourrure Soeur-Phoque/Soeur-Phoque)\"><h1>Bénédiction de la Soeur-Phoque (Fourrure Soeur-Phoque/Soeur-Phoque)</h1></div><p>Bénédiction de la Soeur-Phoque (Fourrure Soeur-Phoque/Soeur-Phoque)</p><p>Donne un avantage à portée de l’Eau (mer, pluie, magie) +5 RM et DM / Équipement pendant 1 tour au choix (1 fois /combat). Donne +10 dans Spécial 1 (1 seule fois).</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-7:Bénédiction de la Soeur-Phoque (Fourrure Soeur-Phoque/Soeur-Phoque)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "c84a6ed7c8032201",
+      "name": "Volontée de Valhir (Grand Ursidé/Volibear)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Volontée de Valhir (Grand Ursidé/Volibear)\"><h1>Volontée de Valhir (Grand Ursidé/Volibear)</h1></div><p>Volontée de Valhir (Grand Ursidé/Volibear)</p><p>…</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-8:Volontée de Valhir (Grand Ursidé/Volibear)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "5883ffc105a330f5",
+      "name": "Rétribution de Rhond (Vörnskrifa/Rhond)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rétribution de Rhond (Vörnskrifa/Rhond)\"><h1>Rétribution de Rhond (Vörnskrifa/Rhond)</h1></div><p>Rétribution de Rhond (Vörnskrifa/Rhond) - par Forge Enchanteur</p><p>Transforme n’importe quelle matière en Magma sur un contact prolongé. % de chance de créer une coulée de Magma DM Zone.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-9:Rétribution de Rhond (Vörnskrifa/Rhond)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "293438eaebc31c9a",
+      "name": "Flamme Perpétuelle (Feu de l’Âtre/Ornn)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Flamme Perpétuelle (Feu de l’Âtre/Ornn)\"><h1>Flamme Perpétuelle (Feu de l’Âtre/Ornn)</h1></div><p>Flamme Perpétuelle (Feu de l’Âtre/Ornn) - par Enchanteur</p><p>Une flamme qui ne peut pas s’éteindre. Si sur Équipement : +20 DM avec une Arme forgé par Ornn. Si sur Arme : +10 ARM avec un Équipement forgé par Ornn. (Seulement 1 Item)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.b0525b164a14bc2d]{ÉQUIPEMENT}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-10:Flamme Perpétuelle (Feu de l’Âtre/Ornn)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "283591f913f831dc",
+      "name": "Glace Pure (Arpeka des Glace/Anivia)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/1BKGkCyod1cPVKDnpcCK3IDoxLiRPMy0V.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1BKGkCyod1cPVKDnpcCK3IDoxLiRPMy0V.webp\" alt=\"Glace Pure (Arpeka des Glace/Anivia)\"><h1>Glace Pure (Arpeka des Glace/Anivia)</h1></div><p>Glace Pure (Arpeka des Glace/Anivia) - par Enchanteur</p><p>Une Glace qui ne peut pas fondre. Donne un % de chance de tuer au toucher (sauf Légendaire et Boss). Si Sublimé : 20 % de chance de subir 5+1D10 DM. Si Non Sublimé : 1D100 - subit le résultat du jet en DM entre 1 et 70 + Glace la main entre 70 et 80 (-10 PV de Base) + Glace le bras entre 80 et 90 (-10 PV de Base). Tue &gt; 90.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-11:Glace Pure (Arpeka des Glace/Anivia)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "f1838cbe5ddd9533",
+      "name": "Glace Noire (Lissandra)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/19w-4LP7pBSjQlTgDp-W1OyfagCKzhB2s.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/19w-4LP7pBSjQlTgDp-W1OyfagCKzhB2s.webp\" alt=\"Glace Noire (Lissandra)\"><h1>Glace Noire (Lissandra)</h1></div><p>Glace Noire (Lissandra) - par Lissandra</p><p>Une Glace Pure Corrompue, bien plus puissante et plus désastreuse. Identique Glace Pure avec un % de chance de corrompre et posséder (sauf Légendaire et Boss).</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-12:Glace Noire (Lissandra)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "d17d8ff2bfc24785",
+      "name": "Tellurique (Rune Primordiale/Ryze)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Tellurique (Rune Primordiale/Ryze)\"><h1>Tellurique (Rune Primordiale/Ryze)</h1></div><p>Tellurique (Rune Primordiale/Ryze) - par Ryze</p><p>C’est mort la team.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-13:Tellurique (Rune Primordiale/Ryze)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "6ebd116d3d4b4935",
+      "name": "Rituel des Esprits (Nécromancie/Chroxure Liquide)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rituel des Esprits (Nécromancie/Chroxure Liquide)\"><h1>Rituel des Esprits (Nécromancie/Chroxure Liquide)</h1></div><p>Rituel des Esprits (Nécromancie/Chroxure Liquide)</p><p>Permet d’infuser une partie de l’esprit d’un défunt (avec son consentement) pour y puiser une partie de sa magie (Attribut Spécial PJ ou PNJ décédé)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.bb184d73568bf7e2]{CHROXURE LIQUIDE}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-14:Rituel des Esprits (Nécromancie/Chroxure Liquide)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "e71a674247a26402",
+      "name": "Amour Momentané (Magie Spirituelle/Vesani)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Amour Momentané (Magie Spirituelle/Vesani)\"><h1>Amour Momentané (Magie Spirituelle/Vesani)</h1></div><p>Amour Momentané (Magie Spirituelle/Vesani)</p><p>20 % de chance de charmer temporairement la cible (ciblé). Si réussite critique, la cible tombe amoureux  (sauf Légendaire ou Boss).</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-15:Amour Momentané (Magie Spirituelle/Vesani)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "af6314cbbbdfa7d1",
+      "name": "Révélation d’Intentions (Magie Spirituelle/Onn’Vana)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Révélation d’Intentions (Magie Spirituelle/Onn’Vana)\"><h1>Révélation d’Intentions (Magie Spirituelle/Onn’Vana)</h1></div><p>Révélation d’Intentions (Magie Spirituelle/Onn’Vana)</p><p>Peut lire l’intention d’une cible dans son regard. Transforme temporairement l’Agilité en Réflexes.</p><p>B. Individuel :</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:L-16:Révélation d’Intentions (Magie Spirituelle/Onn’Vana)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        }
+      }
+    },
+    {
+      "_id": "24712fc536e094ef",
+      "name": "Transformation en Grü (Spirituelle/Hématomancie) Cheddar par Fromages aux 6 Âmes",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Transformation en Grü (Spirituelle/Hématomancie) Cheddar par Fromages aux 6 Âmes\"><h1>Transformation en Grü (Spirituelle/Hématomancie) Cheddar par Fromages aux 6 Âmes</h1></div><p>Transformation en Grü (Spirituelle/Hématomancie) Cheddar par Fromages aux 6 Âmes</p><p>Ajoutez nouveau Attribut Spécial : Transformation Grü à 100. <br>Permet au lanceur du sort de se transformer en Grü, un grand chien (style Patou). Le lanceur garde sa conscience mais ne peut physiquement pas parler. (Se gagne dans la quête Les Fromages aux 6 Âmes)</p><p>Si Jet de Transformation Grü = 100, le porteur reste coincé en Grü et doit faire intervenir un Enchanteur (L) pour retrouver son apparence. Si l’Enchanteur loupe son jet, le porteur perd sa capacité de Transformation en Grü définitivement.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:0:Transformation en Grü (Spirituelle/Hématomancie) Cheddar par Fromages aux 6 Âmes",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "a7c58cb3b8c35d06",
+      "name": "Le Pacte (Hémomancie/Hématomancie) Otis et Dragvirr",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Le Pacte (Hémomancie/Hématomancie) Otis et Dragvirr\"><h1>Le Pacte (Hémomancie/Hématomancie) Otis et Dragvirr</h1></div><p>Le Pacte (Hémomancie/Hématomancie) Otis et Dragvirr</p><p>Le Pacte se transmet par une poignée de main faisant apparaître une marque instantanée dans la paume. Elle permet au porteur de lire le Code des Voleurs désormais visible dans l&#39;environnement. La marque redevient visible uniquement par le porteur en présence d&#39;une autre personne aux alentours possédant le Pacte.</p><p>Attention  :<br>! Si le porteau du Pacte révèle l&#39;existence du Réseau (voir Le Réseau), il sera maudit : Tout contact avec de l’Or ou de l’Argent (même à travers les vêtements) lui brûlera la peau. -5PV/sec.<br>! Si une personne meurt suite à ses divulgations, le porteur du Pacte perd -10 de ses PV de Base. <br>!! Si un membre de la guilde des voleurs meurt suite à ses divulgations, il perd -50% de ses PV de Base.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:1:Le Pacte (Hémomancie/Hématomancie) Otis et Dragvirr",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "3e322a86110dc5c3",
+      "name": "Amaretsu (Spirituel/Langage) Laïda (voir Amaretsu)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/1qMiMe_gNT_br9laFtaIlCwRxpQQBESDF.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1qMiMe_gNT_br9laFtaIlCwRxpQQBESDF.webp\" alt=\"Amaretsu (Spirituel/Langage) Laïda (voir Amaretsu)\"><h1>Amaretsu (Spirituel/Langage) Laïda (voir Amaretsu)</h1></div><p>Amaretsu (Spirituel/Langage) Laïda (voir Amaretsu)</p><p>Cette forme de magie exceptionnellement rare permet à quiconque la maîtrise d’utiliser un langage spirituel qui pousse ceux qui l’entendent à obéir et faire ce que le langage dit. Ce langage traverse les barrières de l’espèce et de la compréhension du monde physique.</p><p>Jet de Mental (moins le Niveau du Mage) pour tenter d’y résister.</p><p>Exemple : AMARETSU :  50 (Jet de Mental (-50)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:0:Amaretsu (Spirituel/Langage) Laïda (voir Amaretsu)",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "a81ff593883866da",
+      "name": "Oknuün (Spirituel/Langage/Nécromancie) Grimoire Oknuün par Ott",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/1-hxMrPMadGa9iFX9Bne-rRbsSH_YfMMF.webp",
+      "folder": "a4a3ee2f429a9de3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-hxMrPMadGa9iFX9Bne-rRbsSH_YfMMF.webp\" alt=\"Oknuün (Spirituel/Langage/Nécromancie) Grimoire Oknuün par Ott\"><h1>Oknuün (Spirituel/Langage/Nécromancie) Grimoire Oknuün par Ott</h1></div><p>Oknuün (Spirituel/Langage/Nécromancie) Grimoire Oknuün par Ott</p><p>Apprend un nouvel Attribut Spécial à 20. L’Oknuün est un langage des morts spécialement créé pour le Freljord.</p><p>A noter : Réciter une phrase sans le Grimoir Oknuün n&#39;a aucun effet. La magie provient de l‘artefact.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.8f8e2f50ee2dc061]{GRIMOIRE OKNUÜN} @UUID[Compendium.jdr-runeterra.magic.Item.26734405aedab4f0]{Grimoire Oknuün} @UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:4:0:Oknuün (Spirituel/Langage/Nécromancie) Grimoire Oknuün par Ott",
+        "category": "Magies & enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "9398636cb2932444",
+      "name": "Rune Aléatoire / Avancée / Complexe  15/35/65 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune Aléatoire / Avancée / Complexe  15/35/65 Or\"><h1>Rune Aléatoire / Avancée / Complexe  15/35/65 Or</h1></div><p>Rune Aléatoire / Avancée / Complexe  15/35/65 Or</p><p>Pierre dont le symbole n’est pas visible et les couleurs trop mixtes pour savoir sa magie (1D6/1D6+1D8/1D20  numéro de la pierre)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:0:Rune Aléatoire / Avancée / Complexe  15/35/65 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "e99203cd2a058431",
+      "name": "Rune Neutre / Avancée / Complexe  10/20/40 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune Neutre / Avancée / Complexe  10/20/40 Or\"><h1>Rune Neutre / Avancée / Complexe  10/20/40 Or</h1></div><p>Rune Neutre / Avancée / Complexe  10/20/40 Or</p><p>Permet d’y infuser sa propre magie. (Le jet de 1D100 Spé sera le même que lors de l’utilisation)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:1:Rune Neutre / Avancée / Complexe  10/20/40 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "3c8356de172d2942",
+      "name": "Rune de Feu  10 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/drive/1qj2lVhE1ENEyKZ-42S2k8fgonjFcqU8M.webp",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1qj2lVhE1ENEyKZ-42S2k8fgonjFcqU8M.webp\" alt=\"Rune de Feu  10 Or\"><h1>Rune de Feu  10 Or</h1></div><p>Rune de Feu  10 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Feu (20 DM + Puissance 1D20 DM. Provoque Brûlure de niveau 1)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:2:Rune de Feu  10 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 1,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "0ab555ce679b3353",
+      "name": "Rune de Glace / Avancée / Complexe  10 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Glace / Avancée / Complexe  10 Or\"><h1>Rune de Glace / Avancée / Complexe  10 Or</h1></div><p>Rune de Glace / Avancée / Complexe  10 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Glace (20 DM + Puissance 1D20 DM. Immobilise une cible temporairement)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:3:Rune de Glace / Avancée / Complexe  10 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "c5e8f0ae9470f257",
+      "name": "Rune de Vent / Avancée / Complexe  12 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Vent / Avancée / Complexe  12 Or\"><h1>Rune de Vent / Avancée / Complexe  12 Or</h1></div><p>Rune de Vent / Avancée / Complexe  12 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Vent (20 DM. Propulse puissamment un projectile et multiplie x2 ses dégâts)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:4:Rune de Vent / Avancée / Complexe  12 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "ddd085937d31647f",
+      "name": "Rune de Foudre 12 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Foudre 12 Or\"><h1>Rune de Foudre 12 Or</h1></div><p>Rune de Foudre 12 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Foudre (20 DM + Puissance 1D20 DM. Assomme la cible pendant 2 Tours)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:5:Rune de Foudre 12 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 1,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "f87e508fc18954fd",
+      "name": "Rune de Roche / Avancée / Complexe 10 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Roche / Avancée / Complexe 10 Or\"><h1>Rune de Roche / Avancée / Complexe 10 Or</h1></div><p>Rune de Roche / Avancée / Complexe 10 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Roche (20 DP + Puissance 1D20 DP. Assomme la cible pendant 2 Tours)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:6:Rune de Roche / Avancée / Complexe 10 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "6461d778be37e189",
+      "name": "Rune d’Ombre Avancée 40 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune d’Ombre Avancée 40 Or\"><h1>Rune d’Ombre Avancée 40 Or</h1></div><p>Rune d’Ombre Avancée 40 Or</p><p>Donne à l’utilisateur une magie Spirituelle d’Ombre (1D100 Spécial. Sera le même que lors de l’utilisation)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:7:Rune d’Ombre Avancée 40 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "2927b7801d5d3789",
+      "name": "Rune de Nature Avancée 20 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Nature Avancée 20 Or\"><h1>Rune de Nature Avancée 20 Or</h1></div><p>Rune de Nature Avancée 20 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Plante et de Terre (Puissance 1D100)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:8:Rune de Nature Avancée 20 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "6765a0ac2718e18c",
+      "name": "Rune de Foudre Avancée (Plasma) / Complexe 25 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Foudre Avancée (Plasma) / Complexe 25 Or\"><h1>Rune de Foudre Avancée (Plasma) / Complexe 25 Or</h1></div><p>Rune de Foudre Avancée (Plasma) / Complexe 25 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Foudre (30 DM + Puissance 1D20 DM. Paralyse la cible pendant 1D4 Tours et inflige 05 DM supplémentaire /Tours)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:9:Rune de Foudre Avancée (Plasma) / Complexe 25 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "9dfc7bc540462550",
+      "name": "Rune de Feu Avancée (Magma) 25 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Feu Avancée (Magma) 25 Or\"><h1>Rune de Feu Avancée (Magma) 25 Or</h1></div><p>Rune de Feu Avancée (Magma) 25 Or</p><p>Donne à l’utilisateur une magie Élémentaire plus puissante de Feu et Roche (Puissance 1D100)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:10:Rune de Feu Avancée (Magma) 25 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "0e706075c672c33e",
+      "name": "Rune de Métal Avancée 35 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Métal Avancée 35 Or\"><h1>Rune de Métal Avancée 35 Or</h1></div><p>Rune de Métal Avancée 35 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Féromancie  (40 DP + Puissance 1D20 DP)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:11:Rune de Métal Avancée 35 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "0b87044135172cc3",
+      "name": "Rune de Son Avancée 35 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Son Avancée 35 Or\"><h1>Rune de Son Avancée 35 Or</h1></div><p>Rune de Son Avancée 35 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Son (40 PM + Puissance 1D20 PA. Soigne le lanceur de 50% des dégâts infligés)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:12:Rune de Son Avancée 35 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "5f659083b812ab24",
+      "name": "Rune de Temps Avancée 40 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Temps Avancée 40 Or\"><h1>Rune de Temps Avancée 40 Or</h1></div><p>Rune de Temps Avancée 40 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Chronomancie (Puissance 1D100) Peut rectifier une petite erreur récente (ou l&#39;amplifier) grâce à un glitch temporel.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:13:Rune de Temps Avancée 40 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "fc14133db8732171",
+      "name": "Rune d’Attraction Avancée 30 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune d’Attraction Avancée 30 Or\"><h1>Rune d’Attraction Avancée 30 Or</h1></div><p>Rune d’Attraction Avancée 30 Or</p><p>Donne à l’utilisateur une magie Céleste d’Attraction (Puissance 1D100)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.c7312892acd508e7]{Céleste (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:14:Rune d’Attraction Avancée 30 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 2,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "50dec04162d3437b",
+      "name": "Rune de Feu Complexe (Fusion) 45 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Feu Complexe (Fusion) 45 Or\"><h1>Rune de Feu Complexe (Fusion) 45 Or</h1></div><p>Rune de Feu Complexe (Fusion) 45 Or</p><p>Donne à l’utilisateur une magie Élémentaire et Céleste de Fusion, un feu solaire extrêmement puissant (60 DM + Puissance 2D20 DM)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.c7312892acd508e7]{Céleste (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:15:Rune de Feu Complexe (Fusion) 45 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "ae8d839fbf5c3cd0",
+      "name": "Rune de Sang Complexe 60 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Sang Complexe 60 Or\"><h1>Rune de Sang Complexe 60 Or</h1></div><p>Rune de Sang Complexe 60 Or</p><p>Donne à l’utilisateur une magie Spirituelle du sang d’Hémomancie ou Hématomancie (40 PA + Puissance 1D20 PA. Soigne le lanceur de 50% des dégâts infligés)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:16:Rune de Sang Complexe 60 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "d39495b0104c7ce7",
+      "name": "Rune de Son Complexe 65 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Son Complexe 65 Or\"><h1>Rune de Son Complexe 65 Or</h1></div><p>Rune de Son Complexe 65 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Son (40 PM + Puissance 2D20 PA)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:18:Rune de Son Complexe 65 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "21263f799ea40b9b",
+      "name": "Rune de Vision Spirituelle Complexe 75 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Vision Spirituelle Complexe 75 Or\"><h1>Rune de Vision Spirituelle Complexe 75 Or</h1></div><p>Rune de Vision Spirituelle Complexe 75 Or</p><p>Donne à l’utilisateur une magie Spirituelle qui lui permet percevoir le monde spirituel temporairement (Tous les Dégâts deviennent des DB pendant 2 + 1D4 Tours. Si les ennemis ne possèdent aucune ARM ou RM, les dégâts comptent double)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.4f7c5f7182d4d9f2]{Spirituel (} @UUID[Compendium.jdr-runeterra.rules.JournalEntry.8cb427d6c3a01a7b]{LES DÉGÂTS}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:19:Rune de Vision Spirituelle Complexe 75 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "ff2cbeae4b1d1123",
+      "name": "Rune de Temps Complexe 90 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Temps Complexe 90 Or\"><h1>Rune de Temps Complexe 90 Or</h1></div><p>Rune de Temps Complexe 90 Or</p><p>Donne à l’utilisateur une magie Élémentaire de Chronomancie. Peut rectifier un élément du passé (24h max) grâce à un glitch temporel. Toute la timeline se réadapte à ce changement pouvant entraîner d’importantes conséquences.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:20:Rune de Temps Complexe 90 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue",
+        "level": 3,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "172ba0304843c942",
+      "name": "Rune de Glace Pure 00 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Glace Pure 00 Or\"><h1>Rune de Glace Pure 00 Or</h1></div><p>Rune de Glace Pure 00 Or</p><p>Donne à l’utilisateur une magie Élémentaire unique de Glace Pure (Tue quiconque est touché par le sort (sauf Sublimé) mais à 20% de chance de tuer également son lanceur)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:L-1:Rune de Glace Pure 00 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        },
+        "level": 4,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "6d439bfed5f1a1a5",
+      "name": "Rune de Création Unique 00 Or",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune de Création Unique 00 Or\"><h1>Rune de Création Unique 00 Or</h1></div><p>Rune de Création Unique 00 Or</p><p>Donne à l’utilisateur une magie Céleste unique de Création Pure (Puissance 1D100) Permet de créer n&#39;importe quoi avec ses attributs (sauf pierres spéciales)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.magic.Item.c7312892acd508e7]{Céleste (}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:L-2:Rune de Création Unique 00 Or",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        },
+        "level": 4,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "e62a542a219143bc",
+      "name": "Rune Tellurique de Précision Inestimable",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune Tellurique de Précision Inestimable\"><h1>Rune Tellurique de Précision Inestimable</h1></div><p>Rune Tellurique de Précision Inestimable</p><p>Juste un clin d&#39;œil, aucun moyen de tomber dessus.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:L-3:Rune Tellurique de Précision Inestimable",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        },
+        "level": 4,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "e938963992a3ab37",
+      "name": "Rune Tellurique de Domination Inestimable",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune Tellurique de Domination Inestimable\"><h1>Rune Tellurique de Domination Inestimable</h1></div><p>Rune Tellurique de Domination Inestimable</p><p>Et oui, désolé mais c’est beaucoup trop broken.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:L-4:Rune Tellurique de Domination Inestimable",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        },
+        "level": 4,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "2b9bd68fe8d87108",
+      "name": "Rune Tellurique de Sorcellerie Inestimable",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune Tellurique de Sorcellerie Inestimable\"><h1>Rune Tellurique de Sorcellerie Inestimable</h1></div><p>Rune Tellurique de Sorcellerie Inestimable</p><p>Raaaaalala, celle la aurait été tellement pétée !</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:L-5:Rune Tellurique de Sorcellerie Inestimable",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        },
+        "level": 4,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "6b0b69133460fac4",
+      "name": "Rune Tellurique de Résolution Inestimable",
+      "type": "rune",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "3a83570e357262b8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rune Tellurique de Résolution Inestimable\"><h1>Rune Tellurique de Résolution Inestimable</h1></div><p>Rune Tellurique de Résolution Inestimable</p><p>Celle-ci se trouve dans un coffre dans la grotte de Ambektaam.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:8:L-6:Rune Tellurique de Résolution Inestimable",
+        "category": "Pierres runiques",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "violet",
+        "integrity": {
+          "indestructible": true
+        },
+        "level": 4,
+        "uses": {
+          "limited": true,
+          "value": 1,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "f3fbcb88e00d38c0",
+      "name": "Chapeau Prise-Melon",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1LiiC381dO7ydqTRuExCSwtrpsvdvaTw_.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1LiiC381dO7ydqTRuExCSwtrpsvdvaTw_.webp\" alt=\"Chapeau Prise-Melon\"><h1>Chapeau Prise-Melon</h1></div><p>Chapeau Prise-Melon (Relique)</p><p>Un chapeau melon qui commente tout ce que fait son porteur et râle tout le temps.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:1:Chapeau Prise-Melon",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "8cc395677937937e",
+      "name": "Pinceau-tonome",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Pinceau-tonome\"><h1>Pinceau-tonome</h1></div><p>Pinceau-tonome (Item)</p><p>Un pinceau qui peint de son propre gré des choses autour de lui et les garde en mémoire.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:2:Pinceau-tonome",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "d1d802147d67b956",
+      "name": "Orêveur",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Orêveur\"><h1>Orêveur</h1></div><p>Orêveur (Item)</p><p>Un oreiller qui sauvegarde les rêves de celui qui dort dessus pour les refaire plus tard.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:3:Orêveur",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "dab8a3bdae420c67",
+      "name": "Les Alliances Maudites",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Les Alliances Maudites\"><h1>Les Alliances Maudites</h1></div><p>Les Alliances Maudites (Item)</p><p>Deux bagues liées, la deuxième bague imite ce que la première fait. (Partage la Dextérité des deux porteurs)</p><p>À noter : Retourner la bague inverse les mouvements.<br>\tExemple : Le porteur 1 à 70 de Dextérité, le porteur 2 en a 30. Les deux passent à 50.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:4:Les Alliances Maudites",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "2927b263d17ba1c6",
+      "name": "L'Écharpatoire",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"L&#39;Écharpatoire\"><h1>L&#39;Écharpatoire</h1></div><p>L&#39;Écharpatoire (Item)</p><p>Une écharpe qui cache le visage du porteur dès qu’il ressent une gène où l’envie de se cacher.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:5:L'Écharpatoire",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "93b50707d0cf228b",
+      "name": "Bonbon Blabla x4",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Bonbon Blabla x4\"><h1>Bonbon Blabla x4</h1></div><p>Bonbon Blabla x4 (Consommable)</p><p>Un bonbon qui fait parler une langue incompréhensible sauf pour ceux qui en ont consommé. Une fois consommées, tous les autres langages deviennent incompréhensibles. (L&#39;effet dure 1H)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:6:Bonbon Blabla x4",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "1c45a63bfac478b0",
+      "name": "L’Aspirardeur",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"L’Aspirardeur\"><h1>L’Aspirardeur</h1></div><p>L’Aspirardeur (Item)</p><p>Une bouteille qui aspire la motivation des gens environnants quand on l&#39;ouvre une première fois (-5 Endurance et Force pendant 1H) et la redonne en buvant son contenu (+5 Endurance et Force pendant 1H).</p><p>À noter : L&#39;effet ne marche que 5x /Personnages avant de devenir inefficace.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:7:L’Aspirardeur",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "afc1b4e097495114",
+      "name": "Poro Péteur (Familier)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Poro Péteur (Familier)\"><h1>Poro Péteur (Familier)</h1></div><p>Poro Péteur (Familier)</p><p>Un poro qui se glisse discrètement dans le dos des gens pour péter.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:8:Poro Péteur (Familier)",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "641f3c5ead1efe0f",
+      "name": "Pousse-Pustule",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Pousse-Pustule\"><h1>Pousse-Pustule</h1></div><p>Pousse-Pustule - 0.5L (Consommable)</p><p>Un parfum qui sent extrêmement bon mais qui fait apparaître de grosses pustules sur la peau. (L&#39;effet dure 12H)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:9:Pousse-Pustule",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "c94fa56896ab6c5f",
+      "name": "Bidule qui Grince",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Bidule qui Grince\"><h1>Bidule qui Grince</h1></div><p>Bidule qui Grince (Relique)</p><p>Une boussole qui grince quand on l’ouvre. (Portail pour Bandle City uniquement utilisable par un Yordle)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.b2a9a7949387c2ec]{Boussole}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:10:Bidule qui Grince",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "e938fef4cc6926bb",
+      "name": "Les Comptes de Mauprésent",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Les Comptes de Mauprésent\"><h1>Les Comptes de Mauprésent</h1></div><p>Les Comptes de Mauprésent (Item)</p><p>Un livre qui raconte une histoire qui change selon l’humeur du lecteur. (Une fois lu, si le prochain jet est le même que le dernier utilisé, alors il gagne +10)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:11:Les Comptes de Mauprésent",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "b8af90c493967174",
+      "name": "Poudre de Plat-palais",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Poudre de Plat-palais\"><h1>Poudre de Plat-palais</h1></div><p>Poudre de Plat-palais - 0.5kg (Consommable)</p><p>Une poudre qui fait changer de goût les aliments aléatoirement. (Faire 1D20 pour rendre quelque chose de mauvais extrêmement bon)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:12:Poudre de Plat-palais",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "30185bdfcb440e43",
+      "name": "Peluche Renforego x2",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1rBBbqV5O_xFqbAYKTK11_8-8S0k6JSG8.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1rBBbqV5O_xFqbAYKTK11_8-8S0k6JSG8.webp\" alt=\"Peluche Renforego x2\"><h1>Peluche Renforego x2</h1></div><p>Peluche Renforego x2 (Relique)</p><p>Une peluche qui se marre à toutes vos blagues, même les plus nulles.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:13:Peluche Renforego x2",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "321e259bf07d5678",
+      "name": "Sac-à-pattes",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1xIay_rj4tQYZC88OIJItRGdt899qDRJL.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1xIay_rj4tQYZC88OIJItRGdt899qDRJL.webp\" alt=\"Sac-à-pattes\"><h1>Sac-à-pattes</h1></div><p>Sac-à-pattes - 10 places (Familier)</p><p>Un sac avec des jambes qui vous suis en avalant aléatoirement des choses qu’il trouve et en crachant aléatoirement des choses qu&#39;il contient. (70% de chance d&#39;avaler et 30% de cracher)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:14:Sac-à-pattes",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "628643f2993f5083",
+      "name": "Anti-Miroir",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1-gVNceAUtTnMgq61-zMEhG5rS_0Ah7hp.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1-gVNceAUtTnMgq61-zMEhG5rS_0Ah7hp.webp\" alt=\"Anti-Miroir\"><h1>Anti-Miroir</h1></div><p>Anti-Miroir (Relique)</p><p>Un miroir qui montre constamment ce qu’il y a derrière lui. (Littéralement une vitre)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:15:Anti-Miroir",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "7373107ee3d6522f",
+      "name": "Sbire Mage (Familier)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/1pxYsUai2Ekk4ilaresN57PJrdhgJjOGP.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1pxYsUai2Ekk4ilaresN57PJrdhgJjOGP.webp\" alt=\"Sbire Mage (Familier)\"><h1>Sbire Mage (Familier)</h1></div><p>Sbire Mage (Familier)</p><p>Un petit sbire avec un bâton de mage qui vous servira, mais qui essayera toujours de faire le mal.</p><p>Bonus : Il possède 14 Or sur lui et les fait tomber lorsqu&#39;il meurt</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:16:Sbire Mage (Familier)",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "771df475f2103e93",
+      "name": "Les Bablebûches x(1D20)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/11pp9n6h6qV4Eicwr0EVsZblkM5h_Dm8z.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/11pp9n6h6qV4Eicwr0EVsZblkM5h_Dm8z.webp\" alt=\"Les Bablebûches x(1D20)\"><h1>Les Bablebûches x(1D20)</h1></div><p>Les Bablebûches x(1D20)(Consommable)</p><p>Il est impossible de décrire ce qu&#39;elles font quand on en parle, mais elles sont très utiles. (Faire 1D(/u) pour évaluer la réussite de l&#39;action).</p><p>À noter : Faire disparaître le nombre de Bablebûches selon le nombre du jet.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:17:Les Bablebûches x(1D20)",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "7195f6e803c72351",
+      "name": "Les Identinocles",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Les Identinocles\"><h1>Les Identinocles</h1></div><p>Les Identinocles (Item)</p><p>Des lunettes très grosses et moches qui permettent de voir le nom et l&#39;âge des gens. L&#39;effet est flou s&#39;il est à plus de 2 mètres.</p><p>À noter : Si la personne observée ne connaît ni son nom ni son âge, rien ne s&#39;affiche.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:18:Les Identinocles",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "51bbc89d87d02e39",
+      "name": "Flûte Auto-magique",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/drive/16NcIWMHFjhu44mO7UnK_ii_7zvMC02hd.webp",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/16NcIWMHFjhu44mO7UnK_ii_7zvMC02hd.webp\" alt=\"Flûte Auto-magique\"><h1>Flûte Auto-magique</h1></div><p>Flûte Auto-magique (Item) Possession actuelle : Dako</p><p>Une flûte qui fait de très belles musiques juste en soufflant dedans.</p><p>20. <br>Notes…</p><p>SERVICES :</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:19:Flûte Auto-magique",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "f678a4e96138c5d2",
+      "name": "Machine à Idées (1 Or = 1 Idée)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Machine à Idées (1 Or = 1 Idée)\"><h1>Machine à Idées (1 Or = 1 Idée)</h1></div><p>Machine à Idées (1 Or = 1 Idée)</p><p>1.Créez une boisson/ 2.Lancez un commerce/ 3.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:S.1:Machine à Idées (1 Or = 1 Idée)",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "384f11f17efa0619",
+      "name": "Miroir Yordle (Gratuit)",
+      "type": "relic",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "beceb4d4d3ffe528",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Miroir Yordle (Gratuit)\"><h1>Miroir Yordle (Gratuit)</h1></div><p>Miroir Yordle (Gratuit)</p><p>Se tenir devant le miroir vous montre en forme Yordle. (Image inclue si Pack Légendaire avec I.A)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:12:S.2:Miroir Yordle (Gratuit)",
+        "category": "Curiosités",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "03208cad00787b13",
+      "name": "L’Échange Sacrificiels (Unique)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a1eab92f9f71c0e8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"L’Échange Sacrificiels (Unique)\"><h1>L’Échange Sacrificiels (Unique)</h1></div><p>L’Échange Sacrificiels (Unique) - par Nadyah</p><p>Retire -10 dans un des Attributs Communs contre une quête [1D6]. Une fois la quête accomplie, gagne +20 dans ce même attribut.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:14:0:L’Échange Sacrificiels (Unique)",
+        "category": "Enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "4bcd897c5d2ce907",
+      "name": "Le Savoir Réciproque (Illimité",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a1eab92f9f71c0e8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Le Savoir Réciproque (Illimité\"><h1>Le Savoir Réciproque (Illimité</h1></div><p>Le Savoir Réciproque (Illimité - 1x /jour) - par Maître des Secrets</p><p>Le Maître des Secrets enchante vos Amulettes d’Anivia (Se charge si non chargée). Si vous la mettez dans l’eau, une zone glace immédiatement et son reflet apparaît dedans. Vous pouvez alors lui communiquer une information qu’il ignore (non écrite ou dessinée) en échange d’une information de sa part d’importance similaire.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:14:0:Le Savoir Réciproque (Illimité",
+        "category": "Enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "0843954d301d3d1d",
+      "name": "Démon de la Malchance (1x /joueur)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "a1eab92f9f71c0e8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Démon de la Malchance (1x /joueur)\"><h1>Démon de la Malchance (1x /joueur)</h1></div><p>Démon de la Malchance (1x /joueur) - par Sargan</p><p>Quand un joueur fait 6 fois 66 à un jet (n’importe lequel), Sargan apparaît (voir PNJ) et propose au joueur un voeux de son choix contre un moment crucial de sa vie.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:14:0:Démon de la Malchance (1x /joueur)",
+        "category": "Enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "4f2454ff8797d07b",
+      "name": "La Caravane de Virgule (Rare)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/drive/1CuTMF2y_ZvhGIG3TGeiaCuj2pmJMSRj8.webp",
+      "folder": "a1eab92f9f71c0e8",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/drive/1CuTMF2y_ZvhGIG3TGeiaCuj2pmJMSRj8.webp\" alt=\"La Caravane de Virgule (Rare)\"><h1>La Caravane de Virgule (Rare)</h1></div><p>La Caravane de Virgule (Rare) - par Virgule</p><p>La caravane de Virgule apparaît si un joueur, lors d’un trajet,  à vraiment besoin de quelque chose mais qu’il ne sait pas quoi.<br>Virgule troc ses babioles enchantées contre des babioles peu communes (de préférence cassé) pour les enchanter également par la suite.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:14:0:La Caravane de Virgule (Rare)",
+        "category": "Enchantements",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "75d56b45f8293505",
+      "name": "Rhume (Virale)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rhume (Virale)\"><h1>Rhume (Virale)</h1></div><p>Rhume (Virale)</p><p>Effets : Nez qui coule, corps affaibli et sensible au froid. -1 Résistance Froid / -10 à tous les Attributs de Base sauf Dextérité, Discrétion, Persuasion et Mental. Dure entre 1 et 3 jours. <br>Infection : s&#39;attrape lors d’une nuit froide (30%). Le manque de sommeil ou d’alimentation augmente de 20%. Possible de l’éviter en préparant un bon feu, en dormant près d’une source de chaleur (non contractible en Auberge).<br>Contagion : Contact prolongé en compagnie d’un malade, par voies orales. <br>Guérison : Rien de particulier. Se reposer, bien manger et boire chaud (diminue à 1 jour)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.4ec3581dca1a16d5]{LES ATTRIBUTS}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Rhume (Virale)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "075bfa969e64e8a4",
+      "name": "Rhume (Magique)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Rhume (Magique)\"><h1>Rhume (Magique)</h1></div><p>Rhume (Magique)</p><p>Effets : <br>Infection : <br>Contagion : <br>Guérison :</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Rhume (Magique)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "1b384d155dd3f8d5",
+      "name": "Sueur-Écarlate “Riðssviti Ytkit” (Bactérienne)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Sueur-Écarlate “Riðssviti Ytkit” (Bactérienne)\"><h1>Sueur-Écarlate “Riðssviti Ytkit” (Bactérienne)</h1></div><p>Sueur-Écarlate “Riðssviti Ytkit” (Bactérienne)</p><p>Effets : Fait suer des gouttes de sang. -5 PV /heure sur 6+1D12 Heures.<br>Infection : Elle s’attrape en buvant une eau contaminée par une bactérie gelée qui a fondu. <br>Contagion : Peut s’attraper par voie orale (15% si contact du malade / 50% si contact du sang ou salive). <br>Guérison : Peut s&#39;éviter en faisant bouillir l’eau naturelle avant de la boire (non contractible en Auberge). Sinon, boire de la bière chaude fait baisser de 50% la durée de la maladie.</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Sueur-Écarlate “Riðssviti Ytkit” (Bactérienne)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "2f79ec8af11d9967",
+      "name": "Intoxication (Bactérienne)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Intoxication (Bactérienne)\"><h1>Intoxication (Bactérienne)</h1></div><p>Intoxication (Bactérienne)</p><p>Effets : Vomissements, fièvre et fatigue. Jet d’Endurance 1x/h pendant 6h. Si échec : -10 PV /vomissements pour les 2 premiers puis -5 PV pour les prochains / -1 Résistance au Froid. <br>Infection : S’attrape en consommant de la nourriture avariée ou un plat trop éxotique (échec critique en Perception sur un plat fort). <br>Contagion : Absolument pas contagieux.<br>Guérison : Une tisane de Graveleuse Argentée et d’huile de Graines d’Aphrènes diminue les vomissements (-50% PV /vomissements et -50% durée d&#39;intoxication). Une réussite critique en Métabolisme peut éviter l’intoxication.</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.consumables.Item.6b9465071bbb3d41]{APHRÈNE} @UUID[Compendium.jdr-runeterra.consumables.Item.995861bc028631ca]{GRAVELEUSE ARGENTÉE}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Intoxication (Bactérienne)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "2220b12ce0e2efaa",
+      "name": "Puce Goyuzi (Bactérienne)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Puce Goyuzi (Bactérienne)\"><h1>Puce Goyuzi (Bactérienne)</h1></div><p>Puce Goyuzi (Bactérienne)</p><p>Effets : Incapable de se sérarer d’un Goyuzi♀️. Sous l&#39;effet de Charme. -05 à tous les jets d’Attributs Généraux.<br>Infection : <br>Contagion : 50% de chance d&#39;être contaminé proche d’un Goyuzi. 90% s’il y a eu un contact.<br>Guérison : Se raser le crâne, Prendre une douche à la Sève de Hue + alcool fort (20 DP) ou faire un jet de Mental -30 1x/j (-10 à chaque échec)</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Puce Goyuzi (Bactérienne)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "0e38f95f59ec1975",
+      "name": "Brevervancine (Magique)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Brevervancine (Magique)\"><h1>Brevervancine (Magique)</h1></div><p>Brevervancine (Magique)</p><p>Effets : <br>Infection : <br>Contagion : <br>Guérison :</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Brevervancine (Magique)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "5849b2bd5c19330f",
+      "name": "Ylfruüg (Bactérienne)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Ylfruüg (Bactérienne)\"><h1>Ylfruüg (Bactérienne)</h1></div><p>Ylfruüg (Bactérienne)</p><p>Effets : <br>Infection : <br>Contagion : <br>Guérison :</p></div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Ylfruüg (Bactérienne)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    },
+    {
+      "_id": "3b2ae1568fd94eb8",
+      "name": "Balguerüdd (Magique)",
+      "type": "enchantment",
+      "img": "systems/jdr-runeterra/assets/icons/item.svg",
+      "folder": "fff47f4858e262b3",
+      "system": {
+        "description": "<div class=\"rt-entry\"><div class=\"rt-entry-hero\"><img src=\"systems/jdr-runeterra/assets/icons/item.svg\" alt=\"Balguerüdd (Magique)\"><h1>Balguerüdd (Magique)</h1></div><p>Balguerüdd (Magique)</p><p>Effets : Perd progressivement la perception des couleurs (-10 Perception Vue) et des petites tâches apparaissent dans l’iris des yeux / Fièvre sur 2-3 jours.<br>Infection : Bave de Troll (30%)<br>Contagion : Aucune<br>Guérison : Incurable (Peut stopper les effets temporairement avec ???)</p></div><div class=\"rt-links\">@UUID[Compendium.jdr-runeterra.rules.JournalEntry.08390b72d7167010]{LES EFFETS}</div>",
+        "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
+        "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:15:0:Balguerüdd (Magique)",
+        "category": "Maladies",
+        "damageFormula": "0",
+        "price": 0,
+        "recipe": "",
+        "dangers": "",
+        "legal": "",
+        "rarity": "blue"
+      }
+    }
+  ],
+  "folders": [
+    {
+      "_id": "83efad32680060a8",
+      "name": "Reliques",
+      "type": "Item",
+      "folder": null,
+      "sorting": "a",
+      "color": "#bba36c"
+    },
+    {
+      "_id": "a4a3ee2f429a9de3",
+      "name": "Magies & enchantements",
+      "type": "Item",
+      "folder": null,
+      "sorting": "a",
+      "color": "#bba36c"
+    },
+    {
+      "_id": "3a83570e357262b8",
+      "name": "Pierres runiques",
+      "type": "Item",
+      "folder": null,
+      "sorting": "a",
+      "color": "#bba36c"
+    },
+    {
+      "_id": "beceb4d4d3ffe528",
+      "name": "Curiosités",
+      "type": "Item",
+      "folder": null,
+      "sorting": "a",
+      "color": "#bba36c"
+    },
+    {
+      "_id": "a1eab92f9f71c0e8",
+      "name": "Enchantements",
+      "type": "Item",
+      "folder": null,
+      "sorting": "a",
+      "color": "#bba36c"
+    },
+    {
+      "_id": "fff47f4858e262b3",
+      "name": "Maladies",
+      "type": "Item",
+      "folder": null,
+      "sorting": "a",
+      "color": "#bba36c"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen.imagegen",
+  "logoSource": "https://jdr-runeterra.com/assets/logoJdr-DIWC5UwE.png",
+  "reference": "sources/logo-jdr-runeterra.png",
+  "composition": "Logo original conservé et superposé sans modification de son dessin. Conversion et mise à l’échelle avec Sharp.",
+  "prompts": [
+    {
+      "key": "thumbnail",
+      "prompt": "Use case: stylized-concept. Create a square premium fantasy tabletop RPG cover BACKDROP for JDR Runeterra, centered on Freljord. The supplied reference image is ONLY a color and brand mood reference: its antique gold contrasts with blue-black and icy blue. Do not draw any logo, letters or text; the exact supplied logo will be composited later. A magnificent rugged snow-covered Freljord mountain pass, ancient dark stone shapes and faint ice blue glow, painterly League of Legends inspired environmental concept art, cinematic light, polished and richly detailed. Square composition with a quiet dark CENTRAL area, mountains framing the center rather than blocking it, bright atmospheric ice details around edges; plenty of legible space for a centered gold logo occupying approximately one third of image width. No people, no watermarks, no UI, no border, no written symbols."
+    },
+    {
+      "key": "banner",
+      "prompt": "Use case: stylized-concept. Generate a WIDE PANORAMIC fantasy environment banner BACKDROP for JDR Runeterra's Foundry RPG system. Supplied logo reference is only for antique-gold and dark-blue brand mood; do not generate any logo or text because the exact original will be composited after. Aspect ratio about 3:1, landscape sweeping Freljord snow mountain range, distant glacier-lit valley, subtle ancient weathered stone architecture, elegant cinematic painterly concept art consistent with League of Legends environment illustrations. Quiet deep navy CENTRAL area for gold logo, icy blue framing silhouettes and finely lit mountains at both sides, warm subtle gold light on a few edges. No characters, no additional objects of focus, no letters, no runic text, no watermark or border. Finished high quality environment art."
+    },
+    {
+      "key": "background",
+      "prompt": "Use case: stylized-concept. Create a premium 16:9 full screen fantasy landscape BACKDROP for the JDR Runeterra Foundry RPG world join screen. Reference image is brand color/mood only; no logo or text painted into the image, original exact gold logo will be added afterward. Freljord's immense icy mountains, misty glacier valley and ancient weathered stone forms, rich cinematic painterly environment concept art inspired by League of Legends. Atmospheric dawn with deep navy and teal shadow, soft ice blue light and restrained golden rim light. Keep the central and lower center mostly quiet, dark and readable behind a login form; detailed impressive landscape on outer thirds. Upper center also has room for an emblem. No characters, no letters, no watermarks, no borders or interface. Wide landscape, beautiful composition, detailed yet restful."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "jdr-runeterra",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build-content.mjs && node tools/pack.mjs",
+    "build:branding": "node tools/build-branding.mjs",
+    "optimize:assets": "node tools/optimize-assets.mjs",
+    "test:assets": "node tools/test-assets-foundry.mjs",
+    "test:foundry": "node tools/test-foundry.mjs",
+    "test:fights": "node tools/test-four-actor-fights.mjs",
+    "release": "node tools/release.mjs"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "playwright": "^1.56.0",
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,9 @@
+* text=auto
+*.mjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+packs/** -text
+*.webp -text
+*.png -text
+*.svg text eol=lf

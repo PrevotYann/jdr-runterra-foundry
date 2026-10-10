@@ -1,0 +1,88 @@
+<div class="rt-shell">
+  <header class="rt-hero">
+    <img class="rt-portrait" src="{{actor.img}}" data-action="editImage" data-edit="img" title="{{localize 'RUNETERRA.Actions.portrait'}}">
+    <div class="rt-identity"><p class="rt-eyebrow">{{localize "RUNETERRA.Title"}}</p><input class="rt-name" name="name" value="{{actor.name}}" aria-label="{{localize 'RUNETERRA.Fields.name'}}">
+      {{#if isCharacter}}<div class="rt-row"><select name="system.species" aria-label="{{localize 'RUNETERRA.Fields.species'}}">{{#each species}}<option value="{{key}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+      <select name="system.subspecies" aria-label="{{localize 'RUNETERRA.Fields.subspecies'}}">{{#each subspecies}}<option value="{{key}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+      <select name="system.region" aria-label="{{localize 'RUNETERRA.Fields.region'}}">{{#each regions}}<option value="{{key}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</select></div>{{else}}<p>{{s.morphology}}</p><small>{{s.environment}}</small>{{/if}}
+    </div>
+    <div class="rt-vital"><span>{{localize "RUNETERRA.Fields.hpTotal"}}</span><strong>{{s.health.value}} <small>/ {{s.health.max}}</small></strong><div class="rt-row"><button type="button" data-action="damage" data-owner title="{{localize 'RUNETERRA.Actions.damage'}}"><i class="fas fa-heart-crack"></i></button><button type="button" data-action="heal" data-owner title="{{localize 'RUNETERRA.Actions.heal'}}"><i class="fas fa-heart"></i></button><button type="button" data-action="rest" data-owner title="{{localize 'RUNETERRA.Actions.rest'}}"><i class="fas fa-moon"></i></button></div></div>
+  </header>
+  <section class="rt-resources">
+    <label>{{localize "RUNETERRA.Fields.baseHP"}}<div><input type="number" min="0" name="system.hp.base" value="{{s.hp.base}}"> / <input type="number" min="0" name="system.hp.baseMax" value="{{s.hp.baseMax}}"></div></label>
+    <label>{{localize "RUNETERRA.Fields.equipmentHP"}}<div><input type="number" min="0" name="system.hp.equipment" value="{{s.hp.equipment}}"> / {{s.equipmentMax}}</div></label>
+    <label>{{localize "RUNETERRA.Fields.bonusHP"}}<input type="number" min="0" name="system.hp.bonus" value="{{s.hp.bonus}}"></label>
+    <label>{{localize "RUNETERRA.Fields.armor"}}{{#if isCreature}}<input type="number" min="0" name="system.armor.rating" value="{{s.armor.rating}}">{{else}}<strong>{{s.armorTotal}}</strong>{{/if}}</label>
+    <label>{{localize "RUNETERRA.Fields.magicResistance"}}{{#if isCreature}}<input type="number" min="0" name="system.magicResistance.rating" value="{{s.magicResistance.rating}}">{{else}}<strong>{{s.rmTotal}}</strong>{{/if}}</label>
+    <label>{{localize "RUNETERRA.Fields.integrity"}}<strong>{{s.integrity.value}} / {{s.integrity.max}}</strong></label>
+  </section>
+  <nav class="rt-tabs" aria-label="{{localize 'RUNETERRA.Fields.sections'}}">{{#each tabs}}<button type="button" data-action="rtTab" data-tab="{{key}}" class="{{#if active}}active{{/if}}">{{label}}</button>{{/each}}</nav>
+  <main class="rt-body">
+    {{#if isCharacter}}<button type="submit" data-owner>{{localize "RUNETERRA.Actions.save"}}</button>{{/if}}
+    <section data-rt-tab="attributes">
+      <div class="rt-section-title"><h2>{{localize "RUNETERRA.Tabs.attributes"}}</h2><button type="button" data-action="dodge" data-owner>{{localize "RUNETERRA.Actions.dodge"}}</button></div>
+      <div class="rt-attributes">{{#each attributes}}<article class="rt-attribute {{#if permanent}}rt-permanent{{/if}}">
+        <button type="button" data-action="roll" data-attribute="{{key}}" data-owner><span>{{label}}{{#if permanent}} <i class="fas fa-lock"></i>{{/if}}</span><strong>{{value}}<small>%</small></strong></button>
+        <div class="rt-row"><label>{{localize "RUNETERRA.Fields.base"}}<input type="number" min="0" max="100" name="system.attributes.{{key}}.base" value="{{base}}" {{#if permanent}}readonly{{/if}}></label><label>{{localize "RUNETERRA.Fields.bonus"}}<input type="number" name="system.attributes.{{key}}.bonus" value="{{bonus}}" {{#if permanent}}readonly{{/if}}></label></div>
+      </article>{{/each}}</div>
+      <div class="rt-section-title"><h2>{{localize "RUNETERRA.Fields.specials"}}</h2><span>{{localize "RUNETERRA.Fields.metabolism"}} : {{s.metabolism}}</span></div>
+      <div class="rt-specials">{{#each specials}}<article class="rt-panel"><input name="system.specials.{{key}}.name" value="{{name}}"><div class="rt-row"><input type="number" min="0" max="100" name="system.specials.{{key}}.value" value="{{value}}"><button type="button" data-action="roll" data-attribute="{{key}}" data-owner><i class="fas fa-dice"></i> {{localize "RUNETERRA.Actions.roll"}}</button></div></article>{{/each}}</div>
+      <div class="rt-panel"><h3>{{localize "RUNETERRA.Fields.resistances"}}</h3><div class="rt-grid">
+        <label>{{localize "RUNETERRA.Fields.nativeArmor"}}<input type="number" min="0" name="system.armor.base" value="{{s.armor.base}}"></label>
+        <label>{{localize "RUNETERRA.Fields.nativeRM"}}<input type="number" min="0" name="system.magicResistance.base" value="{{s.magicResistance.base}}"></label>
+        <label>{{localize "RUNETERRA.Fields.ratingArmor"}}<input type="number" min="0" name="system.armor.rating" value="{{s.armor.rating}}"></label>
+        <label>{{localize "RUNETERRA.Fields.ratingRM"}}<input type="number" min="0" name="system.magicResistance.rating" value="{{s.magicResistance.rating}}"></label>
+        <label>{{localize "RUNETERRA.Fields.persistentArmor"}}<input type="number" min="0" name="system.armor.persistent" value="{{s.armor.persistent}}"></label>
+        <label>{{localize "RUNETERRA.Fields.ephemeralArmor"}}<input type="number" min="0" name="system.armor.ephemeral" value="{{s.armor.ephemeral}}"></label>
+        <label>{{localize "RUNETERRA.Fields.persistentRM"}}<input type="number" min="0" name="system.magicResistance.persistent" value="{{s.magicResistance.persistent}}"></label>
+        <label>{{localize "RUNETERRA.Fields.ephemeralRM"}}<input type="number" min="0" name="system.magicResistance.ephemeral" value="{{s.magicResistance.ephemeral}}"></label>
+      </div></div>
+      {{#if isCharacter}}<div class="rt-panel"><div class="rt-section-title"><h3>{{localize "RUNETERRA.Creation.title"}}</h3>{{#unless s.validated}}<button type="button" data-action="validate" data-owner>{{localize "RUNETERRA.Actions.validate"}}</button>{{/unless}}</div>
+        <label>{{localize "RUNETERRA.Creation.permanent"}}<select name="system.permanentMalus" {{#if s.validated}}disabled{{/if}}>{{#each attributes}}<option value="{{key}}" {{#if permanent}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+        <p>{{#if s.validated}}{{localize "RUNETERRA.Creation.validated"}}{{else}}{{points}} / 600{{/if}}</p>
+        {{#each issues}}<p class="rt-warning">{{this}}</p>{{/each}}
+      </div>{{/if}}
+    </section>
+    <section data-rt-tab="abilities">
+      <div class="rt-section-title"><h2>{{localize "RUNETERRA.Tabs.abilities"}}</h2><button type="button" data-action="addItem" data-owner><i class="fas fa-plus"></i> {{localize "RUNETERRA.Actions.addItem"}}</button></div>
+      <label>{{localize "RUNETERRA.Fields.combatOrder"}}<input type="number" min="0" name="system.combatOrder" value="{{s.combatOrder}}"></label>
+      <label class="rt-panel">{{localize "RUNETERRA.Fields.ultimate"}}<input type="number" min="0" name="system.ultimate" value="{{s.ultimate}}"></label>
+      {{#each groups}}{{#if (rtAbilityGroup type)}}<h3>{{label}}</h3>{{#each items}}<article class="rt-item-card draggable" data-item-id="{{id}}">
+        <img src="{{img}}"><div class="rt-item-info"><button type="button" data-action="editItem">{{name}}</button><small>{{#if isSpecial}}{{s.value}} %{{else}}{{localize "RUNETERRA.Fields.level"}} {{level}} · {{localize "RUNETERRA.Fields.xp"}} {{s.xp}} · {{#if s.remainingCooldown}}{{localize "RUNETERRA.Fields.cooldown"}} {{s.remainingCooldown}}{{/if}}{{/if}}</small></div>
+        <button type="button" data-action="use" data-owner title="{{localize 'RUNETERRA.Actions.use'}}"><i class="fas fa-dice"></i></button><button type="button" data-action="deleteItem" data-owner title="{{localize 'RUNETERRA.Actions.delete'}}"><i class="fas fa-trash"></i></button>
+      </article>{{/each}}{{/if}}{{/each}}
+    </section>
+    <section data-rt-tab="inventory">
+      <div class="rt-section-title"><h2>{{localize "RUNETERRA.Tabs.inventory"}}</h2><span>{{s.usedSlots}} / {{s.capacityMax}} {{localize "RUNETERRA.Fields.slots"}}</span><button type="button" data-action="addItem" data-owner><i class="fas fa-plus"></i></button></div>
+      <div class="rt-panel rt-grid"><label>{{localize "RUNETERRA.Fields.gold"}}<input type="number" min="0" name="system.currency.gold" value="{{s.currency.gold}}"></label><label>{{localize "RUNETERRA.Fields.silver"}}<input type="number" min="0" name="system.currency.silver" value="{{s.currency.silver}}"></label><label>{{localize "RUNETERRA.Fields.counterfeit"}}<input type="number" min="0" name="system.currency.counterfeit" value="{{s.currency.counterfeit}}"></label><label>{{localize "RUNETERRA.Fields.capacity"}}<input type="number" min="0" max="40" name="system.capacity" value="{{s.capacity}}"></label></div>
+      {{#each groups}}{{#unless (rtAbilityGroup type)}}<h3>{{label}}</h3>{{#each items}}<article class="rt-item-card draggable rarity-{{s.rarity}} {{#if s.broken}}rt-broken{{/if}}" data-item-id="{{id}}">
+        <img src="{{img}}"><div class="rt-item-info"><button type="button" data-action="editItem">{{name}}</button><small>×{{s.quantity}} · {{s.slots}} {{localize "RUNETERRA.Fields.slots"}} {{#if s.equipped}}· {{localize "RUNETERRA.Fields.equipped"}}{{/if}} {{#if s.broken}}· {{localize "RUNETERRA.Fields.broken"}}{{/if}}</small></div>
+        {{#if (rtEquippable type)}}<button type="button" data-action="equip" data-owner title="{{localize 'RUNETERRA.Actions.equip'}}"><i class="fas fa-shield"></i></button><button type="button" data-action="repair" data-owner title="{{localize 'RUNETERRA.Actions.repair'}}"><i class="fas fa-hammer"></i></button>{{/if}}
+        <button type="button" data-action="use" data-owner title="{{localize 'RUNETERRA.Actions.use'}}"><i class="fas fa-dice"></i></button><button type="button" data-action="deleteItem" data-owner title="{{localize 'RUNETERRA.Actions.delete'}}"><i class="fas fa-trash"></i></button>
+      </article>{{/each}}{{/unless}}{{/each}}
+      <button type="button" data-action="counterfeit" data-owner>{{localize "RUNETERRA.Actions.counterfeit"}}</button>
+      {{#each s.activeSets}}<div class="rt-panel"><h3>{{id}}</h3><p>{{description}}</p></div>{{/each}}
+    </section>
+    <section data-rt-tab="survival">
+      <button type="button" data-action="care" data-owner>{{localize "RUNETERRA.Actions.bandage"}}</button>
+      <div class="rt-section-title"><h2>{{localize "RUNETERRA.Tabs.survival"}}</h2>{{#if isGM}}<button type="button" data-action="advance">{{localize "RUNETERRA.Actions.advance"}}</button>{{/if}}</div>
+      <div class="rt-panel"><h3>{{localize "RUNETERRA.Fields.cold"}} · {{s.effectiveCold}}</h3><div class="rt-grid">
+        <label>{{localize "RUNETERRA.Fields.ambientCold"}}<input type="number" min="0" max="5" name="system.cold.ambient" value="{{s.cold.ambient}}"></label><label>{{localize "RUNETERRA.Fields.nativeCold"}}<input type="number" min="0" max="4" name="system.cold.native" value="{{s.cold.native}}"></label><label>{{localize "RUNETERRA.Fields.clothingCold"}}<input type="number" min="0" max="4" name="system.cold.clothing" value="{{s.cold.clothing}}"></label>
+      </div><p>{{localize "RUNETERRA.Help.cold"}}</p></div>
+      <div class="rt-panel rt-grid"><label><input type="checkbox" name="system.survival.hungry" {{checked s.survival.hungry}}>{{localize "RUNETERRA.Fields.hungry"}}</label><label><input type="checkbox" name="system.survival.hydrated" {{checked s.survival.hydrated}}>{{localize "RUNETERRA.Fields.hydrated"}}</label><label><input type="checkbox" name="system.survival.fatigued" {{checked s.survival.fatigued}}>{{localize "RUNETERRA.Fields.fatigued"}}</label><label><input type="checkbox" name="system.survival.airborne" {{checked s.survival.airborne}}>{{localize "RUNETERRA.Fields.airborne"}}</label><label>{{localize "RUNETERRA.Fields.hungerHours"}}<input type="number" min="0" name="system.survival.hungerHours" value="{{s.survival.hungerHours}}"></label></div>
+      <div class="rt-section-title"><h3>{{localize "RUNETERRA.Fields.conditions"}}</h3><button type="button" data-action="effect" data-owner>{{localize "RUNETERRA.Actions.condition"}}</button></div>
+      {{#each effects}}<article class="rt-item-card"><img src="{{img}}"><button type="button" data-action="editEffect" data-effect-id="{{id}}">{{name}}</button><button type="button" data-action="removeEffect" data-effect-id="{{id}}" data-owner title="{{localize 'RUNETERRA.Actions.remove'}}"><i class="fas fa-xmark"></i></button></article>{{/each}}
+      <div class="rt-section-title"><h3>{{localize "RUNETERRA.Fields.companions"}}</h3><button type="button" data-action="addCompanion" data-owner><i class="fas fa-plus"></i></button></div>
+      {{#each companions}}<article class="rt-item-card"><img src="{{img}}"><button type="button" data-action="openCompanion" data-uuid="{{uuid}}">{{name}}</button></article>{{/each}}
+    </section>
+    <section data-rt-tab="biography">
+      <label>{{#if isCreature}}{{localize "RUNETERRA.Fields.description"}}{{else}}{{localize "RUNETERRA.Fields.biography"}}{{/if}}</label><prose-mirror class="content-sized" name="system.biography" value="{{s.biography}}" data-document-uuid="{{actor.uuid}}" toggled>{{{description}}}</prose-mirror>
+      <label>{{localize "RUNETERRA.Fields.notes"}}<textarea name="system.notes" rows="5">{{s.notes}}</textarea></label>
+      <div class="rt-grid"><label>{{localize "RUNETERRA.Fields.age"}}<input name="system.age" value="{{s.age}}"></label><label>{{localize "RUNETERRA.Fields.morphology"}}<input name="system.morphology" value="{{s.morphology}}"></label></div>
+      {{#if isCharacter}}<label>{{localize "RUNETERRA.Fields.socialChoice"}}<select name="system.socialChoice">{{selectOptions (rtSocialChoices) selected=s.socialChoice}}</select></label>{{/if}}
+      <label>{{localize "RUNETERRA.Fields.loot"}}<textarea name="system.loot">{{s.loot}}</textarea></label><label>{{localize "RUNETERRA.Fields.taming"}}<textarea name="system.taming">{{s.taming}}</textarea></label><label>{{localize "RUNETERRA.Fields.environment"}}<textarea name="system.environment">{{s.environment}}</textarea></label>
+      {{#if isGM}}<label>{{localize "RUNETERRA.Fields.gmNotes"}}<textarea name="system.gmNotes" rows="6">{{s.gmNotes}}</textarea></label>{{/if}}
+    </section>
+  </main>
+</div>
+

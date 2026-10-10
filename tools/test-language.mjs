@@ -1,0 +1,15 @@
+import {chromium} from "playwright";
+import fs from "node:fs";
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage();
+const errors=[];page.on("pageerror",e=>errors.push(e.message));
+await page.goto("http://localhost:30014",{waitUntil:"networkidle"});
+await page.locator('[name="username"]').fill("Gamemaster");await page.locator('button[name="join"]').click();await page.waitForFunction(()=>game.ready);
+await page.evaluate(()=>game.settings.set("core","language","en"));
+await page.reload({waitUntil:"networkidle"});await page.waitForFunction(()=>game.ready);
+const result=await page.evaluate(()=>({locale:game.i18n.lang,title:game.i18n.localize("RUNETERRA.Title"),force:game.i18n.localize("RUNETERRA.Attributes.force")}));
+if(result.locale!=="en"||result.force!=="Force"||result.title!=="JDR Runeterra"||errors.length)throw new Error(JSON.stringify({result,errors}));
+await page.evaluate(async()=>{await game.settings.set("core","language","fr");let a=game.actors.getName("Hector — Validation");await a.sheet.render({force:true});});
+await page.waitForSelector(".rt-actor");await page.locator(".rt-actor").screenshot({path:"docs/preview-character.png"});
+const validation=JSON.parse(fs.readFileSync("test-results/validation.json","utf8"));validation.languageFallback=result;fs.writeFileSync("test-results/validation.json",JSON.stringify(validation,null,2));
+console.log(JSON.stringify({result,errors}));await browser.close();
