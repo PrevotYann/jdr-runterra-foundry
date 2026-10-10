@@ -12,7 +12,7 @@ https://github.com/PrevotYann/jdr-runterra-foundry/releases/latest/download/syst
 
 Installer **JDR Runeterra**, cr?er un monde et choisir Fran?ais dans les param?tres g?n?raux. Le bouton de mise ? jour de Foundry utilisera cette m?me URL pour les prochaines versions.
 
-Pour une installation manuelle, t?l?charger [l?archive v0.7.0](https://github.com/PrevotYann/jdr-runterra-foundry/releases/download/v0.7.0/jdr-runeterra-0.7.0.zip) et d?compresser son dossier `jdr-runeterra` dans `Data/systems`, Foundry ferm?. Le r?sultat doit ?tre `Data/systems/jdr-runeterra/system.json`.
+Pour une installation manuelle, t?l?charger [l?archive v0.8.0](https://github.com/PrevotYann/jdr-runterra-foundry/releases/download/v0.8.0/jdr-runeterra-0.8.0.zip) et d?compresser son dossier `jdr-runeterra` dans `Data/systems`, Foundry ferm?. Le r?sultat doit ?tre `Data/systems/jdr-runeterra/system.json`.
 
 Ouvrir le compendium **R?gles & aides de jeu ? Aides de jeu ? Prise en main & arbitrages**. L?identifiant du syst?me reste `jdr-runeterra` pour conserver la compatibilit? avec les mondes existants.
 
@@ -24,7 +24,7 @@ Une attaque affiche une seule carte avec son jet, son résultat et ses dégâts,
 
 Le choix du malus permanent déplace immédiatement le cadenas et fixe l’attribut choisi à 10, en lecture seule. Les valeurs de base des deux attributs sont échangées pour conserver la répartition. Ce choix reste modifiable pendant la création et devient fixe après validation.
 
-Les réglages du monde activent ou désactivent l’intégrité, la survie, les progressions et le suivi IRL. Le suivi IRL nécessite un combat actif, non en pause, et un MJ connecté. Les effets de froid utilisent le temps du monde. Le bouton Avancer le temps RP est réservé au MJ.
+Les réglages du monde activent ou désactivent l’intégrité, la survie, les progressions et le suivi IRL. Le suivi IRL nécessite un MJ actif et une partie sans pause. En combat, seul le personnage du tour est suivi. Hors combat, le MJ choisit « Suivre ce personnage en IRL » puis « Arrêter le suivi IRL » dans Survie. Les effets de froid utilisent le temps du monde. Le bouton Avancer le temps RP est réservé au MJ.
 
 Les descriptifs, recettes, dosages, restrictions et dangers restent consultables sur les objets. Les objets particuliers se configurent avec une formule de dégâts/soin, des bonus, une durée, une recharge et des utilisations. Les compétences des PJ sont libres dans la source : leur effet et leurs améliorations se définissent avec le MJ.
 
@@ -61,3 +61,5 @@ Code spécifique sous licence MIT, voir [LICENSE](LICENSE). Les règles, textes,
 Le d?p?t contient les compendiums et illustrations pr?ts ? distribuer. Les sources priv?es et le monde de test sont exclus. `npm ci`, `npm test` et `npm run release` suffisent pour produire une archive sans installation locale de Foundry. La reconstruction du contenu n?cessite les sources originales.
 
 Pour publier une nouvelle version, modifier les versions de `system.json`, `package.json` et `package-lock.json`, puis adapter le lien `download` du manifeste au nouveau tag et au nom de l?archive. Conserver le lien `manifest` vers `releases/latest/download/system.json`. Committer, puis pousser un tag `vX.Y.Z` : le workflow GitHub publie l?archive, son SHA-256 et le manifeste. Foundry proposera ensuite cette version via son bouton de mise ? jour.
+
+La version 0.8.0 ajoute les dégâts mixtes, les variantes, les récompenses uniques, les objets contextuels et les contrôles d’artisanat. Voir [le changelog](docs/changelog.md) et [la validation](docs/rules-validation.md). `npm run test:playable` vérifie les nouveaux parcours dans Foundry 14.368.

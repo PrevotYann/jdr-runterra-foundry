@@ -1,9 +1,11 @@
 import {chat,test,localize as L,exclusive,esc} from "./documents.mjs";
+import {kitConservation} from "./attack-data.mjs";
 import {success} from "./rules.mjs";
-export async function purchase(actor,item,quantity=1) {
+export async function purchase(actor,item,quantity=1,{guildMerchant=false}={}) {
   if(!actor.isOwner||!item||!Number.isInteger(quantity)||quantity<1)return;
   return exclusive(actor,async()=>{
-    const cost=Math.round(item.system.price*quantity*10),available=Math.round(actor.system.currency.gold*10+actor.system.currency.silver);
+    const bargaining=guildMerchant&&actor.items.some(i=>i.system.automation==="bargaining"&&i.system.equipped&&!i.system.broken);
+    const cost=Math.round(item.system.price*quantity*10*(bargaining?0.8:1)),available=Math.round(actor.system.currency.gold*10+actor.system.currency.silver);
     if(available<cost){ui.notifications.warn(L("Errors.purchase"));return;}
     const balance=available-cost;
     const data=item.toObject();delete data._id;delete data.folder;
@@ -35,13 +37,24 @@ export async function counterfeit(actor,{amount=1,rarity="common"}={}) {
   await actor.update({"system.currency.counterfeit":actor.system.currency.counterfeit-amount});
   await chat(actor,L("Actions.counterfeit"),`<p>${amount} · ${L("Results."+result.result)}</p>`);return result;
 }
-export async function craft(actor,item,{profession,ingredients=[],quantity=1}={}) {
+export async function craft(actor,item,{profession,kit,actionLevel=1,ingredients=[],quantity=1,failureLoss,conservation="yield",conversionConfirmed=false}={}) {
   if(!actor.isOwner||!profession||profession.actor!==actor||profession.type!=="profession"||!Number.isInteger(quantity)||quantity<1)return;
-  // Explicit ingredient choice: recipes often use mass/volume rather than an inventory unit.
-  if(ingredients.some(({id,quantity:n})=>!actor.items.has(id)||!Number.isFinite(n)||n<=0||actor.items.get(id).system.quantity<n)){ui.notifications.warn(L("Errors.ingredients"));return;}
-  const result=await profession.use();
-  for(const ingredient of ingredients){const i=actor.items.get(ingredient.id);await i.update({"system.quantity":i.system.quantity-ingredient.quantity});}
+  // The recipe retains its mass/volume. Only a GM-confirmed inventory conversion can spend it.
+  if(!conversionConfirmed||!kit||kit.actor!==actor||kit.system.broken||kit.system.quantity<1||!kit.system.kitKind||kit.system.level<actionLevel||profession.system.level<actionLevel){ui.notifications.warn(L("Errors.craftKit"));return;}
+  if(!Number.isInteger(actionLevel)||actionLevel<1||actionLevel>4||!Number.isFinite(Number(failureLoss))||failureLoss<0||failureLoss>100)return;
+  const required=item.system.crafting?.kitKind||(item.type==="consumable"&&!item.system.food?"alchemy":"");
+  if(required&&kit.system.kitKind!==required||required==="alchemy"&&!/alchim/i.test(profession.name)){ui.notifications.warn(L("Errors.craftKit"));return;}
+  if(item.system.recipe&&!ingredients.length){ui.notifications.warn(L("Errors.ingredients"));return;}
+  return exclusive(actor,async()=>{
+  const ids=new Set();
+  if(ingredients.some(({id,quantity:n})=>ids.has(id)||(ids.add(id),!actor.items.has(id)||!Number.isFinite(n)||n<=0||actor.items.get(id).system.quantity<n))){ui.notifications.warn(L("Errors.ingredients"));return;}
+  const result=await profession._use({practiceLevel:actionLevel});if(!result)return;
+  // The source's "no loss" can describe yield rather than preserved reagents. The GM selects that interpretation.
+  const noLoss=kitConservation(kit.system.kitKind,actionLevel,result.die);
+  const ratio=conservation==="ingredients"&&noLoss?0:success(result.result)?1:Number(failureLoss)/100;
+  for(const ingredient of ingredients){const i=actor.items.get(ingredient.id);await i.update({"system.quantity":Math.max(0,i.system.quantity-ingredient.quantity*ratio)});}
   if(!success(result.result))return result;
   const data=item.toObject();delete data._id;delete data.folder;data.system.quantity=quantity;data.system.equipped=false;data.system.acquired=game.time.worldTime;
-  await actor.createEmbeddedDocuments("Item",[data]);await chat(actor,L("Actions.craft"),`<p>${esc(item.name)} ×${quantity}</p>`);return result;
+  await actor.createEmbeddedDocuments("Item",[data]);await chat(actor,L("Actions.craft"),`<p>${esc(item.name)} ×${quantity} · ${noLoss?L("Messages.noLoss"):L("Messages.gmLoss")}</p>`);return result;
+  });
 }

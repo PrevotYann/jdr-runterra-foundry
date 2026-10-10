@@ -2,7 +2,7 @@
   "id": "jdr-runeterra",
   "title": "JDR Runeterra",
   "description": "Le jeu de rôle de Runeterra — règles françaises, fiches et atlas du Freljord.",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "authors": [
     {
       "name": "JDR Runeterra"
@@ -118,6 +118,6 @@
   ],
   "url": "https://github.com/PrevotYann/jdr-runterra-foundry",
   "manifest": "https://github.com/PrevotYann/jdr-runterra-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/PrevotYann/jdr-runterra-foundry/releases/download/v0.7.0/jdr-runeterra-0.7.0.zip",
+  "download": "https://github.com/PrevotYann/jdr-runterra-foundry/releases/download/v0.8.0/jdr-runeterra-0.8.0.zip",
   "bugs": "https://github.com/PrevotYann/jdr-runterra-foundry/issues"
 }

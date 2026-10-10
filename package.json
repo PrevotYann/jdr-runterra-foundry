@@ -1,6 +1,6 @@
 {
   "name": "jdr-runeterra",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,8 @@
     "test:assets": "node tools/test-assets-foundry.mjs",
     "test:foundry": "node tools/test-foundry.mjs",
     "test:fights": "node tools/test-four-actor-fights.mjs",
-    "release": "node tools/release.mjs"
+    "release": "node tools/release.mjs",
+    "test:playable": "node tools/test-playable-foundry.mjs"
   },
   "devDependencies": {
     "archiver": "^7.0.1",

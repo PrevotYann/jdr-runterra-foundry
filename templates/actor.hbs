@@ -64,6 +64,8 @@
       {{#each s.activeSets}}<div class="rt-panel"><h3>{{id}}</h3><p>{{description}}</p></div>{{/each}}
     </section>
     <section data-rt-tab="survival">
+      <div class="rt-panel rt-grid"><label>{{localize "RUNETERRA.Fields.daysWithoutMeal"}}<input type="number" min="0" name="system.survival.daysWithoutMeal" value="{{s.survival.daysWithoutMeal}}"></label><label>{{localize "RUNETERRA.Fields.waterLitres"}}<input type="number" min="0" step="0.1" name="system.survival.waterLitres" value="{{s.survival.waterLitres}}"></label><label><input type="checkbox" name="system.survival.waterReduced" {{checked s.survival.waterReduced}}>{{localize "RUNETERRA.Fields.waterReduced"}}</label>{{#if isGM}}<button type="button" data-action="solicit">{{localize "RUNETERRA.Actions.solicit"}}</button><button type="button" data-action="stopSolicit">{{localize "RUNETERRA.Actions.stopSolicit"}}</button><button type="button" data-action="injury">{{localize "RUNETERRA.Actions.injury"}}</button>{{/if}}</div>
+
       <button type="button" data-action="care" data-owner>{{localize "RUNETERRA.Actions.bandage"}}</button>
       <div class="rt-section-title"><h2>{{localize "RUNETERRA.Tabs.survival"}}</h2>{{#if isGM}}<button type="button" data-action="advance">{{localize "RUNETERRA.Actions.advance"}}</button>{{/if}}</div>
       <div class="rt-panel"><h3>{{localize "RUNETERRA.Fields.cold"}} · {{s.effectiveCold}}</h3><div class="rt-grid">

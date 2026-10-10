@@ -36,7 +36,8 @@
         },
         "setBonuses": {
           "capacity": 5
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -77,7 +78,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -118,7 +120,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -157,7 +160,8 @@
         },
         "setBonuses": {
           "capacity": 5
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -198,7 +202,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -239,7 +244,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -279,7 +285,8 @@
         },
         "setBonuses": {
           "capacity": 5
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -320,7 +327,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -361,7 +369,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -400,7 +409,8 @@
         },
         "setBonuses": {
           "capacity": 5
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -441,7 +451,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -482,7 +493,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -522,7 +534,8 @@
         },
         "setBonuses": {
           "capacity": 5
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -563,7 +576,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -604,7 +618,8 @@
         },
         "setBonuses": {
           "capacity": 10
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -640,7 +655,8 @@
           "max": 220,
           "indestructible": false,
           "value": 220
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -677,7 +693,8 @@
           "max": 310,
           "indestructible": false,
           "value": 310
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -714,7 +731,8 @@
           "max": 540,
           "indestructible": false,
           "value": 540
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -750,7 +768,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -787,7 +806,8 @@
           "max": 390,
           "indestructible": false,
           "value": 390
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -824,7 +844,8 @@
           "max": 675,
           "indestructible": false,
           "value": 675
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -861,7 +882,8 @@
           "max": 195,
           "indestructible": false,
           "value": 195
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -899,7 +921,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -937,7 +960,8 @@
           "max": 475,
           "indestructible": false,
           "value": 475
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -973,7 +997,8 @@
           "max": 265,
           "indestructible": false,
           "value": 265
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1011,7 +1036,8 @@
           "max": 370,
           "indestructible": false,
           "value": 370
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1049,7 +1075,8 @@
           "max": 645,
           "indestructible": false,
           "value": 645
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1086,7 +1113,8 @@
           "max": 220,
           "indestructible": false,
           "value": 220
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1124,7 +1152,8 @@
           "max": 310,
           "indestructible": false,
           "value": 310
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1162,7 +1191,8 @@
           "max": 540,
           "indestructible": false,
           "value": 540
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1199,7 +1229,8 @@
           "max": 150,
           "indestructible": false,
           "value": 150
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1237,7 +1268,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1275,7 +1307,8 @@
           "max": 455,
           "indestructible": false,
           "value": 455
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1311,7 +1344,8 @@
           "max": 190,
           "indestructible": false,
           "value": 190
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1349,7 +1383,8 @@
           "max": 290,
           "indestructible": false,
           "value": 290
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1387,7 +1422,8 @@
           "max": 570,
           "indestructible": false,
           "value": 570
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1424,7 +1460,8 @@
           "max": 135,
           "indestructible": false,
           "value": 135
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1462,7 +1499,8 @@
           "max": 205,
           "indestructible": false,
           "value": 205
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1500,7 +1538,8 @@
           "max": 400,
           "indestructible": false,
           "value": 400
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1536,7 +1575,8 @@
           "max": 180,
           "indestructible": false,
           "value": 180
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1574,7 +1614,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1612,7 +1653,8 @@
           "max": 540,
           "indestructible": false,
           "value": 540
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1649,7 +1691,8 @@
           "max": 150,
           "indestructible": false,
           "value": 150
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1687,7 +1730,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1725,7 +1769,8 @@
           "max": 455,
           "indestructible": false,
           "value": 455
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1762,7 +1807,8 @@
           "max": 150,
           "indestructible": false,
           "value": 150
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1800,7 +1846,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1838,7 +1885,8 @@
           "max": 455,
           "indestructible": false,
           "value": 455
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1874,7 +1922,8 @@
           "max": 190,
           "indestructible": false,
           "value": 190
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1912,7 +1961,8 @@
           "max": 290,
           "indestructible": false,
           "value": 290
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1950,7 +2000,8 @@
           "max": 570,
           "indestructible": false,
           "value": 570
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -1987,7 +2038,8 @@
           "max": 135,
           "indestructible": false,
           "value": 135
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2025,7 +2077,8 @@
           "max": 205,
           "indestructible": false,
           "value": 205
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2063,7 +2116,8 @@
           "max": 400,
           "indestructible": false,
           "value": 400
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2100,7 +2154,8 @@
           "max": 180,
           "indestructible": false,
           "value": 180
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2138,7 +2193,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2176,7 +2232,8 @@
           "max": 540,
           "indestructible": false,
           "value": 540
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2213,7 +2270,8 @@
           "max": 150,
           "indestructible": false,
           "value": 150
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2251,7 +2309,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2289,7 +2348,8 @@
           "max": 455,
           "indestructible": false,
           "value": 455
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2329,7 +2389,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2370,7 +2431,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2411,7 +2473,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2451,7 +2514,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2492,7 +2556,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2533,7 +2598,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2573,7 +2639,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2614,7 +2681,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2655,7 +2723,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2695,7 +2764,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2736,7 +2806,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2777,7 +2848,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2817,7 +2889,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2858,7 +2931,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2899,7 +2973,8 @@
         },
         "setBonuses": {
           "hp": 15
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2936,7 +3011,8 @@
           "max": 195,
           "indestructible": false,
           "value": 195
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -2974,7 +3050,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3012,7 +3089,8 @@
           "max": 500,
           "indestructible": false,
           "value": 500
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3048,7 +3126,8 @@
           "max": 245,
           "indestructible": false,
           "value": 245
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3086,7 +3165,8 @@
           "max": 345,
           "indestructible": false,
           "value": 345
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3124,7 +3204,8 @@
           "max": 625,
           "indestructible": false,
           "value": 625
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3161,7 +3242,8 @@
           "max": 170,
           "indestructible": false,
           "value": 170
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3199,7 +3281,8 @@
           "max": 240,
           "indestructible": false,
           "value": 240
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3237,7 +3320,8 @@
           "max": 435,
           "indestructible": false,
           "value": 435
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3273,7 +3357,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3310,7 +3395,8 @@
           "max": 325,
           "indestructible": false,
           "value": 325
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3347,7 +3433,8 @@
           "max": 590,
           "indestructible": false,
           "value": 590
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3384,7 +3471,8 @@
           "max": 195,
           "indestructible": false,
           "value": 195
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3422,7 +3510,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3460,7 +3549,8 @@
           "max": 500,
           "indestructible": false,
           "value": 500
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3487,7 +3577,8 @@
         "hp": 100,
         "armor": 100,
         "magicResistance": 100,
-        "slot": "torso"
+        "slot": "torso",
+        "schemaVersion": 2
       }
     },
     {
@@ -3510,7 +3601,8 @@
         "integrity": {
           "indestructible": true
         },
-        "slot": "hands"
+        "slot": "hands",
+        "schemaVersion": 2
       }
     },
     {
@@ -3533,7 +3625,8 @@
         "integrity": {
           "indestructible": true
         },
-        "slot": "torso"
+        "slot": "torso",
+        "schemaVersion": 2
       }
     },
     {
@@ -3571,7 +3664,8 @@
           "max": 0,
           "indestructible": true,
           "value": 0
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3609,7 +3703,8 @@
           "max": 0,
           "indestructible": true,
           "value": 0
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3647,7 +3742,8 @@
           "max": 0,
           "indestructible": true,
           "value": 0
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3685,7 +3781,8 @@
           "max": 0,
           "indestructible": true,
           "value": 0
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3723,7 +3820,8 @@
           "max": 0,
           "indestructible": true,
           "value": 0
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -3751,7 +3849,8 @@
         "bonuses": {
           "charisma": 10
         },
-        "cold": 4
+        "cold": 4,
+        "schemaVersion": 2
       }
     },
     {
@@ -3775,7 +3874,8 @@
           "indestructible": true
         },
         "bonuses": {},
-        "slot": "torso"
+        "slot": "torso",
+        "schemaVersion": 2
       }
     },
     {
@@ -3798,7 +3898,20 @@
         "weaponType": "1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "15",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "15 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Petites Armes de Mêlée (1 Main) [10-20 Or]  5 à 15 DP"
       }
     },
     {
@@ -3821,7 +3934,20 @@
         "weaponType": "2 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Grandes Armes de Mêlée (2 Main) [15-30 Or]  10 à 20 DP"
       }
     },
     {
@@ -3844,7 +3970,20 @@
         "weaponType": "1 Main",
         "damageType": "physical",
         "mode": "ranged",
-        "attribute": "perception"
+        "attribute": "perception",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "15",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "15 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Petites Armes à Distance (1 Main) [10-25 Or]  5 à 15 DP variable selon les munitions"
       }
     },
     {
@@ -3867,7 +4006,20 @@
         "weaponType": "2 Main",
         "damageType": "physical",
         "mode": "ranged",
-        "attribute": "perception"
+        "attribute": "perception",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Grandes Armes à Distance (2 Main) [15-35 Or]  10 à 20 DP variable selon les munitions"
       }
     },
     {
@@ -3889,8 +4041,21 @@
         "rarity": "blue",
         "weaponType": "1 Main",
         "damageType": "magic",
-        "mode": "melee",
-        "attribute": "force"
+        "mode": "magic",
+        "attribute": "concentration",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20 DM"
+          }
+        ],
+        "variants": [],
+        "zone": "area",
+        "conditions": "Petites Armes Magique (1 Main) [15-30 Or]  10 à 20 DM de Zone variable selon le type de magie"
       }
     },
     {
@@ -3912,8 +4077,21 @@
         "rarity": "blue",
         "weaponType": "2 Main",
         "damageType": "magic",
-        "mode": "melee",
-        "attribute": "force"
+        "mode": "magic",
+        "attribute": "concentration",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "25",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "25 DM"
+          }
+        ],
+        "variants": [],
+        "zone": "area",
+        "conditions": "Grandes Armes Magique (2 Main) [20-40 Or]  15 à 25 DM de Zone variable selon le type de magie"
       }
     },
     {
@@ -3936,7 +4114,20 @@
         "weaponType": "Pistolet - Canon Scié - Fusil",
         "damageType": "physical",
         "mode": "ranged",
-        "attribute": "perception"
+        "attribute": "perception",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "30",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "30 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Armes Poudre Ygnovarn (Pistolet - Canon Scié - Fusil) - crées par Wilburn [50-90 Or]  30 DP"
       }
     },
     {
@@ -3950,7 +4141,7 @@
         "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
         "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:3:2:Fidèle Nasil (Fouet",
         "category": "Armes",
-        "damageFormula": "30",
+        "damageFormula": "20",
         "price": 0,
         "recipe": "",
         "dangers": "",
@@ -3959,7 +4150,112 @@
         "weaponType": "Fouet - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20/30 DP"
+          },
+          {
+            "formula": "20",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20/30 DM"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "20/30 DP → 20 + 20/30 DM → 20",
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DP"
+              },
+              {
+                "formula": "20",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DM"
+              }
+            ],
+            "conditions": "Fidèle Nasil (Fouet - 1 Main) à Emir Crownguard - créé à Demacia [300/800/2000 Or]  10/20/30 DP et 10/20/30 DM Ciblé"
+          },
+          {
+            "id": "choice1",
+            "label": "20/30 DP → 20 + 20/30 DM → 30",
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DP"
+              },
+              {
+                "formula": "30",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DM"
+              }
+            ],
+            "conditions": "Fidèle Nasil (Fouet - 1 Main) à Emir Crownguard - créé à Demacia [300/800/2000 Or]  10/20/30 DP et 10/20/30 DM Ciblé"
+          },
+          {
+            "id": "choice2",
+            "label": "20/30 DP → 30 + 20/30 DM → 20",
+            "components": [
+              {
+                "formula": "30",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DP"
+              },
+              {
+                "formula": "20",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DM"
+              }
+            ],
+            "conditions": "Fidèle Nasil (Fouet - 1 Main) à Emir Crownguard - créé à Demacia [300/800/2000 Or]  10/20/30 DP et 10/20/30 DM Ciblé"
+          },
+          {
+            "id": "choice3",
+            "label": "20/30 DP → 30 + 20/30 DM → 30",
+            "components": [
+              {
+                "formula": "30",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DP"
+              },
+              {
+                "formula": "30",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20/30 DM"
+              }
+            ],
+            "conditions": "Fidèle Nasil (Fouet - 1 Main) à Emir Crownguard - créé à Demacia [300/800/2000 Or]  10/20/30 DP et 10/20/30 DM Ciblé"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Fidèle Nasil (Fouet - 1 Main) à Emir Crownguard - créé à Demacia [300/800/2000 Or]  10/20/30 DP et 10/20/30 DM Ciblé"
       }
     },
     {
@@ -3982,7 +4278,20 @@
         "weaponType": "Hache - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Hachoir Incisif (Hache - 1 Main) [80 Or]  20 DP"
       }
     },
     {
@@ -4004,8 +4313,21 @@
         "rarity": "blue",
         "weaponType": "Bâton - 2 Main",
         "damageType": "magic",
-        "mode": "melee",
-        "attribute": "force"
+        "mode": "magic",
+        "attribute": "concentration",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "30",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "30 DM"
+          }
+        ],
+        "variants": [],
+        "zone": "area",
+        "conditions": "Morsvarünn (Bâton - 2 Main) - possédé par Thorva [100 Or]  30 DM de Zone de Givre"
       }
     },
     {
@@ -4019,7 +4341,7 @@
         "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
         "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:3:4:Ofléore (Grand Arc) à Felicia",
         "category": "Armes",
-        "damageFormula": "30",
+        "damageFormula": "15",
         "price": 90,
         "recipe": "",
         "dangers": "",
@@ -4028,7 +4350,49 @@
         "weaponType": "Grand Arc",
         "damageType": "physical",
         "mode": "ranged",
-        "attribute": "perception"
+        "attribute": "perception",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "15",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "15/30 DP"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "15/30 DP → 15",
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15/30 DP"
+              }
+            ],
+            "conditions": "Ofléore (Grand Arc) à Felicia - créé par Felicia [90 Or]  10/15/30 DP par flèches"
+          },
+          {
+            "id": "choice1",
+            "label": "15/30 DP → 30",
+            "components": [
+              {
+                "formula": "30",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15/30 DP"
+              }
+            ],
+            "conditions": "Ofléore (Grand Arc) à Felicia - créé par Felicia [90 Or]  10/15/30 DP par flèches"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Ofléore (Grand Arc) à Felicia - créé par Felicia [90 Or]  10/15/30 DP par flèches"
       }
     },
     {
@@ -4051,7 +4415,20 @@
         "weaponType": "Lance - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Vière Rouge (Lance - 2 Mains) à Obérin - créé par Obérin [100 Or]  20 DP"
       }
     },
     {
@@ -4074,7 +4451,20 @@
         "weaponType": "Épée Longue - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "20",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "20 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Belogure (Épée Longue - 1 Main) à Bronn - créé à Demacia /  20 DP."
       }
     },
     {
@@ -4088,7 +4478,7 @@
         "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
         "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:3:7:Aqua-Lame en Fiole (Épée",
         "category": "Armes",
-        "damageFormula": "20",
+        "damageFormula": "10",
         "price": 300,
         "recipe": "",
         "dangers": "",
@@ -4097,7 +4487,112 @@
         "weaponType": "Épée - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "10",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "10/20 DP"
+          },
+          {
+            "formula": "30",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "30/50 DM"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "10/20 DP → 10 + 30/50 DM → 30",
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10/20 DP"
+              },
+              {
+                "formula": "30",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30/50 DM"
+              }
+            ],
+            "conditions": "Aqua-Lame en Fiole (Épée - 1 Main) - créé à Ionia [300 Or]  10/20 DP et 30/50 DM Ciblé"
+          },
+          {
+            "id": "choice1",
+            "label": "10/20 DP → 10 + 30/50 DM → 50",
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10/20 DP"
+              },
+              {
+                "formula": "50",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30/50 DM"
+              }
+            ],
+            "conditions": "Aqua-Lame en Fiole (Épée - 1 Main) - créé à Ionia [300 Or]  10/20 DP et 30/50 DM Ciblé"
+          },
+          {
+            "id": "choice2",
+            "label": "10/20 DP → 20 + 30/50 DM → 30",
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10/20 DP"
+              },
+              {
+                "formula": "30",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30/50 DM"
+              }
+            ],
+            "conditions": "Aqua-Lame en Fiole (Épée - 1 Main) - créé à Ionia [300 Or]  10/20 DP et 30/50 DM Ciblé"
+          },
+          {
+            "id": "choice3",
+            "label": "10/20 DP → 20 + 30/50 DM → 50",
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10/20 DP"
+              },
+              {
+                "formula": "50",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30/50 DM"
+              }
+            ],
+            "conditions": "Aqua-Lame en Fiole (Épée - 1 Main) - créé à Ionia [300 Or]  10/20 DP et 30/50 DM Ciblé"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Aqua-Lame en Fiole (Épée - 1 Main) - créé à Ionia [300 Or]  10/20 DP et 30/50 DM Ciblé"
       }
     },
     {
@@ -4120,7 +4615,62 @@
         "weaponType": "Dague - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "40",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "40 DP"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "40 DP → 40",
+            "components": [
+              {
+                "formula": "40",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40 DP"
+              }
+            ],
+            "conditions": "Dague Éthérée “Ynshaarum” (Dague - 1 Main) - créé à Noxus [300 Or]  40 DP /60 DB"
+          },
+          {
+            "id": "choice1",
+            "label": "60 DB → 60",
+            "components": [
+              {
+                "formula": "60",
+                "type": "brut",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "60 DB"
+              }
+            ],
+            "conditions": "Dague Éthérée “Ynshaarum” (Dague - 1 Main) - créé à Noxus [300 Or]  40 DP /60 DB"
+          },
+          {
+            "id": "ritual",
+            "label": "Rituel Lame Éthérée",
+            "components": [
+              {
+                "formula": "0",
+                "type": "brut",
+                "penetration": 0
+              }
+            ],
+            "mode": "ritual",
+            "conditions": "Nom : seuil 20 ; nom + essence : seuil 50 (notation -20/-50 à confirmer par le MJ). 50–80 % des PV restants, une fois par combat. Pourcentage et type arbitrés par le MJ."
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Dague Éthérée “Ynshaarum” (Dague - 1 Main) - créé à Noxus [300 Or]  40 DP /60 DB"
       }
     },
     {
@@ -4134,7 +4684,7 @@
         "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
         "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:3:9:Épée Glorieuse (Épée",
         "category": "Armes",
-        "damageFormula": "80",
+        "damageFormula": "40",
         "price": 0,
         "recipe": "",
         "dangers": "",
@@ -4143,7 +4693,49 @@
         "weaponType": "Épée - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "40",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "40/80 DP"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "40/80 DP → 40",
+            "components": [
+              {
+                "formula": "40",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40/80 DP"
+              }
+            ],
+            "conditions": "Épée Glorieuse (Épée - 1 Main) à Cithria - créé à Demacia [Inestimable]  40/80 DP"
+          },
+          {
+            "id": "choice1",
+            "label": "40/80 DP → 80",
+            "components": [
+              {
+                "formula": "80",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40/80 DP"
+              }
+            ],
+            "conditions": "Épée Glorieuse (Épée - 1 Main) à Cithria - créé à Demacia [Inestimable]  40/80 DP"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Épée Glorieuse (Épée - 1 Main) à Cithria - créé à Demacia [Inestimable]  40/80 DP"
       }
     },
     {
@@ -4166,7 +4758,27 @@
         "weaponType": "Hache Élémentaire - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "30",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "30 DP"
+          },
+          {
+            "formula": "10",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "10 DM"
+          }
+        ],
+        "variants": [],
+        "zone": "area",
+        "conditions": "Fende-Flamme (Hache Élémentaire - 1 Main) - créé par Alvar [120 Or]  30 DP et 10 DM Zone"
       }
     },
     {
@@ -4189,7 +4801,9 @@
         "weaponType": "Sceptre - 1 Main",
         "damageType": "magic",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "conditions": "Galidarium (Sceptre - 1 Main ) - héritage de Eldred Crownguard - créé à Demacia [1200/2100 Or]  30/50 RM - 20 % de chance d’annuler totalement une attaque magique"
       }
     },
     {
@@ -4211,7 +4825,9 @@
         "rarity": "blue",
         "weaponType": "Épée Jumelle d’Oczkadrn · Épée - 1 Main",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "conditions": ""
       }
     },
     {
@@ -4233,7 +4849,9 @@
         "rarity": "blue",
         "weaponType": "Bouclier - 1 Main",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "conditions": ""
       }
     },
     {
@@ -4247,7 +4865,7 @@
         "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
         "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:3:14:Oldahviing / Oldahviing de Glace Pure (Hache",
         "category": "Armes",
-        "damageFormula": "50",
+        "damageFormula": "40",
         "price": 0,
         "recipe": "",
         "dangers": "",
@@ -4256,7 +4874,49 @@
         "weaponType": "Hache - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "40",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "40/50 DP"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "40/50 DP → 40",
+            "components": [
+              {
+                "formula": "40",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40/50 DP"
+              }
+            ],
+            "conditions": "Oldahviing / Oldahviing de Glace Pure (Hache - 1 Main) - créé par Ulfriq Guldor [200/2800 Or]  40/50 DP"
+          },
+          {
+            "id": "choice1",
+            "label": "40/50 DP → 50",
+            "components": [
+              {
+                "formula": "50",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40/50 DP"
+              }
+            ],
+            "conditions": "Oldahviing / Oldahviing de Glace Pure (Hache - 1 Main) - créé par Ulfriq Guldor [200/2800 Or]  40/50 DP"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Oldahviing / Oldahviing de Glace Pure (Hache - 1 Main) - créé par Ulfriq Guldor [200/2800 Or]  40/50 DP"
       }
     },
     {
@@ -4278,7 +4938,9 @@
         "rarity": "blue",
         "weaponType": "Épée - 2 Mains",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "conditions": ""
       }
     },
     {
@@ -4301,7 +4963,20 @@
         "weaponType": "Hache - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "40",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "40 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Skalbval (Pourfend-Crâne) (Hache - 2 Mains) - possédé par Vrynna [215 Or]  40 DP"
       }
     },
     {
@@ -4315,7 +4990,7 @@
         "source": "https://docs.google.com/document/d/19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg/edit",
         "reference": "19VoqV6N9Kmo2m3ypyGciReNnoqtA-w8OmdjozhtU7Gg:3:17:Sylfang “Bâton du Druide Perdu” (Bâton",
         "category": "Armes",
-        "damageFormula": "60",
+        "damageFormula": "40",
         "price": 310,
         "recipe": "",
         "dangers": "",
@@ -4323,8 +4998,74 @@
         "rarity": "blue",
         "weaponType": "Bâton - 1 Main",
         "damageType": "magic",
-        "mode": "melee",
-        "attribute": "force"
+        "mode": "magic",
+        "attribute": "concentration",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "40",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "40/60 DM"
+          }
+        ],
+        "variants": [
+          {
+            "id": "sylfang40",
+            "label": "40 DM — ciblé",
+            "components": [
+              {
+                "formula": "40",
+                "type": "magic",
+                "penetration": 0
+              }
+            ],
+            "zone": "torso",
+            "conditions": "Choix de puissance validé par le MJ"
+          },
+          {
+            "id": "sylfang40L",
+            "label": "40 DM — légendaire, zone",
+            "components": [
+              {
+                "formula": "40",
+                "type": "magic",
+                "penetration": 0
+              }
+            ],
+            "zone": "area",
+            "conditions": "Version légendaire requise, validation MJ"
+          },
+          {
+            "id": "sylfang60",
+            "label": "60 DM — ciblé",
+            "components": [
+              {
+                "formula": "60",
+                "type": "magic",
+                "penetration": 0
+              }
+            ],
+            "zone": "torso",
+            "conditions": "Choix de puissance validé par le MJ"
+          },
+          {
+            "id": "sylfang60L",
+            "label": "60 DM — légendaire, zone",
+            "components": [
+              {
+                "formula": "60",
+                "type": "magic",
+                "penetration": 0
+              }
+            ],
+            "zone": "area",
+            "conditions": "Version légendaire requise, validation MJ"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Sylfang “Bâton du Druide Perdu” (Bâton - 1 Main) [310 Or]  40/60 DM Ciblé"
       }
     },
     {
@@ -4347,7 +5088,20 @@
         "weaponType": "Épée - 1 Main",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "30",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "30 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Tranchevif (Épée - 1 Main) à Odvïr - créé par Ulfric Guldor [170 Or]  30 DP"
       }
     },
     {
@@ -4373,7 +5127,20 @@
         "weaponType": "Épée Runique - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "80",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "80 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Daēdraem “Tueuse de Colosse” (Épée Runique - 2 Mains) - créateur inconnu [Inestimable]  80 DP"
       }
     },
     {
@@ -4399,7 +5166,49 @@
         "weaponType": "Set - Unique",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "40",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "40/40 DP"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "40/40 DP → 40",
+            "components": [
+              {
+                "formula": "40",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40/40 DP"
+              }
+            ],
+            "conditions": "Dagues DuCouteau (Set - Unique)  (2 Dagues - 1 Main) 40/40 DP"
+          },
+          {
+            "id": "choice1",
+            "label": "40/40 DP → 40",
+            "components": [
+              {
+                "formula": "40",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "40/40 DP"
+              }
+            ],
+            "conditions": "Dagues DuCouteau (Set - Unique)  (2 Dagues - 1 Main) 40/40 DP"
+          }
+        ],
+        "zone": "torso",
+        "conditions": "Dagues DuCouteau (Set - Unique)  (2 Dagues - 1 Main) 40/40 DP"
       }
     },
     {
@@ -4425,7 +5234,20 @@
         "weaponType": "Épée Nécromant - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "70",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "70 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Épée Perdue d’Oczkadrn (Épée Nécromant - 2 Mains) - créé par Odgaar Oczkermonn [Inestimable]  70 DP Ne peut être tué que par son épée jumelle"
       }
     },
     {
@@ -4451,7 +5273,56 @@
         "weaponType": "Espadon  Glace Pure - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "30",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "30 DP"
+          }
+        ],
+        "variants": [
+          {
+            "id": "choice0",
+            "label": "30 DP → 30",
+            "components": [
+              {
+                "formula": "30",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30 DP"
+              }
+            ],
+            "conditions": "Feulement d’Hiver (Espadon  Glace Pure - 2 Mains) à Brokvar - créé par Joana [2500 Or]  30 DP - 50 DM de Zone - Si ≤ 30 se recouvre totalement de Glace Pure"
+          },
+          {
+            "id": "choice1",
+            "label": "30 DP → 30 + 50 DM → 50",
+            "components": [
+              {
+                "formula": "30",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30 DP"
+              },
+              {
+                "formula": "50",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "50 DM"
+              }
+            ],
+            "conditions": "Feulement d’Hiver (Espadon  Glace Pure - 2 Mains) à Brokvar - créé par Joana [2500 Or]  30 DP - 50 DM de Zone - Si ≤ 30 se recouvre totalement de Glace Pure"
+          }
+        ],
+        "zone": "area",
+        "conditions": "Feulement d’Hiver (Espadon  Glace Pure - 2 Mains) à Brokvar - créé par Joana [2500 Or]  30 DP - 50 DM de Zone - Si ≤ 30 se recouvre totalement de Glace Pure"
       }
     },
     {
@@ -4476,8 +5347,21 @@
         },
         "weaponType": "Harpe Enchantée - 2 Mains",
         "damageType": "magic",
-        "mode": "ranged",
-        "attribute": "perception"
+        "mode": "magic",
+        "attribute": "concentration",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "60",
+            "type": "magic",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "60 DM"
+          }
+        ],
+        "variants": [],
+        "zone": "area",
+        "conditions": "Heeljengdël (Harpe Enchantée - 2 Mains) - créé par Odir Eimüsveg [1200 Or]  60 DM - Boost de +10 Zone/ +20 Ciblé DM les attaques magiques des alliés"
       }
     },
     {
@@ -4503,7 +5387,20 @@
         "weaponType": "Masse Magmatique - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "60",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "60 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Hulg'Alvirr (Masse Magmatique - 2 Mains) - créé par Harold [1800 Or]  60 DP"
       }
     },
     {
@@ -4529,7 +5426,20 @@
         "weaponType": "Épée - 2 Mains",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "80",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "80 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "i     (Épée - 2 Mains) à Alderiate - créé par Meryl [Inestimable]  80 DP"
       }
     },
     {
@@ -4555,7 +5465,20 @@
         "weaponType": "Lance - 2 Mains · 3500*",
         "damageType": "physical",
         "mode": "melee",
-        "attribute": "force"
+        "attribute": "force",
+        "schemaVersion": 2,
+        "components": [
+          {
+            "formula": "80",
+            "type": "physical",
+            "penetration": 0,
+            "penetrating": false,
+            "source": "80 DP"
+          }
+        ],
+        "variants": [],
+        "zone": "torso",
+        "conditions": "Lance de Vargh’Heggen (Perlée*) (Lance - 2 Mains) [3000 (3500*) Or]  80 DP"
       }
     },
     {
@@ -4588,7 +5511,8 @@
           "max": 145,
           "indestructible": false,
           "value": 145
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4620,7 +5544,8 @@
           "max": 180,
           "indestructible": false,
           "value": 180
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4653,7 +5578,8 @@
           "max": 125,
           "indestructible": false,
           "value": 125
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4685,7 +5611,8 @@
           "max": 170,
           "indestructible": false,
           "value": 170
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4717,7 +5644,8 @@
           "max": 145,
           "indestructible": false,
           "value": 145
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4750,7 +5678,8 @@
           "max": 225,
           "indestructible": false,
           "value": 225
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4784,7 +5713,8 @@
           "max": 280,
           "indestructible": false,
           "value": 280
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4818,7 +5748,8 @@
           "max": 195,
           "indestructible": false,
           "value": 195
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4852,7 +5783,8 @@
           "max": 265,
           "indestructible": false,
           "value": 265
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4886,7 +5818,8 @@
           "max": 225,
           "indestructible": false,
           "value": 225
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4920,7 +5853,8 @@
           "max": 450,
           "indestructible": false,
           "value": 450
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4954,7 +5888,8 @@
           "max": 560,
           "indestructible": false,
           "value": 560
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -4988,7 +5923,8 @@
           "max": 390,
           "indestructible": false,
           "value": 390
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5022,7 +5958,8 @@
           "max": 530,
           "indestructible": false,
           "value": 530
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5056,7 +5993,8 @@
           "max": 450,
           "indestructible": false,
           "value": 450
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5089,7 +6027,8 @@
           "max": 150,
           "indestructible": false,
           "value": 150
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5121,7 +6060,8 @@
           "max": 190,
           "indestructible": false,
           "value": 190
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5154,7 +6094,8 @@
           "max": 135,
           "indestructible": false,
           "value": 135
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5186,7 +6127,8 @@
           "max": 180,
           "indestructible": false,
           "value": 180
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5218,7 +6160,8 @@
           "max": 150,
           "indestructible": false,
           "value": 150
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5251,7 +6194,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5285,7 +6229,8 @@
           "max": 290,
           "indestructible": false,
           "value": 290
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5319,7 +6264,8 @@
           "max": 205,
           "indestructible": false,
           "value": 205
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5353,7 +6299,8 @@
           "max": 275,
           "indestructible": false,
           "value": 275
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5387,7 +6334,8 @@
           "max": 230,
           "indestructible": false,
           "value": 230
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5420,7 +6368,8 @@
           "max": 455,
           "indestructible": false,
           "value": 455
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5454,7 +6403,8 @@
           "max": 570,
           "indestructible": false,
           "value": 570
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5488,7 +6438,8 @@
           "max": 400,
           "indestructible": false,
           "value": 400
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5522,7 +6473,8 @@
           "max": 540,
           "indestructible": false,
           "value": 540
-        }
+        },
+        "schemaVersion": 2
       }
     },
     {
@@ -5556,7 +6508,8 @@
           "max": 455,
           "indestructible": false,
           "value": 455
-        }
+        },
+        "schemaVersion": 2
       }
     }
   ],

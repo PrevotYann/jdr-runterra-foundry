@@ -80,7 +80,8 @@
     },
     "Modes": {
       "melee": "Mêlée",
-      "ranged": "À distance"
+      "ranged": "À distance",
+      "magic": "Magie : Concentration"
     },
     "Damage": {
       "physical": "Dégâts physiques (DP)",
@@ -152,7 +153,16 @@
       "bandage": "Faire un bandage",
       "counterfeit": "Utiliser de la fausse monnaie",
       "craft": "Fabriquer",
-      "save": "Enregistrer la fiche"
+      "save": "Enregistrer la fiche",
+      "attacks": "Composantes et variantes",
+      "reward": "Accorder une récompense",
+      "representative": "Valider le représentant",
+      "enchant": "Appliquer un enchantement",
+      "solicit": "Suivre ce personnage en IRL",
+      "stopSolicit": "Arrêter le suivi IRL",
+      "injury": "Conséquence de blessure",
+      "power": "Activer un pouvoir",
+      "addVariant": "Ajouter une variante"
     },
     "Fields": {
       "name": "Nom",
@@ -200,7 +210,7 @@
       "hydrated": "Hydraté",
       "fatigued": "Fatigué",
       "hungerHours": "Heures IRL de faim",
-      "conditions": "États & effets",
+      "conditions": "Conditions et arbitrages",
       "companions": "Compagnons & montures",
       "companion": "Acteur à lier",
       "biography": "Histoire du personnage",
@@ -285,7 +295,48 @@
       "targetMode": "Destinataire des bonus d’attributs",
       "dotKind": "Effet continu appliqué à la cible",
       "dotLevel": "Niveau de l’effet continu (0 = aucun)",
-      "weaponType": "Type d’arme"
+      "weaponType": "Type d’arme",
+      "variant": "Variante",
+      "zone": "Ciblage",
+      "singleUse": "Usage unique (consomme une unité)",
+      "charged": "Version chargée",
+      "originalRarity": "Qualité avant usure ou casse",
+      "worn": "Usé",
+      "enchantmentState": "État des enchantements",
+      "daysWithoutMeal": "Jours RP sans repas",
+      "waterLitres": "Eau bue aujourd’hui (L)",
+      "waterReduced": "Besoin réduit à 0,5 L : jet de Mental réussi",
+      "temporary": "Malus temporaire (arbitrage MJ)",
+      "prosthesis": "Compensation par prothèse",
+      "compensation": "Compensation choisie par le MJ",
+      "target": "Cible",
+      "ritualThreshold": "Seuil du rituel validé par le MJ",
+      "percent": "Pourcentage des PV restants (50–80)",
+      "contextConfirmed": "Conditions vérifiées et choix validé par le MJ",
+      "anticipation": "Bonus pour la prochaine action seulement",
+      "aniviaPrayer": "Prière Anivia",
+      "milestone": "Palier et récompense choisie",
+      "bargaining": "Marchandage (collier porté : +10 Persuasion)",
+      "precise": "Attaque précise en mêlée : Dextérité",
+      "preciseArmor": "Réduire l’ARM de 5 pour cette attaque (conditions validées)",
+      "guildMission": "Action dans une mission de cette guilde",
+      "guildMerchant": "Marchand de la Guilde des Marchands",
+      "kit": "Kit requis et niveau",
+      "failureLoss": "Ingrédients perdus en cas d’échec (%) : choix MJ",
+      "conservation": "Interprétation de « pas de pertes »",
+      "conversionConfirmed": "Recette, quantités et conversion masse/volume vérifiées par le MJ",
+      "incoming": "Attaque entrante (message)",
+      "dodgeWear": "Perte d’IPV/IPVG choisie (5–20)",
+      "powerDuration": "Durée validée par le MJ (secondes ; 0 = permanent)",
+      "defaultAttack": "Attaque principale",
+      "componentCount": "Nombre de composantes",
+      "component": "Composante",
+      "rangeMin": "Fourchette : minimum (facultatif)",
+      "rangeMax": "Fourchette : maximum (facultatif)",
+      "contextReward": "Récompense contextuelle : sélectionner uniquement si applicable",
+      "alreadyGranted": "Déjà accordée avant cette mise à jour : mémoriser sans appliquer",
+      "kitKind": "Capacité de kit",
+      "unknownQuality": "Qualité d’origine à renseigner"
     },
     "Conditions": {
       "bleeding": "Saignement",
@@ -338,7 +389,15 @@
       "undoChanged": "La fiche a changé depuis ces dégâts. Annulation automatique interrompue.",
       "purchase": "Vous n’avez pas assez d’argent.",
       "care": "La cautérisation nécessite Soin de niveau 2.",
-      "ingredients": "Les quantités d’ingrédients sont invalides ou insuffisantes."
+      "ingredients": "Les quantités d’ingrédients sont invalides ou insuffisantes.",
+      "components": "Composantes ou variantes invalides.",
+      "rangeChoice": "Choisissez une valeur dans la fourchette de la source.",
+      "conditions": "Validez les conditions de cette variante.",
+      "gmDecision": "Cet arbitrage nécessite le MJ.",
+      "guildRepresentative": "Niveau légendaire, plus de 10 missions et mission finale requis ; validation MJ.",
+      "craftKit": "Métier, kit, niveau et conversion de recette doivent être vérifiés.",
+      "injury": "Cette conséquence nécessite une validation du MJ.",
+      "enchantmentCapacity": "La rareté de cet objet ne permet pas d’ajouter cet enchantement."
     },
     "Messages": {
       "levelUp": "La compétence gagne un niveau. Ajustez son effet avec le MJ.",
@@ -352,13 +411,24 @@
       "intimidationBonus": "Après l’échec social, la tentative d’intimidation bénéficie de +10.",
       "meleeFailure": "L’attaque de mêlée touche, mais le jet échoue : aucun bonus ni effet de réussite du jet.",
       "attackHit": "L’attaque touche (avant esquive et résistances).",
-      "attackMiss": "L’attaque ne touche pas : aucun dégât à appliquer."
+      "attackMiss": "L’attaque ne touche pas : aucun dégât à appliquer.",
+      "noReward": "Aucune récompense chiffrée non accordée à ce palier.",
+      "guildRepresentative": "Représentant validé : gains financiers du métier doublés, dispense de preuve de compétence ; responsabilités de guilde conservées.",
+      "ritualManual": "Appliquer le pourcentage aux PV restants de la cible après arbitrage du type de dégâts.",
+      "noLoss": "Seuil « pas de pertes » atteint.",
+      "gmLoss": "Pertes selon l’arbitrage saisi.",
+      "kitManual": "Capacités du kit : respecter le niveau et les limites de la source.",
+      "duplicateAttack": "Cette attaque a déjà été appliquée à cette cible."
     },
     "Help": {
       "cold": "Le torse et les jambes déterminent la protection minimale de la tenue. Au niveau 5, aucune protection ne suffit.",
       "materials": "cloth, leather, horn, iron, steel, petricite, carbon, obsidian, relic, trueIce, darkIce, oavir",
       "modifiers": "Liste de bonus : [{\"attribute\":\"force\",\"value\":5}]. La durée est définie sur l’objet.",
-      "ingredients": "Choisissez les ingrédients consommés et leurs quantités. Le MJ valide le dosage de la recette et le niveau du métier requis. Les ingrédients sont consommés même en cas d’échec."
+      "ingredients": "Choisissez les ingrédients et les quantités. Le MJ valide la conversion en unités d’inventaire, le kit et les pertes en cas d’échec ; les masses et volumes de la recette restent visibles.",
+      "attacks": "JSON : components [{formula,type,penetration,penetrating,min,max}], variants [{id,label,components,mode,zone,conditions}], associatedEffects [{status,attribute,value,chance,condition}]. Les bornes demandent un choix avant le jet.",
+      "bookReward": "Une seule option par palier et par personnage. Les bonus contextuels sont mémorisés comme effets sans modifier les attributs ; appliquer le bonus uniquement dans le contexte indiqué.",
+      "recharge": "MJ : vérifier une source magique compatible. Un objet à usage unique ne se recharge pas.",
+      "kitLoss": "Alchimie : sans pertes ≤20/30/50 selon niveau. Chasse : ≤20/40, aucune perte au niveau 3. Rendement ou conservation des ingrédients : arbitrage MJ explicite."
     },
     "Settings": {
       "integrity": "Intégrité des objets (IPV / IPVG)",
@@ -424,6 +494,29 @@
     "Targets": {
       "self": "Utilisateur",
       "targets": "Tokens ciblés"
+    },
+    "Injuries": {
+      "finger": "Doigt amputé : −5 PV de base, −5 Dextérité",
+      "leg": "Jambe amputée : −15 PV de base, −10 Agilité"
+    },
+    "EnchantmentStates": {
+      "active": "Conservé et actif",
+      "inactive": "Conservé, inactif jusqu’à réparation",
+      "lost": "Perdu définitivement"
+    },
+    "Conservation": {
+      "yield": "Pas de pertes de rendement ; ingrédients consommés",
+      "ingredients": "Ingrédients conservés au seuil : arbitrage MJ"
+    },
+    "KitKinds": {
+      "none": "Ressource, aucun kit",
+      "care": "Soin",
+      "sewing": "Couture",
+      "hunting": "Chasse",
+      "fishing": "Pêche",
+      "cooking": "Cuisine",
+      "lockpicking": "Crochetage",
+      "alchemy": "Alchimie"
     }
   }
 }

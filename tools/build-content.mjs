@@ -1,3 +1,4 @@
+import {enrichPacks} from "./playable-content.mjs";
 import fs from "node:fs";
 import crypto from "node:crypto";
 import {ATTRIBUTES,itemIntegrity,SLOTS} from "../scripts/rules.mjs";
@@ -239,8 +240,9 @@ for(const [pack,p] of Object.entries(packs))for(const doc of p.documents) {
   else if(doc.system?.biography)doc.system.biography+=linkHTML;
   else if(doc.pages?.[0])doc.pages[0].text.content+=linkHTML;
 }
+enrichPacks(packs);
 fs.mkdirSync("content",{recursive:true});for(const [key,value] of Object.entries(packs))fs.writeFileSync("content/"+key+".json",JSON.stringify(value,null,2));
 fs.writeFileSync("sources/asset-requests.json",JSON.stringify([...assets.values()],null,2));
 fs.writeFileSync("content/exclusions.json",JSON.stringify(excluded,null,2));
-fs.writeFileSync("content/provenance.json",JSON.stringify({date:"2026-10-09",sourceFolder:"121natkSnxOB76-UAPni6EVpkDrt4u588",documents:sourceIds,assets:[...assets.values()].map(({id,title,path,originalPath})=>({id,title,path,originalPath})),counts:Object.fromEntries(Object.entries(packs).map(([k,p])=>[k,p.documents.length]))},null,2));
+fs.writeFileSync("content/provenance.json",JSON.stringify({date:"2026-10-10",sourceFolder:"121natkSnxOB76-UAPni6EVpkDrt4u588",documents:sourceIds,assets:[...assets.values()].map(({id,title,path,originalPath})=>({id,title,path,originalPath})),counts:Object.fromEntries(Object.entries(packs).map(([k,p])=>[k,p.documents.length]))},null,2));
 console.log(JSON.stringify({counts:Object.fromEntries(Object.entries(packs).map(([k,p])=>[k,p.documents.length])),assets:assets.size,excluded:excluded.length}));

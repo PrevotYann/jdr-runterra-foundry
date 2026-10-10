@@ -17,7 +17,12 @@
         "dangers": "Après plusieurs utilisations peut réduire la puissance des effets. Si non infecté, risque d’infection aggravée.",
         "legal": "Oui.",
         "automation": "antidote",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -37,7 +42,12 @@
         "dangers": "",
         "legal": "Oui, mais surveillé si trouvé dans l’inventaire.",
         "automation": "",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -57,7 +67,12 @@
         "dangers": "Aucun.",
         "legal": "Oui, mais bien qu’elle ne soit pas illégale, elle est très surveillée.",
         "automation": "",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -77,7 +92,12 @@
         "dangers": "> 3 doses, risque de Coma.",
         "legal": "Oui.",
         "automation": "curasom",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -97,7 +117,12 @@
         "dangers": "+ de 1 dose simultanée brûle de l’intérieur et subit -2 PV/H pendant la durée des effets.",
         "legal": "Oui.",
         "automation": "hudvarm",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -117,7 +142,12 @@
         "dangers": "Puissante constipation si ingéré à petite dose (5g) / Mort si ingéré (< 50g).",
         "legal": "Oui.",
         "automation": "pommadarmur",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -137,7 +167,12 @@
         "dangers": "Faire un 100 bloque l’inversement des deux Attributs définitivement.",
         "legal": "Non, drogue.",
         "automation": "rams",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -157,7 +192,12 @@
         "dangers": "Chaque prise supplémentaire sans 1 semaine d’intervalle fait perdre -5 définitivement dans l’Attribut utilisé.",
         "legal": "",
         "automation": "renovis",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -178,7 +218,12 @@
         "legal": "Non, drogue dangereuse.",
         "automation": "rougeVision",
         "healFormula": "20",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -198,7 +243,12 @@
         "dangers": "Absolument aucun, peut être consommé sans modération.",
         "legal": "Oui, la plupart des gens pensent qu’il ne s’agit que d’eau.",
         "automation": "tourneChance",
-        "level": 1
+        "level": 1,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 1
+        }
       }
     },
     {
@@ -218,7 +268,12 @@
         "dangers": "",
         "legal": "Non, cette potion est très surveillée car souvent utilisée par des Assassins et des Voleurs.",
         "automation": "",
-        "level": 2
+        "level": 2,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 2
+        }
       }
     },
     {
@@ -238,7 +293,12 @@
         "dangers": "Si >3 doses, retire -10 PV Global, x2 /doses (ex: -10/-20/-40/-80)",
         "legal": "Oui",
         "automation": "iron",
-        "level": 2
+        "level": 2,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 2
+        }
       }
     },
     {
@@ -258,7 +318,12 @@
         "dangers": "Plonge le consommateur dans un état de délire, d’obsession, agressif, et même ! suicidaire ! si mal dosé.",
         "legal": "Non, mais reste très surveillée. Possession seulement sous haute autorisation.",
         "automation": "",
-        "level": 2
+        "level": 2,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 2
+        }
       }
     },
     {
@@ -278,7 +343,12 @@
         "dangers": "",
         "legal": "Autorisé si justifié / Alchimiste",
         "automation": "",
-        "level": 2
+        "level": 2,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 2
+        }
       }
     },
     {
@@ -298,7 +368,12 @@
         "dangers": "Danger d’empoisonnement grave si ingéré. Peut également fusionner un membre avec de la matière environnante.",
         "legal": "Oui.",
         "automation": "",
-        "level": 2
+        "level": 2,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 2
+        }
       }
     },
     {
@@ -318,7 +393,12 @@
         "dangers": "Fait saigner du nez (-20 PV) et peut vite créer une  dépendance. Faire un jet de Mental après la première dose, puis -5 Mental /doses suivantes. Si échec : -5 PV à chaque même résultat que le nombre du jet loupé tout au long de l’aventure. (Ex : Si 30 en Mental et que le jet fait 21, à chaques prochains 21 perd -5 PV sauf si du Vivacium à été consommé dans la journée). Peut s’en guérir avec du Divina Restrum.",
         "legal": "Non, c’est une drogue uniquement autorisée aux Alchimistes lvl 3.",
         "automation": "vivacium",
-        "level": 2
+        "level": 2,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 2
+        }
       }
     },
     {
@@ -338,7 +418,12 @@
         "dangers": "Si ≥ 80/90, un dragon hostile apparaît. En consommer régulièrement rend aveugle (-05 Perception toutes les 2 doses).",
         "legal": "Oui, autorisée.",
         "automation": "appadragon",
-        "level": 3
+        "level": 3,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 3
+        }
       }
     },
     {
@@ -358,7 +443,12 @@
         "dangers": "Coma (Mourir dans le rêve / 1D100 ≥ 96)  / Délires / Mort (1D100 = 100)",
         "legal": "Oui, seulement si neutre (sans essence infusée), Alchimiste lvl 2 ou autorisation spéciale.",
         "automation": "",
-        "level": 3
+        "level": 3,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 3
+        }
       }
     },
     {
@@ -379,7 +469,12 @@
         "legal": "Oui.",
         "automation": "divina",
         "healFormula": "5",
-        "level": 3
+        "level": 3,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 3
+        }
       }
     },
     {
@@ -399,7 +494,12 @@
         "dangers": "Coma si 1D100 ≥ 96 / Meurt si 1D100 = 100.",
         "legal": "Non.",
         "automation": "",
-        "level": 3
+        "level": 3,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 3
+        }
       }
     },
     {
@@ -419,7 +519,12 @@
         "dangers": "Aucuns.",
         "legal": "Non.",
         "automation": "",
-        "level": 4
+        "level": 4,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 4
+        }
       }
     },
     {
@@ -439,7 +544,12 @@
         "dangers": "Si l’effet se dissipe ou que l'Élixir ne marche pas, risque de coma et de mort.",
         "legal": "",
         "automation": "trueIce",
-        "level": 4
+        "level": 4,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 4
+        }
       }
     },
     {
@@ -459,7 +569,12 @@
         "dangers": "Si une maladie est contractée lors de la prise, elle reste à vie.",
         "legal": "Oui.",
         "automation": "exutoire",
-        "level": 4
+        "level": 4,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 4
+        }
       }
     },
     {
@@ -479,7 +594,12 @@
         "dangers": "",
         "legal": "",
         "automation": "",
-        "level": 4
+        "level": 4,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 4
+        }
       }
     },
     {
@@ -499,7 +619,12 @@
         "dangers": "Si les effets s’estompent et que le corps n’a pas eu le temps de se régénérer, alors les derniers dégats subis s’appliquent même s’ils sont lethal.",
         "legal": "Oui, seulement sous autorisation ou en cas d'extrême nécessité.",
         "automation": "immortal",
-        "level": 4
+        "level": 4,
+        "schemaVersion": 2,
+        "crafting": {
+          "kitKind": "alchemy",
+          "level": 4
+        }
       }
     },
     {
@@ -517,7 +642,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "Parfois toxiques, pouvant rendre malade.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -535,7 +661,8 @@
         "price": 25,
         "recipe": "Perius Modera (Potion) / Rituel des Esprits (Enchantement 4.A.20) /",
         "dangers": "Aucun.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -553,7 +680,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "Une mauvaise manipulation (échec critique sur des Déplacements ou Mouvements) fait exploser toutes les graines (1 DP + 2 DM de feu en Zone /u).",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -571,7 +699,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "Fais vieillir si 1D100 ≥ 90 du nombre d’année entre 90 et 100 (94 = 4 ans)",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -589,7 +718,8 @@
         "price": 50,
         "recipe": "",
         "dangers": "Peut Tuer un homme adulte avec quelques gouttes de son poison. Une seule goutte peut provoquer un Coma.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -607,7 +737,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "Allergies Pollen / Urticaire / En inhaler baisse fortement le système immunitaire",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -625,7 +756,8 @@
         "price": 30,
         "recipe": "Lumeria Serum (0.0) / Antidépresseur (petit remontant de moral sain)",
         "dangers": "Peut provoquer une envie de régurgitation instantané si non préparée.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -643,7 +775,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "Intoxication en surconsommation.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -661,7 +794,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -679,7 +813,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "Trop grande quantité sans préparation peut provoquer un Coma.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -697,7 +832,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -715,7 +851,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "Echoeurant",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -733,7 +870,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "Paralysie temporaire d’un membre ou du cerveau.",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -755,25 +893,36 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Connaissance sur les Bouches de Rakelstake."
+            "text": "Connaissance sur les Bouches de Rakelstake.",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 3,
-            "text": "Connaissance sur  le bateau à réparer au début de l’Olbukrn et prévoir la réparation (voir Quête)"
+            "text": "Connaissance sur  le bateau à réparer au début de l’Olbukrn et prévoir la réparation (voir Quête)",
+            "id": "hours3",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Connaissance sur les cachettes et pièges Troll le long du Canal d’Olbukrn."
+            "text": "Connaissance sur les cachettes et pièges Troll le long du Canal d’Olbukrn.",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Technique pour trouver du bois sur les épaves sous l’eau et le faire sécher pour faire du feu."
+            "text": "Technique pour trouver du bois sur les épaves sous l’eau et le faire sécher pour faire du feu.",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Technique des méthodes de traque de la Griffe Hivernale (-20% de chance de se faire repérer)"
+            "text": "Technique des méthodes de traque de la Griffe Hivernale (-20% de chance de se faire repérer)",
+            "id": "hours8",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -795,41 +944,60 @@
         "milestones": [
           {
             "hours": 1,
-            "text": "Nom en Freljordien et ancien Freljordien des demi-dieux (voir Divinités)"
+            "text": "Nom en Freljordien et ancien Freljordien des demi-dieux (voir Divinités)",
+            "id": "hours1",
+            "rewards": []
           },
           {
             "hours": 2,
-            "text": "Connaissances sur Anivia (voir Wiki)"
+            "text": "Connaissances sur Anivia (voir Wiki)",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 3,
-            "text": "Connaissances sur Ornn (voir Wiki)"
+            "text": "Connaissances sur Ornn (voir Wiki)",
+            "id": "hours3",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Connaissances sur Volibear (voir Wiki)"
+            "text": "Connaissances sur Volibear (voir Wiki)",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Connaissances sur Ildhaurg (livre Unique-4)"
+            "text": "Connaissances sur Ildhaurg (livre Unique-4)",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Connaissances sur la Soeur Phoque (livre Unique-1)"
+            "text": "Connaissances sur la Soeur Phoque (livre Unique-1)",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Connaissances sur Rhond (voir Wiki)"
+            "text": "Connaissances sur Rhond (voir Wiki)",
+            "id": "hours10",
+            "rewards": []
           },
           {
             "hours": 12,
-            "text": "Connaissances sur Haestryr (voir Wiki)"
+            "text": "Connaissances sur Haestryr (voir Wiki)",
+            "id": "hours12",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "Connaissances sur le Kellurel (voir Wiki)"
+            "text": "Connaissances sur le Kellurel (voir Wiki)",
+            "id": "hours14",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -851,17 +1019,24 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Hein ?"
+            "text": "Hein ?",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Mais quoi ?!"
+            "text": "Mais quoi ?!",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Vaste blague et grande perte de temps."
+            "text": "Vaste blague et grande perte de temps.",
+            "id": "hours6",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -880,7 +1055,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "milestones": []
+        "milestones": [],
+        "schemaVersion": 2
       }
     },
     {
@@ -899,7 +1075,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "milestones": []
+        "milestones": [],
+        "schemaVersion": 2
       }
     },
     {
@@ -921,37 +1098,60 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Découverte des Gardiens du Givre et localisation de la Citadelle du Givre."
+            "text": "Découverte des Gardiens du Givre et localisation de la Citadelle du Givre.",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Informations sur Lissandra. (voir PNJ)"
+            "text": "Informations sur Lissandra. (voir PNJ)",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Découverte des points faibles des Gardiens du Givre (+10 DP et DM /attaques)."
+            "text": "Découverte des points faibles des Gardiens du Givre (+10 DP et DM /attaques).",
+            "id": "hours6",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 10,
+                "condition": "Découverte des points faibles des Gardiens du Givre (+10 DP et DM /attaques)."
+              }
+            ]
           },
           {
             "hours": 8,
-            "text": "10H : Découverte d’une Entrée secrète de la Citadelle du Givre."
+            "text": "10H : Découverte d’une Entrée secrète de la Citadelle du Givre.",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 12,
-            "text": "Découverte de l’Abîme Hurlant et de sa Faille du Néant dans les profondeurs."
+            "text": "Découverte de l’Abîme Hurlant et de sa Faille du Néant dans les profondeurs.",
+            "id": "hours12",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "Découverte du secret de Lissandra."
+            "text": "Découverte du secret de Lissandra.",
+            "id": "hours14",
+            "rewards": []
           },
           {
             "hours": 16,
-            "text": "18H :"
+            "text": "18H :",
+            "id": "hours16",
+            "rewards": []
           },
           {
             "hours": 20,
-            "text": ""
+            "text": "",
+            "id": "hours20",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -973,9 +1173,12 @@
         "milestones": [
           {
             "hours": 2,
-            "text": ""
+            "text": "",
+            "id": "hours2",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -997,9 +1200,12 @@
         "milestones": [
           {
             "hours": 2,
-            "text": ""
+            "text": "",
+            "id": "hours2",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1021,9 +1227,12 @@
         "milestones": [
           {
             "hours": 2,
-            "text": ""
+            "text": "",
+            "id": "hours2",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1045,41 +1254,66 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune Neutre (8.1)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune Neutre (8.1).",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Feu (8.2)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Feu (8.2).",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Glace (8.3)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Glace (8.3).",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Vent (8.4)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Vent (8.4).",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Apprend un nouvel Attribut Spécial : Magie Runique à 50 pour permettre d’utiliser les Pierres Runiques. Permet de recharger les Runes Communes proche de sources de magie similaires."
+            "text": "Apprend un nouvel Attribut Spécial : Magie Runique à 50 pour permettre d’utiliser les Pierres Runiques. Permet de recharger les Runes Communes proche de sources de magie similaires.",
+            "id": "hours10",
+            "rewards": []
           },
           {
             "hours": 12,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Foudre (8.5)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Foudre (8.5).",
+            "id": "hours12",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Roche (8.6)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Roche (8.6).",
+            "id": "hours14",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune Aléatoire (8.0)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune Aléatoire (8.0).",
+            "id": "hours14",
+            "rewards": []
           },
           {
             "hours": 18,
-            "text": "Trouve plus facilement les Pierres Runiques Communes et +20 sur les jets de Puissance."
+            "text": "Trouve plus facilement les Pierres Runiques Communes et +20 sur les jets de Puissance.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 20,
+                "condition": "Trouve plus facilement les Pierres Runiques Communes et +20 sur les jets de Puissance."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1101,85 +1335,300 @@
         "milestones": [
           {
             "hours": 1,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Poro."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Poro.",
+            "id": "hours1",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Poro."
+              }
+            ]
           },
           {
             "hours": 2,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Elnük."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Elnük.",
+            "id": "hours2",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Elnük."
+              }
+            ]
           },
           {
             "hours": 3,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Erblent."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Erblent.",
+            "id": "hours3",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Erblent."
+              }
+            ]
           },
           {
             "hours": 4,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Baorgük."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Baorgük.",
+            "id": "hours4",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Baorgük."
+              }
+            ]
           },
           {
             "hours": 5,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Bribucq."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Bribucq.",
+            "id": "hours5",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Bribucq."
+              }
+            ]
           },
           {
             "hours": 6,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Drüvask."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Drüvask.",
+            "id": "hours6",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Drüvask."
+              }
+            ]
           },
           {
             "hours": 7,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Faucon Plume-acier."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Faucon Plume-acier.",
+            "id": "hours7",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Faucon Plume-acier."
+              }
+            ]
           },
           {
             "hours": 8,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hugmunn."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hugmunn.",
+            "id": "hours8",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Hugmunn."
+              }
+            ]
           },
           {
             "hours": 9,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Ugvar."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Ugvar.",
+            "id": "hours9",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Ugvar."
+              }
+            ]
           },
           {
             "hours": 10,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Mouflon Géant."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Mouflon Géant.",
+            "id": "hours10",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Mouflon Géant."
+              }
+            ]
           },
           {
             "hours": 11,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Ibir."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Ibir.",
+            "id": "hours11",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Ibir."
+              }
+            ]
           },
           {
             "hours": 12,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine.",
+            "id": "hours12",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine."
+              }
+            ]
           },
           {
             "hours": 13,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires  sur Pince-Requin."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires  sur Pince-Requin.",
+            "id": "hours13",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires  sur Pince-Requin."
+              }
+            ]
           },
           {
             "hours": 14,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Aigle de l’Augure."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Aigle de l’Augure.",
+            "id": "hours14",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Aigle de l’Augure."
+              }
+            ]
           },
           {
             "hours": 15,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Gekodo."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Gekodo.",
+            "id": "hours15",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Gekodo."
+              }
+            ]
           },
           {
             "hours": 16,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Yadulski."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Yadulski.",
+            "id": "hours16",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Yadulski."
+              }
+            ]
           },
           {
             "hours": 17,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Hystegriffe Marin."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Hystegriffe Marin.",
+            "id": "hours17",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires sur Hystegriffe Marin."
+              }
+            ]
           },
           {
             "hours": 18,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Loup Givrecroc."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Loup Givrecroc.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Loup Givrecroc."
+              }
+            ]
           },
           {
             "hours": 19,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Vers des Glaciers."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Vers des Glaciers.",
+            "id": "hours19",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Vers des Glaciers."
+              }
+            ]
           },
           {
             "hours": 21,
-            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord."
+            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord.",
+            "id": "hours21",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 10,
+                "condition": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1201,37 +1650,54 @@
         "milestones": [
           {
             "hours": 1,
-            "text": "Infos sur l’Amulette d’Anivia (1.1-1/1-2)"
+            "text": "Infos sur l’Amulette d’Anivia (1.1-1/1-2)",
+            "id": "hours1",
+            "rewards": []
           },
           {
             "hours": 2,
-            "text": "Infos sur les Lettres des Conjoints Éternels (1.11)"
+            "text": "Infos sur les Lettres des Conjoints Éternels (1.11)",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Infos sur les Transluiverres (1.14)"
+            "text": "Infos sur les Transluiverres (1.14)",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Infos sur les Indivelliums (1.10)"
+            "text": "Infos sur les Indivelliums (1.10)",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Infos sur le Fourrure de Björld (1.8)"
+            "text": "Infos sur le Fourrure de Björld (1.8)",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Infos sur le Havenbaag (1.21)"
+            "text": "Infos sur le Havenbaag (1.21)",
+            "id": "hours10",
+            "rewards": []
           },
           {
             "hours": 12,
-            "text": "Infos sur la Sphère de Kumbadge (1.29)"
+            "text": "Infos sur la Sphère de Kumbadge (1.29)",
+            "id": "hours12",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "16H : Infos sur “Vörnskrifa” la Pierre de Rhond (1.31)"
+            "text": "16H : Infos sur “Vörnskrifa” la Pierre de Rhond (1.31)",
+            "id": "hours14",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1253,21 +1719,57 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "+5 Charisme ½ Jour"
+            "text": "+5 Charisme ½ Jour",
+            "id": "hours2",
+            "rewards": [
+              {
+                "kind": "attributes",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "+5 Charisme ½ Jour"
+              }
+            ]
           },
           {
             "hours": 3,
-            "text": "+5 Charisme ½ Jour/ Connaissance sur les femmes Freljordiennes"
+            "text": "+5 Charisme ½ Jour/ Connaissance sur les femmes Freljordiennes",
+            "id": "hours3",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "+5 Charisme ½ Jour/ Connaissance sur les femmes Freljordiennes"
+              }
+            ]
           },
           {
             "hours": 4,
-            "text": "05H :"
+            "text": "05H :",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "+5 Charisme (+10 si Freljordien(ne)"
+            "text": "+5 Charisme (+10 si Freljordien(ne)",
+            "id": "hours6",
+            "rewards": [
+              {
+                "kind": "attributes",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "+5 Charisme (+10 si Freljordien(ne)"
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1289,21 +1791,30 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "04H : Connaissances de la Lanterne de la Fournaise (1.10)"
+            "text": "04H : Connaissances de la Lanterne de la Fournaise (1.10)",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Connaissance de Grubgrack et son Hytrollmel (5.0)"
+            "text": "Connaissance de Grubgrack et son Hytrollmel (5.0)",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Connaissance de la Pelle de Passage (1.L-14). Jet de Concentration. Si réussi : Zone Approximative pour trouver Grotte Passage de la Fournaise (voir Doc) au hasard [1D6]"
+            "text": "Connaissance de la Pelle de Passage (1.L-14). Jet de Concentration. Si réussi : Zone Approximative pour trouver Grotte Passage de la Fournaise (voir Doc) au hasard [1D6]",
+            "id": "hours10",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "Connaissances sur les Feux de l’Âtre (voir Lore)"
+            "text": "Connaissances sur les Feux de l’Âtre (voir Lore)",
+            "id": "hours14",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1322,7 +1833,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "milestones": []
+        "milestones": [],
+        "schemaVersion": 2
       }
     },
     {
@@ -1341,7 +1853,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "milestones": []
+        "milestones": [],
+        "schemaVersion": 2
       }
     },
     {
@@ -1363,33 +1876,66 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Apprend les bases sur les Griffons. (voir Griffon)"
+            "text": "Apprend les bases sur les Griffons. (voir Griffon)",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Apprend les bases sur les Griffons Furieux. (voir Griffon Furieux)"
+            "text": "Apprend les bases sur les Griffons Furieux. (voir Griffon Furieux)",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Apprend le savoir nécessaire sur les Bébés Griffons. (voir Griffon Bébé)"
+            "text": "Apprend le savoir nécessaire sur les Bébés Griffons. (voir Griffon Bébé)",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Découvre les Zones où vivent les Griffons (+20% de chance d’en trouver dans son Environnement)."
+            "text": "Découvre les Zones où vivent les Griffons (+20% de chance d’en trouver dans son Environnement).",
+            "id": "hours8",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 20,
+                "condition": "Découvre les Zones où vivent les Griffons (+20% de chance d’en trouver dans son Environnement)."
+              }
+            ]
           },
           {
             "hours": 14,
-            "text": "Nouvel Attribut Spécial - Dressage Griffon à 60."
+            "text": "Nouvel Attribut Spécial - Dressage Griffon à 60.",
+            "id": "hours14",
+            "rewards": []
           },
           {
             "hours": 18,
-            "text": "+10 à Dressage Griffon."
+            "text": "+10 à Dressage Griffon.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 10,
+                "condition": "+10 à Dressage Griffon."
+              }
+            ]
           },
           {
             "hours": 22,
-            "text": "+10 à Dressage Griffon."
+            "text": "+10 à Dressage Griffon.",
+            "id": "hours22",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 10,
+                "condition": "+10 à Dressage Griffon."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1411,49 +1957,84 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune Neutre Avancée (8.1)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune Neutre Avancée (8.1).",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune d’Ombre Avancée (8.7)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune d’Ombre Avancée (8.7).",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Nature (8.8)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Nature (8.8).",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Plasma (8.9)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Plasma (8.9).",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Magma (8.10)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Magma (8.10).",
+            "id": "hours10",
+            "rewards": []
           },
           {
             "hours": 12,
-            "text": "Gagne +15 en Magie Runique (Attribut Spécial). Permet de recharger les Runes Avancées proche de sources de magie similaires."
+            "text": "Gagne +15 en Magie Runique (Attribut Spécial). Permet de recharger les Runes Avancées proche de sources de magie similaires.",
+            "id": "hours12",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 15,
+                "condition": "Gagne +15 en Magie Runique (Attribut Spécial). Permet de recharger les Runes Avancées proche de sources de magie similaires."
+              }
+            ]
           },
           {
             "hours": 14,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Métal (8.11)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Métal (8.11).",
+            "id": "hours14",
+            "rewards": []
           },
           {
             "hours": 16,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Son (8.12)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Son (8.12).",
+            "id": "hours16",
+            "rewards": []
           },
           {
             "hours": 18,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Temps (8.13)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Temps (8.13).",
+            "id": "hours18",
+            "rewards": []
           },
           {
             "hours": 20,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune d’Attraction (8.14)."
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune d’Attraction (8.14).",
+            "id": "hours20",
+            "rewards": []
           },
           {
             "hours": 22,
-            "text": "Trouve plus facilement les Pierres Runiques Avancée et +05 fix sur les jets de Puissance."
+            "text": "Trouve plus facilement les Pierres Runiques Avancée et +05 fix sur les jets de Puissance.",
+            "id": "hours22",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Trouve plus facilement les Pierres Runiques Avancée et +05 fix sur les jets de Puissance."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1475,101 +2056,357 @@
         "milestones": [
           {
             "hours": 1,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Arpeka."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Arpeka.",
+            "id": "hours1",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Arpeka."
+              }
+            ]
           },
           {
             "hours": 2,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Félice (Rare+)."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Félice (Rare+).",
+            "id": "hours2",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Félice (Rare+)."
+              }
+            ]
           },
           {
             "hours": 3,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Loup Givrepelage."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Loup Givrepelage.",
+            "id": "hours3",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Loup Givrepelage."
+              }
+            ]
           },
           {
             "hours": 4,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Rooye des Neiges."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Rooye des Neiges.",
+            "id": "hours4",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Rooye des Neiges."
+              }
+            ]
           },
           {
             "hours": 5,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Saurien des Glaces."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Saurien des Glaces.",
+            "id": "hours5",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Saurien des Glaces."
+              }
+            ]
           },
           {
             "hours": 6,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Basilic  des Montagnes."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Basilic  des Montagnes.",
+            "id": "hours6",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Basilic  des Montagnes."
+              }
+            ]
           },
           {
             "hours": 7,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Bribucq (Rare)."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Bribucq (Rare).",
+            "id": "hours7",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Bribucq (Rare)."
+              }
+            ]
           },
           {
             "hours": 8,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Poromite."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Poromite.",
+            "id": "hours8",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Poromite."
+              }
+            ]
           },
           {
             "hours": 9,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Spnetyrr."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Spnetyrr.",
+            "id": "hours9",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Spnetyrr."
+              }
+            ]
           },
           {
             "hours": 10,
-            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord."
+            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord.",
+            "id": "hours10",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 10,
+                "condition": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord."
+              }
+            ]
           },
           {
             "hours": 11,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Jern."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Jern.",
+            "id": "hours11",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Jern."
+              }
+            ]
           },
           {
             "hours": 12,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Grellfeen."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Grellfeen.",
+            "id": "hours12",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires sur Grellfeen."
+              }
+            ]
           },
           {
             "hours": 13,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Peko."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Peko.",
+            "id": "hours13",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Peko."
+              }
+            ]
           },
           {
             "hours": 14,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Phoque Nain."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Phoque Nain.",
+            "id": "hours14",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Phoque Nain."
+              }
+            ]
           },
           {
             "hours": 15,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Navillon."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Navillon.",
+            "id": "hours15",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Navillon."
+              }
+            ]
           },
           {
             "hours": 16,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Givreharpie."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Givreharpie.",
+            "id": "hours16",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Givreharpie."
+              }
+            ]
           },
           {
             "hours": 17,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Dormdümnd."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Dormdümnd.",
+            "id": "hours17",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Dormdümnd."
+              }
+            ]
           },
           {
             "hours": 18,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Yéti."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Yéti.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires sur Yéti."
+              }
+            ]
           },
           {
             "hours": 19,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Griffeur Alpha."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Griffeur Alpha.",
+            "id": "hours19",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Griffeur Alpha."
+              }
+            ]
           },
           {
             "hours": 20,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Ugvar Royal."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Ugvar Royal.",
+            "id": "hours20",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires sur Ugvar Royal."
+              }
+            ]
           },
           {
             "hours": 21,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Goyuzi♀️."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Goyuzi♀️.",
+            "id": "hours21",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Goyuzi♀️."
+              }
+            ]
           },
           {
             "hours": 22,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine des Neiges."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine des Neiges.",
+            "id": "hours22",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine des Neiges."
+              }
+            ]
           },
           {
             "hours": 23,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Griffon."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Griffon.",
+            "id": "hours23",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Griffon."
+              }
+            ]
           },
           {
             "hours": 25,
-            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Rares et Rares + du Freljord."
+            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Rares et Rares + du Freljord.",
+            "id": "hours25",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 10,
+                "condition": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Rares et Rares + du Freljord."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1591,21 +2428,30 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Informations sur la Soeur Phoque, la cause de sa disparition."
+            "text": "Informations sur la Soeur Phoque, la cause de sa disparition.",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Découverte de l’Eau Pure."
+            "text": "Découverte de l’Eau Pure.",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 7,
-            "text": "Information sur les Pèlerins Oubliés."
+            "text": "Information sur les Pèlerins Oubliés.",
+            "id": "hours7",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Information sur la localisation des Plaines Oubliées."
+            "text": "Information sur la localisation des Plaines Oubliées.",
+            "id": "hours10",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1627,9 +2473,12 @@
         "milestones": [
           {
             "hours": 0,
-            "text": "Infos sur la Grotte du Tertre Secret de Serylda."
+            "text": "Infos sur la Grotte du Tertre Secret de Serylda.",
+            "id": "hours0",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1648,7 +2497,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "milestones": []
+        "milestones": [],
+        "schemaVersion": 2
       }
     },
     {
@@ -1670,25 +2520,36 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Découverte de Glaserport, Information et Localisation."
+            "text": "Découverte de Glaserport, Information et Localisation.",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 3,
-            "text": "Connaissances des coutumes de la tribu Hargvonn et des zones pour se cacher."
+            "text": "Connaissances des coutumes de la tribu Hargvonn et des zones pour se cacher.",
+            "id": "hours3",
+            "rewards": []
           },
           {
             "hours": 5,
-            "text": "Connaissance de la puissance d’un Darkin (Aatrox)"
+            "text": "Connaissance de la puissance d’un Darkin (Aatrox)",
+            "id": "hours5",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Connaissance des capacités de Tryndamere et de l’origine de la Fiole de l’Immortelle."
+            "text": "Connaissance des capacités de Tryndamere et de l’origine de la Fiole de l’Immortelle.",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": ""
+            "text": "",
+            "id": "hours8",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1707,7 +2568,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "milestones": []
+        "milestones": [],
+        "schemaVersion": 2
       }
     },
     {
@@ -1729,41 +2591,138 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Nordique Commun."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Nordique Commun.",
+            "id": "hours2",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Nordique Commun."
+              }
+            ]
           },
           {
             "hours": 4,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Drèvain Couronné."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Drèvain Couronné.",
+            "id": "hours4",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Drèvain Couronné."
+              }
+            ]
           },
           {
             "hours": 6,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Orük Roc à Bec."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Orük Roc à Bec.",
+            "id": "hours6",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Orük Roc à Bec."
+              }
+            ]
           },
           {
             "hours": 8,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Krill Grazier à Cornes."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Krill Grazier à Cornes.",
+            "id": "hours8",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Krill Grazier à Cornes."
+              }
+            ]
           },
           {
             "hours": 10,
-            "text": "Informations et +10 Interaction (situationnel) sur Tribu Lorkak."
+            "text": "Informations et +10 Interaction (situationnel) sur Tribu Lorkak.",
+            "id": "hours10",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 10,
+                "condition": "Informations et +10 Interaction (situationnel) sur Tribu Lorkak."
+              }
+            ]
           },
           {
             "hours": 12,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Mothdragon."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Mothdragon.",
+            "id": "hours12",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Mothdragon."
+              }
+            ]
           },
           {
             "hours": 14,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Éclat Perlé Albinos."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Éclat Perlé Albinos.",
+            "id": "hours14",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Éclat Perlé Albinos."
+              }
+            ]
           },
           {
             "hours": 16,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Éclat Perlé Bleu du Grand-Nord."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Éclat Perlé Bleu du Grand-Nord.",
+            "id": "hours16",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Éclat Perlé Bleu du Grand-Nord."
+              }
+            ]
           },
           {
             "hours": 18,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Boadir à la Glace Noire."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Boadir à la Glace Noire.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Boadir à la Glace Noire."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1785,29 +2744,48 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Information sur l’Onn’Vana (Note Doc)"
+            "text": "Information sur l’Onn’Vana (Note Doc)",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Information sur l’Oavir (10.?) et l'existence des Outils d’Oavir pour forger cette matière."
+            "text": "Information sur l’Oavir (10.?) et l'existence des Outils d’Oavir pour forger cette matière.",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Information sur la Plume d’Onn’Vana (L-17) et sa magie spirituelle unique de vérité et d’anticipation."
+            "text": "Information sur la Plume d’Onn’Vana (L-17) et sa magie spirituelle unique de vérité et d’anticipation.",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Information sur la région ou possiblement en trouver (Côtes rocheuses des Plaines Oubliées-Mer du Phoque)"
+            "text": "Information sur la région ou possiblement en trouver (Côtes rocheuses des Plaines Oubliées-Mer du Phoque)",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Information sur les différentes façon de la faire apparaître : Parmi ces 5 éléments, certaines combinaisons marchent mais s'annulent si un autre élément s’y ajoute (non déterminé pour le moment)."
+            "text": "Information sur les différentes façon de la faire apparaître : Parmi ces 5 éléments, certaines combinaisons marchent mais s'annulent si un autre élément s’y ajoute (non déterminé pour le moment).",
+            "id": "hours10",
+            "rewards": []
           },
           {
             "hours": 12,
-            "text": "Bonus d’interaction avec l’Onn’Vana de +20"
+            "text": "Bonus d’interaction avec l’Onn’Vana de +20",
+            "id": "hours12",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 20,
+                "condition": "Bonus d’interaction avec l’Onn’Vana de +20"
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1829,41 +2807,72 @@
         "milestones": [
           {
             "hours": 2,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune Neutre Complexe (8.1)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune Neutre Complexe (8.1)",
+            "id": "hours2",
+            "rewards": []
           },
           {
             "hours": 4,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Fusion (8.15)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Fusion (8.15)",
+            "id": "hours4",
+            "rewards": []
           },
           {
             "hours": 6,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Sang (8.16)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Sang (8.16)",
+            "id": "hours6",
+            "rewards": []
           },
           {
             "hours": 8,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Lumière (8.17)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Lumière (8.17)",
+            "id": "hours8",
+            "rewards": []
           },
           {
             "hours": 10,
-            "text": "Gagne +20 en Magie Runique (Attribut Spécial) et permet d’utiliser les Pierres Runiques Communes et  Avancées en Complexes. Permet de recharger les Runes Complexes proches des sources de même magie."
+            "text": "Gagne +20 en Magie Runique (Attribut Spécial) et permet d’utiliser les Pierres Runiques Communes et  Avancées en Complexes. Permet de recharger les Runes Complexes proches des sources de même magie.",
+            "id": "hours10",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 20,
+                "condition": "Gagne +20 en Magie Runique (Attribut Spécial) et permet d’utiliser les Pierres Runiques Communes et  Avancées en Complexes. Permet de recharger les Runes Complexes proches des sources de même magie."
+              }
+            ]
           },
           {
             "hours": 12,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Son (8.18)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Son (8.18)",
+            "id": "hours12",
+            "rewards": []
           },
           {
             "hours": 14,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Vision Spirituelle (8.19)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Vision Spirituelle (8.19)",
+            "id": "hours14",
+            "rewards": []
           },
           {
             "hours": 16,
-            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Temps (8.20)"
+            "text": "Infos et ne brise pas si ≤ 20 sur Rune de Temps (8.20)",
+            "id": "hours16",
+            "rewards": []
           },
           {
             "hours": 18,
-            "text": "Trouve plus facilement les Pierres Runiques Avancée et +20 sur les jets de Puissance."
+            "text": "Trouve plus facilement les Pierres Runiques Avancée et +20 sur les jets de Puissance.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 20,
+                "condition": "Trouve plus facilement les Pierres Runiques Avancée et +20 sur les jets de Puissance."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1885,73 +2894,255 @@
         "milestones": [
           {
             "hours": 1,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Félice (Rare+++)."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Félice (Rare+++).",
+            "id": "hours1",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Félice (Rare+++)."
+              }
+            ]
           },
           {
             "hours": 2,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Buu Fish."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Buu Fish.",
+            "id": "hours2",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Buu Fish."
+              }
+            ]
           },
           {
             "hours": 3,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Goyuzi♂️."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Goyuzi♂️.",
+            "id": "hours3",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Goyuzi♂️."
+              }
+            ]
           },
           {
             "hours": 4,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Givreharpie Argentée."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Givreharpie Argentée.",
+            "id": "hours4",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Givreharpie Argentée."
+              }
+            ]
           },
           {
             "hours": 5,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Narval Doré."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Narval Doré.",
+            "id": "hours5",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Narval Doré."
+              }
+            ]
           },
           {
             "hours": 7,
-            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord."
+            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord.",
+            "id": "hours7",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 10,
+                "condition": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Communes du Freljord."
+              }
+            ]
           },
           {
             "hours": 8,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine Royale."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine Royale.",
+            "id": "hours8",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Hyve Bovine Royale."
+              }
+            ]
           },
           {
             "hours": 9,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Griffon Furieux."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Griffon Furieux.",
+            "id": "hours9",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Griffon Furieux."
+              }
+            ]
           },
           {
             "hours": 10,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Trevnskaald."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Trevnskaald.",
+            "id": "hours10",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Trevnskaald."
+              }
+            ]
           },
           {
             "hours": 11,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Croquin Affamé."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Croquin Affamé.",
+            "id": "hours11",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires sur Croquin Affamé."
+              }
+            ]
           },
           {
             "hours": 12,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Jern Blanc."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Jern Blanc.",
+            "id": "hours12",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Jern Blanc."
+              }
+            ]
           },
           {
             "hours": 14,
-            "text": "Toutes les connaissances et +10 Charisme et Chasse sur les bêtes Rares et Rares + du Freljord."
+            "text": "Toutes les connaissances et +10 Charisme et Chasse sur les bêtes Rares et Rares + du Freljord.",
+            "id": "hours14",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 10,
+                "condition": "Toutes les connaissances et +10 Charisme et Chasse sur les bêtes Rares et Rares + du Freljord."
+              }
+            ]
           },
           {
             "hours": 15,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Abravif des Neiges."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Abravif des Neiges.",
+            "id": "hours15",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Abravif des Neiges."
+              }
+            ]
           },
           {
             "hours": 16,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Drüvask Royal."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Drüvask Royal.",
+            "id": "hours16",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Drüvask Royal."
+              }
+            ]
           },
           {
             "hours": 17,
-            "text": "Informations et +5 Charisme, Dressage et Chasse sur Strigiserre des Neiges."
+            "text": "Informations et +5 Charisme, Dressage et Chasse sur Strigiserre des Neiges.",
+            "id": "hours17",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 5,
+                "condition": "Informations et +5 Charisme, Dressage et Chasse sur Strigiserre des Neiges."
+              }
+            ]
           },
           {
             "hours": 18,
-            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Hrimdyr."
+            "text": "Informations et +5 Chasse et Dégâts supplémentaires sur Hrimdyr.",
+            "id": "hours18",
+            "rewards": [
+              {
+                "kind": "context",
+                "amount": 5,
+                "condition": "Informations et +5 Chasse et Dégâts supplémentaires sur Hrimdyr."
+              }
+            ]
           },
           {
             "hours": 20,
-            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Rares++ et Rares +++ du Freljord."
+            "text": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Rares++ et Rares +++ du Freljord.",
+            "id": "hours20",
+            "rewards": [
+              {
+                "kind": "context",
+                "keys": [
+                  "charisma"
+                ],
+                "amount": 10,
+                "condition": "Toutes les connaissances et +10 Charisme, Dressage et Chasse sur les bêtes Rares++ et Rares +++ du Freljord."
+              }
+            ]
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1973,9 +3164,12 @@
         "milestones": [
           {
             "hours": 2,
-            "text": ""
+            "text": "",
+            "id": "hours2",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -1997,9 +3191,12 @@
         "milestones": [
           {
             "hours": 2,
-            "text": ""
+            "text": "",
+            "id": "hours2",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -2021,17 +3218,50 @@
         "milestones": [
           {
             "hours": 10,
-            "text": "+5 dans l’attribut Spécial 1 ou +1 LVL Spécial 1"
+            "text": "+5 dans l’attribut Spécial 1 ou +1 LVL Spécial 1",
+            "id": "hours10",
+            "rewards": [
+              {
+                "kind": "special",
+                "key": "first",
+                "amount": 5,
+                "condition": "+5 dans l’attribut Spécial 1 ou +1 LVL Spécial 1"
+              },
+              {
+                "kind": "level",
+                "key": "first",
+                "amount": 1,
+                "condition": "+5 dans l’attribut Spécial 1 ou +1 LVL Spécial 1"
+              }
+            ]
           },
           {
             "hours": 6,
-            "text": "+10 dans l’attribut Spécial 2 ou +1 LVL Spécial 2"
+            "text": "+10 dans l’attribut Spécial 2 ou +1 LVL Spécial 2",
+            "id": "hours6",
+            "rewards": [
+              {
+                "kind": "special",
+                "key": "second",
+                "amount": 10,
+                "condition": "+10 dans l’attribut Spécial 2 ou +1 LVL Spécial 2"
+              },
+              {
+                "kind": "level",
+                "key": "second",
+                "amount": 1,
+                "condition": "+10 dans l’attribut Spécial 2 ou +1 LVL Spécial 2"
+              }
+            ]
           },
           {
             "hours": 8,
-            "text": "Apprend une nouvelle information capitale pour la quête perso."
+            "text": "Apprend une nouvelle information capitale pour la quête perso.",
+            "id": "hours8",
+            "rewards": []
           }
-        ]
+        ],
+        "schemaVersion": 2
       }
     },
     {
@@ -2049,7 +3279,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2067,7 +3298,8 @@
         "price": 1,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2085,7 +3317,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2103,7 +3336,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2121,7 +3355,8 @@
         "price": 6,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2139,7 +3374,8 @@
         "price": 9,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2157,7 +3393,8 @@
         "price": 14,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2175,7 +3412,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2193,7 +3431,8 @@
         "price": 30,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2211,7 +3450,8 @@
         "price": 30,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2229,7 +3469,8 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2247,7 +3488,8 @@
         "price": 0.2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2265,7 +3507,8 @@
         "price": 1,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2283,7 +3526,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2301,7 +3545,8 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2319,7 +3564,8 @@
         "price": 0.2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2337,7 +3583,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2355,7 +3602,8 @@
         "price": 25,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2373,7 +3621,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2391,7 +3640,8 @@
         "price": 1,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2409,7 +3659,8 @@
         "price": 4,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2427,7 +3678,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2445,7 +3697,8 @@
         "price": 20,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2463,7 +3716,8 @@
         "price": 6,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2481,7 +3735,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2499,7 +3754,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2517,7 +3773,8 @@
         "price": 20,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2535,7 +3792,8 @@
         "price": 50,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2553,7 +3811,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2571,7 +3830,8 @@
         "price": 8,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2589,7 +3849,8 @@
         "price": 20,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2607,7 +3868,8 @@
         "price": 25,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2625,7 +3887,8 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2643,7 +3906,8 @@
         "price": 4,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2661,7 +3925,8 @@
         "price": 30,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2679,7 +3944,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2697,7 +3963,8 @@
         "price": 35,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2715,7 +3982,8 @@
         "price": 40,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2733,7 +4001,8 @@
         "price": 7,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2751,7 +4020,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2769,7 +4039,8 @@
         "price": 125,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2787,7 +4058,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2805,7 +4077,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2823,7 +4096,8 @@
         "price": 200,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2841,7 +4115,8 @@
         "price": 350,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2859,7 +4134,8 @@
         "price": 70,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2877,7 +4153,8 @@
         "price": 350,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2895,7 +4172,8 @@
         "price": 280,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2913,7 +4191,8 @@
         "price": 100,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2931,7 +4210,8 @@
         "price": 200,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2949,7 +4229,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -2970,7 +4251,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "5"
+        "healFormula": "5",
+        "schemaVersion": 2
       }
     },
     {
@@ -2991,7 +4273,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3013,7 +4296,8 @@
         "food": true,
         "foodKind": "vegetable",
         "healFormula": "0",
-        "hydration": 1
+        "hydration": 1,
+        "schemaVersion": 2
       }
     },
     {
@@ -3035,7 +4319,8 @@
         "food": true,
         "foodKind": "vegetable",
         "healFormula": "0",
-        "hydration": 1
+        "hydration": 1,
+        "schemaVersion": 2
       }
     },
     {
@@ -3056,7 +4341,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3077,7 +4363,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3098,7 +4385,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3119,7 +4407,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3140,7 +4429,8 @@
         "legal": "",
         "food": true,
         "foodKind": "vegetable",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3161,7 +4451,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3182,7 +4473,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3203,7 +4495,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3224,7 +4517,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3245,7 +4539,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3266,7 +4561,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3287,7 +4583,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3308,7 +4605,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3329,7 +4627,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3350,7 +4649,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3371,7 +4671,8 @@
         "legal": "",
         "food": true,
         "foodKind": "meat",
-        "healFormula": "0"
+        "healFormula": "0",
+        "schemaVersion": 2
       }
     },
     {
@@ -3389,7 +4690,8 @@
         "price": 1,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3407,7 +4709,9 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2,
+        "kitKind": "hunting"
       }
     },
     {
@@ -3425,7 +4729,8 @@
         "price": 1,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3443,7 +4748,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3461,7 +4767,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3479,7 +4786,9 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2,
+        "kitKind": "sewing"
       }
     },
     {
@@ -3497,7 +4806,9 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2,
+        "kitKind": "cooking"
       }
     },
     {
@@ -3515,7 +4826,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3533,7 +4845,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3551,7 +4864,8 @@
         "price": 0.2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3569,7 +4883,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3587,7 +4902,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3605,7 +4921,8 @@
         "price": 15,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3623,7 +4940,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3641,7 +4959,9 @@
         "price": 6,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2,
+        "kitKind": "alchemy"
       }
     },
     {
@@ -3659,7 +4979,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3677,7 +4998,8 @@
         "price": 0.2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3695,7 +5017,8 @@
         "price": 0.1,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3713,7 +5036,8 @@
         "price": 2,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3731,7 +5055,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3749,7 +5074,8 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3767,7 +5093,8 @@
         "price": 5,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3785,7 +5112,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3803,7 +5131,8 @@
         "price": 25,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3821,7 +5150,8 @@
         "price": 100,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3839,7 +5169,8 @@
         "price": 9,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3857,7 +5188,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3875,7 +5207,8 @@
         "price": 50,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3893,7 +5226,8 @@
         "price": 0,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3911,7 +5245,8 @@
         "price": 90,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3929,7 +5264,8 @@
         "price": 70,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3947,7 +5283,8 @@
         "price": 3,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3965,7 +5302,8 @@
         "price": 25,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -3983,7 +5321,8 @@
         "price": 10,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -4001,7 +5340,8 @@
         "price": 14,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -4019,7 +5359,8 @@
         "price": 40,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -4037,7 +5378,8 @@
         "price": 20,
         "recipe": "",
         "dangers": "",
-        "legal": ""
+        "legal": "",
+        "schemaVersion": 2
       }
     },
     {
@@ -4057,7 +5399,8 @@
         "dangers": "",
         "legal": "",
         "rarity": "blue",
-        "healFormula": "1"
+        "healFormula": "1",
+        "schemaVersion": 2
       }
     },
     {
@@ -4077,7 +5420,8 @@
         "dangers": "",
         "legal": "",
         "rarity": "blue",
-        "healFormula": "3"
+        "healFormula": "3",
+        "schemaVersion": 2
       }
     },
     {
@@ -4096,7 +5440,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4115,7 +5460,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4134,7 +5480,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4153,7 +5500,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4172,7 +5520,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4191,7 +5540,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4210,7 +5560,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4229,7 +5580,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4248,7 +5600,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4267,7 +5620,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4286,7 +5640,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4305,7 +5660,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4324,7 +5680,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4343,7 +5700,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4362,7 +5720,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4381,7 +5740,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4400,7 +5760,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4420,7 +5781,8 @@
         "dangers": "",
         "legal": "",
         "rarity": "blue",
-        "healFormula": "40"
+        "healFormula": "40",
+        "schemaVersion": 2
       }
     },
     {
@@ -4439,7 +5801,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4458,7 +5821,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4477,7 +5841,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4496,7 +5861,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4515,7 +5881,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4534,7 +5901,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4553,7 +5921,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4572,7 +5941,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4591,7 +5961,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4610,7 +5981,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4629,7 +6001,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4648,7 +6021,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4667,7 +6041,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4686,7 +6061,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4705,7 +6081,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4724,7 +6101,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4743,7 +6121,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4762,7 +6141,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     },
     {
@@ -4781,7 +6161,8 @@
         "recipe": "",
         "dangers": "",
         "legal": "",
-        "rarity": "blue"
+        "rarity": "blue",
+        "schemaVersion": 2
       }
     }
   ],

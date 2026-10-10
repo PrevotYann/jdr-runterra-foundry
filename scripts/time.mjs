@@ -16,6 +16,15 @@ async function processTick(actor,seconds,{combat=false,realtime=false,worldTime=
   const s=actor.system;
   const updates={};
   if(!realtime&&s.survival.fatigued&&s.survival.fatigueUntil>0&&worldTime>=s.survival.fatigueUntil){updates["system.survival.fatigued"]=false;updates["system.survival.fatigueUntil"]=0;}
+  if(!realtime&&setting("survival")&&seconds>0){
+    const mealElapsed=s.survival.mealElapsed+seconds,days=Math.floor(mealElapsed/86400);
+    updates["system.survival.mealElapsed"]=mealElapsed%86400;
+    updates["system.survival.daysWithoutMeal"]=s.survival.daysWithoutMeal+days;
+    if(s.survival.daysWithoutMeal+days>=1)updates["system.survival.hungry"]=true;
+    const waterElapsed=s.survival.waterElapsed+seconds;
+    if(waterElapsed>=86400){updates["system.survival.waterLitres"]=0;updates["system.survival.hydrated"]=false;updates["system.survival.waterReduced"]=false;}
+    updates["system.survival.waterElapsed"]=waterElapsed%86400;
+  }
   let damage=0;
   for(const effect of actor.effects.filter(e=>e.active)) {
     if(!actor.effects.has(effect.id))continue;
@@ -76,6 +85,7 @@ async function processTick(actor,seconds,{combat=false,realtime=false,worldTime=
     const elapsed=s.survival.activeSeconds+seconds,count=Math.floor(elapsed/3600);
     updates["system.survival.activeSeconds"]=elapsed%3600;
     updates["system.survival.hungerHours"]=s.survival.hungerHours+count;
+    updates["system.survival.depletionHours"]=s.survival.depletionHours+(s.effective.force<=0?count:0);
     damage+=count*(s.effective.force<=0?20:10)*(s.survival.hydrated?0.5:1);
   }
   if(damage)await actor.applyDamage(damage,{type:"neutral",zone:"area"});
@@ -100,6 +110,7 @@ export function registerTime() {
     if(combat.round===0){
       await (combatTicks.get(combat.id)||Promise.resolve()).catch(console.error);
       await combat.update({"flags.jdr-runeterra.processedRound":0},{render:false});
+      for(const actor of new Set(combat.combatants.map(c=>c.actor).filter(Boolean)))for(const item of actor.items)if(item.getFlag("jdr-runeterra","ritualCombat")===combat.id)await item.unsetFlag("jdr-runeterra","ritualCombat");
       return;
     }
     if(!combat.started||combat.round<=1)return;
@@ -116,8 +127,9 @@ export function registerTime() {
   });
   // Explicitly enabled by the GM, and only the currently solicited actor accumulates IRL time.
   setInterval(async()=>{
-    if(!primaryGM()||!setting("realtime")||!game.combat?.started||busy||game.paused)return;
-    const actor=game.combat.combatant?.actor;if(!actor)return;
+    if(!primaryGM()||!game.socket?.connected||!setting("realtime")||busy||game.paused)return;
+    const selected=game.settings.get("jdr-runeterra","solicitedActor");
+    const actor=game.combat?.started?game.combat.combatant?.actor:selected?await fromUuid(selected):null;if(!actor)return;
     busy=true;try{await tickActor(actor,10,{realtime:true});}finally{busy=false;}
   },10000);
 }

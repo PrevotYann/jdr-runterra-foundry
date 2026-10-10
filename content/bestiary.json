@@ -48,7 +48,20 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Attaque et agrippe sa proie avec ses serres (15 DP"
           }
         }
       ]
@@ -130,7 +143,7 @@
       "items": [
         {
           "_id": "323496c3c8a8c954",
-          "name": "Fuyant, mais peut attaquer en situation de danger. Charge ",
+          "name": "Charge",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/11yGR6P9L05Qb6y6XIVcWxbTXDLIDBIYu.webp",
           "system": {
@@ -139,7 +152,20 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": charger avec son crâne et ses bois (15 DP)"
           }
         }
       ]
@@ -192,7 +218,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-15 DP",
+                "min": 10,
+                "max": 15
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "Peut vite se sentir en danger. Charge violente : Peut empaler avec ses défenses et/ou ses dents (10-15 DP).  Ont du mal à saisir des choses avec leurs dents."
           }
         }
       ]
@@ -321,7 +362,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-15 DP",
+                "min": 10,
+                "max": 15
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Attaque en plein vol (10-15 DP)"
           }
         }
       ]
@@ -365,30 +421,148 @@
       "items": [
         {
           "_id": "8fb252badefe5ea3",
-          "name": "Craintif mais curieux. Jet d’encre ",
+          "name": "Jet d’encre",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/157ziGFwDcgeF1b1Nylaib4b1pWBzROGq.webp",
           "system": {
             "description": "<p>Craintif mais curieux. Jet d’encre : Aveugle et réduit la magie (dans l’air : 15 DM ciblé</p>",
-            "attribute": "force",
+            "attribute": "concentration",
             "damageFormula": "15",
             "damageType": "magic",
-            "mode": "melee",
-            "slots": 0
+            "mode": "magic",
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false
+              }
+            ],
+            "variants": [
+              {
+                "id": "air",
+                "label": "Dans l’air — 15 DM ciblés",
+                "components": [
+                  {
+                    "formula": "15",
+                    "type": "magic",
+                    "penetration": 0,
+                    "penetrating": false
+                  }
+                ],
+                "zone": "torso"
+              },
+              {
+                "id": "water",
+                "label": "Dans l’eau — 25 DM de zone",
+                "components": [
+                  {
+                    "formula": "25",
+                    "type": "magic",
+                    "penetration": 0,
+                    "penetrating": false
+                  }
+                ],
+                "zone": "area"
+              },
+              {
+                "id": "absorption5",
+                "label": "Zone d’Absorption — 5 RM (cibler le Gekodo)",
+                "components": [
+                  {
+                    "formula": "0",
+                    "type": "magic",
+                    "penetration": 0
+                  }
+                ],
+                "zone": "torso",
+                "associatedEffects": [
+                  {
+                    "resistance": "magicResistance",
+                    "value": 5,
+                    "condition": "Sur lui-même ; durée validée par le MJ"
+                  }
+                ],
+                "conditions": "Le Gekodo doit être la cible"
+              },
+              {
+                "id": "absorption10",
+                "label": "Zone d’Absorption — 10 RM (dans l’eau, cibler les bénéficiaires)",
+                "components": [
+                  {
+                    "formula": "0",
+                    "type": "magic",
+                    "penetration": 0
+                  }
+                ],
+                "zone": "area",
+                "associatedEffects": [
+                  {
+                    "resistance": "magicResistance",
+                    "value": 10,
+                    "condition": "Protection de zone dans l’eau ; durée validée par le MJ"
+                  }
+                ],
+                "conditions": "Dans l’eau uniquement"
+              }
+            ],
+            "zone": "torso",
+            "associatedEffects": [
+              {
+                "attribute": "perception",
+                "value": -30,
+                "optional": true,
+                "condition": "Jet d’encre : aveuglement temporaire, durée choisie par le MJ"
+              },
+              {
+                "status": "blind",
+                "optional": true,
+                "condition": "Aveuglement temporaire décidé par le MJ"
+              }
+            ],
+            "conditions": ": Aveugle et réduit la magie (dans l’air : 15 DM ciblé"
           }
         },
         {
           "_id": "7091ddae9f3ba88c",
-          "name": "dans l’eau ",
+          "name": "Jet d’encre — dans l’eau",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/157ziGFwDcgeF1b1Nylaib4b1pWBzROGq.webp",
           "system": {
             "description": "<p>dans l’eau : 25 DM de zone</p>",
-            "attribute": "force",
+            "attribute": "concentration",
             "damageFormula": "25",
             "damageType": "magic",
-            "mode": "melee",
-            "slots": 0
+            "mode": "magic",
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "25",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "25 DM"
+              }
+            ],
+            "variants": [],
+            "zone": "area",
+            "conditions": ": 25 DM de zone",
+            "associatedEffects": [
+              {
+                "attribute": "perception",
+                "value": -30,
+                "optional": true,
+                "condition": "Jet d’encre : aveuglement temporaire, durée choisie par le MJ"
+              },
+              {
+                "status": "blind",
+                "optional": true,
+                "condition": "Aveuglement temporaire décidé par le MJ"
+              }
+            ]
           }
         }
       ]
@@ -432,7 +606,7 @@
       "items": [
         {
           "_id": "cbd24e2d9603936d",
-          "name": "Se baladent en groupe, la reine est souvent au centre et protégé. relativement i",
+          "name": "relativement i",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/1uv3I9Vg0RVMSeMCjmZZt58yRytvRBZW3.webp",
           "system": {
@@ -441,7 +615,20 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "mprévisible. Attaque coordonnée : attaquent à plusieur une même cible ce qui empêche l’esquive totale (10 DP /u) /"
           }
         }
       ]
@@ -494,7 +681,24 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "dot": {
+              "kind": "poison",
+              "level": 1
+            },
+            "conditions": ": Griffes venimeuses (10 DP + Poison Lvl 1)"
           }
         },
         {
@@ -508,7 +712,20 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": S'agrippent fermement avec leur mâchoire dentelées (15 DP"
           }
         },
         {
@@ -522,7 +739,9 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "conditions": ""
           }
         }
       ]
@@ -575,7 +794,64 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-15 DP",
+                "min": 10,
+                "max": 15
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "10-15 DP → 10",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10-15 DP",
+                    "min": 10,
+                    "max": 15
+                  }
+                ],
+                "conditions": "dans son quotidien. Charge Volatile : Charge en battant des ailes pour donner plus d’impulsion (10-15 DP + 5-10 DP si empalé avec ses cornes)"
+              },
+              {
+                "id": "choice1",
+                "label": "10-15 DP → 10 + 5-10 DP → 5",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10-15 DP",
+                    "min": 10,
+                    "max": 15
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  }
+                ],
+                "conditions": "dans son quotidien. Charge Volatile : Charge en battant des ailes pour donner plus d’impulsion (10-15 DP + 5-10 DP si empalé avec ses cornes)"
+              }
+            ],
+            "zone": "torso",
+            "conditions": "dans son quotidien. Charge Volatile : Charge en battant des ailes pour donner plus d’impulsion (10-15 DP + 5-10 DP si empalé avec ses cornes)"
           }
         },
         {
@@ -589,7 +865,62 @@
             "damageFormula": "5",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5-10 DP",
+                "min": 5,
+                "max": 10
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "5-10 DP → 5",
+                "components": [
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  }
+                ],
+                "conditions": ": Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
+              },
+              {
+                "id": "choice1",
+                "label": "5-10 DP → 5 + 10 DP → 10",
+                "components": [
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  },
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10 DP"
+                  }
+                ],
+                "conditions": ": Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
+              }
+            ],
+            "zone": "area",
+            "conditions": ": Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
           }
         }
       ]
@@ -680,7 +1011,29 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DP"
+              },
+              {
+                "formula": "5",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5-10 DM",
+                "min": 5,
+                "max": 10
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "ossède des capacités de magie de glace. Morsure glacée : Plante sa mâchoire glacée dans un membre lui permet de le refroidir (10 DP + 5-10 DM"
           }
         }
       ]
@@ -724,7 +1077,7 @@
       "items": [
         {
           "_id": "6db05fd9bb04978b",
-          "name": "Très aléatoire selon leur caractère, mais généralement inoffensif. Parfois ils a",
+          "name": "Parfois ils a",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/1ftimgyJwn_7rwEq8wrtiKpkvUpH7laE2.webp",
           "system": {
@@ -733,7 +1086,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "iment se battre mais sans animosité forcément. Charge : (10-20 DP"
           }
         },
         {
@@ -747,7 +1115,22 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15-25 DP",
+                "min": 15,
+                "max": 25
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": (15-25 DP)"
           }
         },
         {
@@ -761,7 +1144,22 @@
             "damageFormula": "20",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20-40 DP",
+                "min": 20,
+                "max": 40
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": (20-40 DP"
           }
         }
       ]
@@ -805,7 +1203,7 @@
       "items": [
         {
           "_id": "64709b27c522da15",
-          "name": "Inoffensif pour les hommes mais attaquent en groupe les bateaux en bois. Coup de",
+          "name": "Coup de",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/11TQoCDODQzcZcx9_1VGzVSkohVadKHGW.webp",
           "system": {
@@ -814,7 +1212,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "pince géante : Peu puissant sur les êtres vivants (10-20 DP"
           }
         },
         {
@@ -828,7 +1241,22 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15-25 DP",
+                "min": 15,
+                "max": 25
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Peu puissant sur les êtres vivants (15-25 DP"
           }
         }
       ]
@@ -916,10 +1344,30 @@
           "system": {
             "description": "<p>Inoffensif mais peut donner un coup de pince aléatoirement sans réellement l&#39;intention d’attaquer. Coup de pince : 05 DP (ajoute +0.5 DP /u)</p>",
             "attribute": "force",
-            "damageFormula": "05",
+            "damageFormula": "5",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "05 DP"
+              },
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "ention d’attaquer. Coup de pince : 05 DP (ajoute +0.5 DP /u)"
           }
         }
       ]
@@ -963,7 +1411,7 @@
       "items": [
         {
           "_id": "89e0fca8afd2d5ee",
-          "name": "Très agressif et solitaire sauf pour se reproduire. Il attaque à vue et possède ",
+          "name": "Il attaque à vue et possède",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/1x15DRKnlzl0DNX04vZgksKh6pVp9XDwj.webp",
           "system": {
@@ -972,7 +1420,31 @@
             "damageFormula": "5",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5-15 DP",
+                "min": 5,
+                "max": 15
+              },
+              {
+                "formula": "5",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5-10 DM",
+                "min": 5,
+                "max": 10
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "de la magie de glace. Morsure Glaciale : fais une morsure glaciale (5-15 DP + 5-10 DM)"
           }
         },
         {
@@ -986,7 +1458,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "area",
+            "conditions": ": Propulse une pointe de sa carapace (10-20 DP de zone)"
           }
         },
         {
@@ -996,11 +1483,24 @@
           "img": "systems/jdr-runeterra/assets/drive/1x15DRKnlzl0DNX04vZgksKh6pVp9XDwj.webp",
           "system": {
             "description": "<p>Impulsion Cardiaque : Créer une forte impulsion par son cœur de glace qui gèle l&#39;environnement autour de lui (30 DM de Zone</p>",
-            "attribute": "force",
+            "attribute": "concentration",
             "damageFormula": "30",
             "damageType": "magic",
-            "mode": "melee",
-            "slots": 0
+            "mode": "magic",
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "30",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30 DM"
+              }
+            ],
+            "variants": [],
+            "zone": "area",
+            "conditions": ": Créer une forte impulsion par son cœur de glace qui gèle l'environnement autour de lui (30 DM de Zone"
           }
         },
         {
@@ -1014,7 +1514,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": S’enrouler autour de sa cible et la broie en la transperçant avec ses pointes (10-20 DP"
           }
         },
         {
@@ -1028,7 +1543,20 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ""
           }
         }
       ]
@@ -1148,16 +1676,29 @@
       "items": [
         {
           "_id": "85adf9c213e958eb",
-          "name": "Craintif mais pas agressif sauf pour protéger ses proches. Bond foudroyant ",
+          "name": "Bond foudroyant",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/133YNobh4FLRHVB_4L8UHOF_gPKK08vsc.webp",
           "system": {
             "description": "<p>Craintif mais pas agressif sauf pour protéger ses proches. Bond foudroyant : Saute et provoque à son atterrissage l’effet d’un éclair qui éclate (30 DM de Zone)</p>",
-            "attribute": "force",
+            "attribute": "concentration",
             "damageFormula": "30",
             "damageType": "magic",
-            "mode": "melee",
-            "slots": 0
+            "mode": "magic",
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "30",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30 DM"
+              }
+            ],
+            "variants": [],
+            "zone": "area",
+            "conditions": ": Saute et provoque à son atterrissage l’effet d’un éclair qui éclate (30 DM de Zone)"
           }
         },
         {
@@ -1171,7 +1712,29 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-15 DP",
+                "min": 10,
+                "max": 15
+              },
+              {
+                "formula": "10",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DM"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Blesse physiquement et émet une décharge électrique (10-15 DP et 10 DM - engourdit le membre)"
           }
         },
         {
@@ -1185,7 +1748,34 @@
             "damageFormula": "10",
             "damageType": "magic",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DM"
+              },
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "05 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "associatedEffects": [
+              {
+                "status": "restrained",
+                "chance": 50,
+                "condition": "La queue attrape la cible"
+              }
+            ],
+            "conditions": ": Fouette avec sa queue et peut attraper sa cible avec (10 DM et 05 DP - 50% entrave)."
           }
         }
       ]
@@ -1305,7 +1895,7 @@
       "items": [
         {
           "_id": "f43c3b16f74c37f3",
-          "name": "Ce stade d’évolution le rend plus agressif. Moustache Antenne longues ",
+          "name": "Moustache Antenne longues",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/12dbMC7yaUc4Es1KgnWKiDAVSrigYCitR.webp",
           "system": {
@@ -1314,7 +1904,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Peut détecter des mouvements de forme de vie à 10 km à la ronde. Vive allure chargée : Est presque impossible à saisir à main nu et nage de 0 à 100 km/h en moins d’1 seconde percute sa cible (10-20 DP"
           }
         }
       ]
@@ -1367,7 +1972,24 @@
             "damageFormula": "20",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "dot": {
+              "kind": "bleeding",
+              "level": 2
+            },
+            "conditions": ": (20 DP - Saignement niveau 2)"
           }
         }
       ]
@@ -1563,7 +2185,7 @@
       "items": [
         {
           "_id": "18cec3db44ac3d6b",
-          "name": "Peut éviter une attaque si une offrande d’un aliment inconnu lui est offerte. Vo",
+          "name": "Vo",
           "type": "weapon",
           "img": "systems/jdr-runeterra/assets/drive/130ruXFDZ_BBdSn0hZaXHx80GX56oRtfB.webp",
           "system": {
@@ -1572,7 +2194,27 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              },
+              {
+                "formula": "15",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": true,
+                "source": "15 PM"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "ix hypnotique : Manipule par sa magie de communication (Possession). Affamé : Mange sans cesse (15 DP et 15 PM"
           }
         }
       ]
@@ -1625,7 +2267,20 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": 15 DP"
           }
         },
         {
@@ -1639,7 +2294,20 @@
             "damageFormula": "20",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Saute et plaque brutalement sa cible (20 DP"
           }
         }
       ]
@@ -1996,7 +2664,20 @@
             "damageFormula": "20",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": (20 DP"
           }
         }
       ]
@@ -2087,7 +2768,22 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15-20 DP",
+                "min": 15,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Claque sa gueule acérées de dents (15-20 DP"
           }
         }
       ]
@@ -2140,7 +2836,27 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DP"
+              },
+              {
+                "formula": "10",
+                "type": "magic",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DM"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Plante ses crocs dans la chaire pour goûter au sang de sa cible (10 DP et 10 DM"
           }
         },
         {
@@ -2154,7 +2870,63 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "15 DP → 15",
+                "components": [
+                  {
+                    "formula": "15",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "15 DP"
+                  }
+                ],
+                "conditions": ": Coup de griffe millimétré qui cible une zone précise (15 DP ou 10 DP et 5 PP"
+              },
+              {
+                "id": "choice1",
+                "label": "10 DP → 10",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10 DP"
+                  }
+                ],
+                "conditions": ": Coup de griffe millimétré qui cible une zone précise (15 DP ou 10 DP et 5 PP"
+              },
+              {
+                "id": "choice2",
+                "label": "5 PP → 5",
+                "components": [
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": true,
+                    "source": "5 PP"
+                  }
+                ],
+                "conditions": ": Coup de griffe millimétré qui cible une zone précise (15 DP ou 10 DP et 5 PP"
+              }
+            ],
+            "zone": "area",
+            "conditions": ": Coup de griffe millimétré qui cible une zone précise (15 DP ou 10 DP et 5 PP"
           }
         },
         {
@@ -2168,7 +2940,77 @@
             "damageFormula": "30",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "30",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "30 DP"
+              },
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15 DP"
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "30 DP → 30 + 15 DP → 15",
+                "components": [
+                  {
+                    "formula": "30",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "30 DP"
+                  },
+                  {
+                    "formula": "15",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "15 DP"
+                  }
+                ],
+                "conditions": ": 30 DP ou 15 DP et 15 PP si équipement ≤ Excellent"
+              },
+              {
+                "id": "choice1",
+                "label": "30 DP → 30 + 15 DP → 15 + 15 PP → 15",
+                "components": [
+                  {
+                    "formula": "30",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "30 DP"
+                  },
+                  {
+                    "formula": "15",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "15 DP"
+                  },
+                  {
+                    "formula": "15",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": true,
+                    "source": "15 PP"
+                  }
+                ],
+                "conditions": ": 30 DP ou 15 DP et 15 PP si équipement ≤ Excellent"
+              }
+            ],
+            "zone": "torso",
+            "conditions": ": 30 DP ou 15 DP et 15 PP si équipement ≤ Excellent"
           }
         }
       ]
@@ -2221,7 +3063,77 @@
             "damageFormula": "20",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "20",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "20 DP"
+              },
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10 DP"
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "20 DP → 20 + 10 DP → 10",
+                "components": [
+                  {
+                    "formula": "20",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "20 DP"
+                  },
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10 DP"
+                  }
+                ],
+                "conditions": ": (20 DP ou 10 DP et 10 PP si équipement ≤ Excellent)"
+              },
+              {
+                "id": "choice1",
+                "label": "20 DP → 20 + 10 DP → 10 + 10 PP → 10",
+                "components": [
+                  {
+                    "formula": "20",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "20 DP"
+                  },
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10 DP"
+                  },
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": true,
+                    "source": "10 PP"
+                  }
+                ],
+                "conditions": ": (20 DP ou 10 DP et 10 PP si équipement ≤ Excellent)"
+              }
+            ],
+            "zone": "torso",
+            "conditions": ": (20 DP ou 10 DP et 10 PP si équipement ≤ Excellent)"
           }
         },
         {
@@ -2235,7 +3147,20 @@
             "damageFormula": "60",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "60",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "60 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "area",
+            "conditions": ": 60 DP de Zone (Large). Subit ses propres dégâts en DB"
           }
         }
       ]
@@ -2288,7 +3213,20 @@
             "damageFormula": "100",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "100",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "100 DP"
+              }
+            ],
+            "variants": [],
+            "zone": "area",
+            "conditions": ": 100 DP de Zone (Large) Subit ses propres dégâts en DB /"
           }
         }
       ]
@@ -2417,7 +3355,98 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              },
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5-10 DP",
+                "min": 5,
+                "max": 10
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "10-20 DP → 10 + 5-10 DP → 5",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10-20 DP",
+                    "min": 10,
+                    "max": 20
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  }
+                ],
+                "conditions": "dans son quotidien. Charge en battant des ailes pour donner plus d’impulsion (10-20 DP + 5-10 DP si empalé avec ses cornes) Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
+              },
+              {
+                "id": "choice1",
+                "label": "10-20 DP → 10 + 5-10 DP → 5 + 5-10 DP → 5 + 10 DP → 10",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10-20 DP",
+                    "min": 10,
+                    "max": 20
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  },
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10 DP"
+                  }
+                ],
+                "conditions": "dans son quotidien. Charge en battant des ailes pour donner plus d’impulsion (10-20 DP + 5-10 DP si empalé avec ses cornes) Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
+              }
+            ],
+            "zone": "area",
+            "conditions": "dans son quotidien. Charge en battant des ailes pour donner plus d’impulsion (10-20 DP + 5-10 DP si empalé avec ses cornes) Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
           }
         }
       ]
@@ -2470,7 +3499,98 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-20 DP",
+                "min": 10,
+                "max": 20
+              },
+              {
+                "formula": "5",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "5-10 DP",
+                "min": 5,
+                "max": 10
+              }
+            ],
+            "variants": [
+              {
+                "id": "choice0",
+                "label": "10-20 DP → 10 + 5-10 DP → 5",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10-20 DP",
+                    "min": 10,
+                    "max": 20
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  }
+                ],
+                "conditions": "dans son quotidien. Charge en battant des ailes pour donner plus d’impulsion (10-20 DP + 5-10 DP si empalé avec ses cornes) Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
+              },
+              {
+                "id": "choice1",
+                "label": "10-20 DP → 10 + 5-10 DP → 5 + 5-10 DP → 5 + 10 DP → 10",
+                "components": [
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10-20 DP",
+                    "min": 10,
+                    "max": 20
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  },
+                  {
+                    "formula": "5",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "5-10 DP",
+                    "min": 5,
+                    "max": 10
+                  },
+                  {
+                    "formula": "10",
+                    "type": "physical",
+                    "penetration": 0,
+                    "penetrating": false,
+                    "source": "10 DP"
+                  }
+                ],
+                "conditions": "dans son quotidien. Charge en battant des ailes pour donner plus d’impulsion (10-20 DP + 5-10 DP si empalé avec ses cornes) Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
+              }
+            ],
+            "zone": "area",
+            "conditions": "dans son quotidien. Charge en battant des ailes pour donner plus d’impulsion (10-20 DP + 5-10 DP si empalé avec ses cornes) Balaye d’un coup d’aile puissant en zone (5-10 DP + 10 DP si touché par l’aile)"
           }
         }
       ]
@@ -2523,7 +3643,22 @@
             "damageFormula": "10",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-15 DP",
+                "min": 10,
+                "max": 15
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": 10-15 DP."
           }
         }
       ]
@@ -2918,7 +4053,31 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15-20 DP",
+                "min": 15,
+                "max": 20
+              },
+              {
+                "formula": "10",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "10-15 DP",
+                "min": 10,
+                "max": 15
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": "roit et s'inflige souvent des dégâts lui-même. Il arrive même dans de très rares cas (réussite critique) que la bête se soit déjà tuée toute seule à l’arrivée de la traque. Coup de Pince Géante : 15-20 DP côté tranchant  et 10-15 DP côté contondant"
           }
         },
         {
@@ -2932,7 +4091,22 @@
             "damageFormula": "15",
             "damageType": "physical",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "15",
+                "type": "physical",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "15-20 DP",
+                "min": 15,
+                "max": 20
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": 15-20 DP et peut appliquer un venin Niveau 1 de DM."
           }
         }
       ]
@@ -3935,7 +5109,20 @@
             "damageFormula": "50",
             "damageType": "brut",
             "mode": "melee",
-            "slots": 0
+            "slots": 0,
+            "schemaVersion": 2,
+            "components": [
+              {
+                "formula": "50",
+                "type": "brut",
+                "penetration": 0,
+                "penetrating": false,
+                "source": "50 DB"
+              }
+            ],
+            "variants": [],
+            "zone": "torso",
+            "conditions": ": Absorbe la masse biologique d'une créature proche pour son développement (50 DB aux créatures proches de lui 1x /jour). Au bout de 5 fois l'œuf éclos."
           }
         }
       ]
